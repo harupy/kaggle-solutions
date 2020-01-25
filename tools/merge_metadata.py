@@ -1,16 +1,25 @@
 """
-Compose competion meta data.
+Merge competition meta data and save it in the client source directory.
 """
 
 import os
 import re
 
-from utils import read_json, to_json
+from tools.utils import read_json, to_json
 
 
 def parse_rank(solution_title):
     """
-    Parse a rank from a solution title..
+    Parse a rank from a solution title.
+
+    Examples
+    --------
+    >>> parse_rank('1st solution title')
+    1
+
+    >>> parse_rank('21st solution title')
+    21
+
     """
     m = re.match(r'^(\d+)', solution_title)
     return int(m.group(1))
@@ -19,13 +28,22 @@ def parse_rank(solution_title):
 def read_solutions(directory):
     """
     Read solutions in the given directory.
+
+    >>> with tempfile.TemporaryDirectory() as tmpdir:
+    ...     data = [{'title': '1st'}, {'title': '2nd'}]
+    ...     for idx, d in enumerate(data):
+    ...         with open(os.path.join(tmpdir, f'{idx}.json'), 'w') as f:
+    ...             json.dump(d, f)
+    ...     data == read_solutions(tmpdir)
+    True
+
     """
     solutions = [read_json(os.path.join(directory, fn)) for fn in os.listdir(directory)]
     solutions.sort(key=lambda sol: parse_rank(sol['title']))
     return solutions
 
 
-def main():
+def merge_metadata():
     ROOT_DIR = 'competitions'
 
     meta_all = []
@@ -49,6 +67,11 @@ def main():
         meta_all.append(comp_meta)
 
     meta_all.sort(key=lambda m: m['enabledDate'], reverse=True)
+    return meta_all
+
+
+def main():
+    meta_all = merge_metadata()
     save_path = os.path.join('client/src', 'competitions.json')
     to_json(meta_all, save_path)
     print('Saved to', save_path)

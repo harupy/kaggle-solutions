@@ -3,19 +3,12 @@ Fetch competion meta data.
 """
 
 import os
-import json
 import requests
+
+from tools.utils import to_json
 
 
 PARENT_DIR = 'competitions'
-
-
-def to_json(data, fpath):
-    """
-    Save dict as yaml.
-    """
-    with open(fpath, 'w') as f:
-        json.dump(data, f, indent=2, sort_keys=True)
 
 
 def fetch_competitions():
@@ -54,8 +47,6 @@ def main():
 
         fpath = os.path.join(save_dir, 'metadata.json')
         to_json(comp, fpath)
-
-    to_json(comps, os.path.join(PARENT_DIR, 'competitions.json'))
 
 
 if __name__ == '__main__':
