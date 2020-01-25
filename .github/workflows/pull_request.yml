@@ -1,0 +1,18 @@
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+name: Run lint and test on pull requests
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install dependencies
+        working-directory: ./client
+        run: npm install
+      - name: Run Lint
+        working-directory: ./client
+        run: npm run lint
