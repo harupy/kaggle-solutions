@@ -5,7 +5,7 @@ import { Popup } from 'semantic-ui-react';
 import AuthorPopup from '../AuthorPopup';
 
 describe('AuthorPopup', () => {
-  const minimalProps = {
+  const solution = {
     title: 'test',
     discussionId: 1,
     authorName: 'test',
@@ -14,7 +14,7 @@ describe('AuthorPopup', () => {
   };
 
   it('renders one <Popup /> component', () => {
-    const wrapper = shallow(<AuthorPopup solution={minimalProps} children={<div>test</div>} />);
+    const wrapper = shallow(<AuthorPopup solution={solution} children={<div>test</div>} />);
     expect(wrapper.find(Popup)).toHaveLength(1);
   });
 });
