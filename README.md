@@ -13,7 +13,7 @@ pipenv install
 pipenv shell
 ```
 
-## How to fetch solution data.
+## How to fetch solution data
 
 ```bash
 python tools/fetch_discussion.py -u <discussion_url> -t <title>
