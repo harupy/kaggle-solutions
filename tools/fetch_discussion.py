@@ -15,12 +15,6 @@ from selenium.webdriver.common.by import By
 
 from tools.utils import to_json
 
-# Please download if you don't have ChromeDriver from the link below.
-# https://chromedriver.chromium.org/downloads
-options = Options()
-options.add_argument('--headless')
-driver = Chrome('./chromedriver', options=options)
-
 
 def parse_args():
     """
@@ -163,6 +157,12 @@ def get_title(soup):
 
 
 def main():
+    # Please download ChromeDriver from the link below if you don't have one.
+    # https://chromedriver.chromium.org/downloads
+    options = Options()
+    options.add_argument('--headless')
+    driver = Chrome('./chromedriver', options=options)
+
     args = parse_args()
     url = args.url
     comp_slug = get_competition_slug(url)
