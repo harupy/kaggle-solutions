@@ -13,9 +13,6 @@ jobs:
       working-directory: ./client
     steps:
       - uses: actions/checkout@v1
-      - uses: actions/setup-python@v1
-        with:
-          python-version: '3.7'
       - uses: actions/cache@v1
         with:
           path: ~/.npm
@@ -25,10 +22,8 @@ jobs:
         working-directory: ${{ env.working-directory }}
         run: npm install
       - name: Build
-        run: |
-          python tools/compose.py
-          cd client
-          npm run build
+        working-directory: ${{ env.working-directory }}
+        run: npm run build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v2
         env:
