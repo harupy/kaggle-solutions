@@ -41,4 +41,4 @@ jobs:
       - name: Run Lint
         run: pipenv run flake8 tools tests
       - name: Run Test
-        run: pipenv run pytest tests
+        run: pipenv run pytest tests  --doctest-modules tools
