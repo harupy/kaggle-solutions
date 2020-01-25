@@ -13,7 +13,7 @@ describe('AuthorPopup', () => {
     avatarImage: '1234-kg.png',
   };
 
-  it('renders one <Popup /> component', () => {
+  it('renders without crashing', () => {
     const wrapper = shallow(<AuthorPopup solution={solution} children={<div>test</div>} />);
     expect(wrapper.find(Popup)).toHaveLength(1);
   });
