@@ -5,8 +5,8 @@ on:
 name: Run lint and test on pull requests
 
 jobs:
-  test:
-    name: Test
+  client-test:
+    name: Client Test
     runs-on: ubuntu-latest
     env:
       working-directory: ./client
@@ -26,3 +26,17 @@ jobs:
       - name: Run Test
         working-directory: ${{ env.working-directory }}
         run: npm run test:ci
+  data-test:
+    name: Data Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-python@v1
+        with:
+          python-version: '3.7'
+      - name: Install Dependencies
+        run: |
+          pip install pipenv
+          pipenv install
+      - name: Run Test
+        run: pytest tests
