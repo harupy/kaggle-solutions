@@ -1,10 +1,10 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import { Popup } from 'semantic-ui-react';
 
 import AuthorPopup from '../AuthorPopup';
 
-describe('TagsList', () => {
+describe('AuthorPopup', () => {
   const minimalProps = {
     title: 'test',
     discussionId: 1,
