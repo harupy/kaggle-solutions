@@ -22,7 +22,6 @@ const GitHubLink: React.FC<StarCounterProps> = ({ url }) => {
       }
 
       const data = await resp.json();
-      console.log(data);
       setStarCount(data.stargazers_count);
     };
     fetchStarCount();

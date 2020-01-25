@@ -4,7 +4,7 @@ import { Table, Input, Message } from 'semantic-ui-react';
 
 import SolutionsList from './SolutionsList';
 import TagsList from './TagsList';
-import { formatDate, isDateKey, basename, isDateOver } from './utils';
+import { formatDate, isDateKey, isDateOver } from './utils';
 
 export interface Solution {
   title: string;
@@ -14,6 +14,10 @@ export interface Solution {
   avatarImage: string;
 }
 
+export interface Category {
+  name: string;
+  tagUrl: string;
+}
 interface Competition {
   [key: string]: any;
   competitionTitle: string;
@@ -26,7 +30,7 @@ interface Competition {
   deadline: string;
   totalTeams: number;
   categories: {
-    categories: { tagUrl: string }[];
+    categories: Category[];
   };
   solutions?: Solution[];
 }
@@ -89,7 +93,7 @@ const CompetitionsTable: React.FC = () => {
                 </a>
               </Table.Cell>
               <Table.Cell>
-                <TagsList tags={comp.categories.categories.map(({ tagUrl }) => basename(tagUrl))} />
+                <TagsList categories={comp.categories.categories} />
               </Table.Cell>
               <Table.Cell style={{ width: 200 }}>
                 <SolutionsList
