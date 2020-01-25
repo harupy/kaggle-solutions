@@ -13,7 +13,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-from utils import to_json
+from tools.utils import to_json
 
 # Please download if you don't have ChromeDriver from the link below.
 # https://chromedriver.chromium.org/downloads
@@ -36,6 +36,15 @@ def parse_args():
 def format_solution_title(title):
     """
     Format a solution title.
+
+    Examples
+    --------
+    >>> format_solution_title('1st Place Solution')
+    '1st place solution'
+
+    >>> format_solution_title('1st Place Solution (part 1)')
+    '1st place solution (part 1)'
+
     """
     pattern = r'^\d+[a-zA-Z]{2} [pP]lace [sS]olution'  # e.g.: 1st place solution
     m = re.match(pattern, title)
@@ -46,6 +55,14 @@ def format_solution_title(title):
 def validate_solution_title(title):
     """
     Raise ValueError if title doesn't follow the specified format.
+
+    Examples
+    --------
+    >>> validate_solution_title('1st place solution')
+    >>> validate_solution_title('1st Place Solution')
+    Traceback (most recent call last):
+        ...
+    ValueError: Solution title "1st Place Solution" is not acceptable.
     """
     pattern = r'^\d+[a-z]{2} place solution'  # e.g.: 1st place solution
     m = re.match(pattern, title)
@@ -56,6 +73,13 @@ def validate_solution_title(title):
 def make_soup(html):
     """
     Instantiate a soup object.
+
+    Examples
+    --------
+    >>> html = '<html><body><h1>header</h1></body></html>'
+    >>> make_soup(html)
+    <html><body><h1>header</h1></body></html>
+
     """
     return BeautifulSoup(html, 'lxml')
 
@@ -63,13 +87,27 @@ def make_soup(html):
 def get_discussion_id(url):
     """
     Get a discussion id.
+
+    Examples
+    --------
+    >>> url = 'https://www.kaggle.com/c/titanic/discussion/123456'
+    >>> get_discussion_id(url)
+    123456
+
     """
-    return os.path.basename(url)
+    return int(os.path.basename(url))
 
 
 def get_competition_slug(url):
     """
     Get a competition slug.
+
+    Examples
+    --------
+    >>> url = 'https://www.kaggle.com/c/titanic/discussion/1234'
+    >>> get_competition_slug(url)
+    'titanic'
+
     """
     pattern = r'^https://www.kaggle.com/c/(.+?)/'
     m = re.match(pattern, url)
@@ -79,6 +117,14 @@ def get_competition_slug(url):
 def get_avatar_image(soup):
     """
     Parse an avatar source.
+
+    Examples
+    --------
+    >>> img_tag = '<img src="https://storage.googleapis.com/kaggle-avatars/thumbnails/256794-kg.jpg">'  # noqa
+    >>> soup = make_soup(img_tag)
+    >>> get_avatar_image(soup)
+    '256794-kg.jpg'
+
     """
     pattern = r'^https://storage.googleapis.com/kaggle-avatars/(.+)'
     img = soup.find('img', {'src': re.compile(pattern)})
@@ -88,6 +134,14 @@ def get_avatar_image(soup):
 def get_author_name_and_id(soup):
     """
     Get author name and id.
+
+    Examples
+    --------
+    >>> a_tag = '<a class="topic__author-link" href="/author_id">author_name</a>'
+    >>> soup = make_soup(a_tag)
+    >>> get_author_name_and_id(soup)
+    ('author_name', 'author_id')
+
     """
     author = soup.select('a.topic__author-link')[0]
     return author.text.strip(), author.get('href').strip('/')
@@ -96,6 +150,14 @@ def get_author_name_and_id(soup):
 def get_title(soup):
     """
     Get a topic title.
+
+    Examples
+    --------
+    >>> title_tag = '<title>title</title>'
+    >>> soup = make_soup(title_tag)
+    >>> get_title(soup)
+    'title'
+
     """
     return soup.find('title').text.split('|')[0].strip()
 
