@@ -48,8 +48,6 @@ def main():
         fpath = os.path.join(save_dir, 'metadata.json')
         to_json(comp, fpath)
 
-    to_json(comps, os.path.join(PARENT_DIR, 'competitions.json'))
-
 
 if __name__ == '__main__':
     main()
