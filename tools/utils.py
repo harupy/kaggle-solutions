@@ -15,3 +15,4 @@ def to_json(d, fpath):
     """
     with open(fpath, 'w') as f:
         json.dump(d, f, indent=2, sort_keys=True)
+        f.write('\n')
