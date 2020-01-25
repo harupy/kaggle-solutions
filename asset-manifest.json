@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/kaggle-solutions/static/js/main.ce6bd838.chunk.js",
+    "main.js.map": "/kaggle-solutions/static/js/main.ce6bd838.chunk.js.map",
+    "runtime-main.js": "/kaggle-solutions/static/js/runtime-main.059264b3.js",
+    "runtime-main.js.map": "/kaggle-solutions/static/js/runtime-main.059264b3.js.map",
+    "static/css/2.6b7a3d9c.chunk.css": "/kaggle-solutions/static/css/2.6b7a3d9c.chunk.css",
+    "static/js/2.97c2e650.chunk.js": "/kaggle-solutions/static/js/2.97c2e650.chunk.js",
+    "static/js/2.97c2e650.chunk.js.map": "/kaggle-solutions/static/js/2.97c2e650.chunk.js.map",
+    "index.html": "/kaggle-solutions/index.html",
+    "precache-manifest.cd47c35264e32a6678d3b58fc025e5df.js": "/kaggle-solutions/precache-manifest.cd47c35264e32a6678d3b58fc025e5df.js",
+    "service-worker.js": "/kaggle-solutions/service-worker.js",
+    "static/css/2.6b7a3d9c.chunk.css.map": "/kaggle-solutions/static/css/2.6b7a3d9c.chunk.css.map",
+    "static/js/2.97c2e650.chunk.js.LICENSE": "/kaggle-solutions/static/js/2.97c2e650.chunk.js.LICENSE",
+    "static/media/semantic.min.css": "/kaggle-solutions/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.059264b3.js",
+    "static/css/2.6b7a3d9c.chunk.css",
+    "static/js/2.97c2e650.chunk.js",
+    "static/js/main.ce6bd838.chunk.js"
+  ]
+}
