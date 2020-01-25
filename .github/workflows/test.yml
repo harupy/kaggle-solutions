@@ -39,6 +39,6 @@ jobs:
           pip install pipenv
           pipenv install --dev
       - name: Run Lint
-        run: pipenv run flake8 tools tests
+        run: ./dev/lint.sh
       - name: Run Test
-        run: pipenv run pytest tests  --doctest-modules tools
+        run: ./dev/test.sh
