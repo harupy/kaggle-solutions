@@ -37,6 +37,6 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install pipenv
-          pipenv install
+          pipenv install --dev
       - name: Run Test
         run: pipenv run pytest tests
