@@ -26,8 +26,8 @@ jobs:
       - name: Run Test
         working-directory: ${{ env.working-directory }}
         run: npm run test:ci
-  data-test:
-    name: Data Test
+  tools-test:
+    name: Tools Test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
@@ -38,5 +38,7 @@ jobs:
         run: |
           pip install pipenv
           pipenv install --dev
+      - name: Run Lint
+        run: pipenv run flake8 tools tests
       - name: Run Test
         run: pipenv run pytest tests
