@@ -5,20 +5,20 @@ import { Label } from 'semantic-ui-react';
 import TagsList from '../TagsList';
 
 describe('TagsList', () => {
-  const minimalProps = [{ name: 'a', tagUrl: 'tags/a' }];
+  const categories = [{ name: 'a', tagUrl: 'tags/a' }];
 
   it('renders one <Label.Group /> component', () => {
-    const wrapper = shallow(<TagsList categories={minimalProps} />);
+    const wrapper = shallow(<TagsList categories={categories} />);
     expect(wrapper.find(Label.Group)).toHaveLength(1);
   });
 
   it('renders one <Label /> component', () => {
-    const wrapper = shallow(<TagsList categories={minimalProps} />);
+    const wrapper = shallow(<TagsList categories={categories} />);
     expect(wrapper.find(Label)).toHaveLength(1);
   });
 
   it('renders a div which contains "a"', () => {
-    const wrapper = mount(<TagsList categories={minimalProps} />);
+    const wrapper = mount(<TagsList categories={categories} />);
     expect(wrapper.find('div.ui.label').text()).toEqual('a');
   });
 });
