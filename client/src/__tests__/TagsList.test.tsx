@@ -1,6 +1,5 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
-import { Label } from 'semantic-ui-react';
+import { shallow } from 'enzyme';
 
 import TagsList from '../TagsList';
 

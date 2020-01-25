@@ -1,9 +1,7 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
-import { List } from 'semantic-ui-react';
+import { shallow } from 'enzyme';
 
 import SolutionsList from '../SolutionsList';
-import AuthorPopup from '../AuthorPopup';
 
 describe('SolutionsList', () => {
   const competitionUrl = 'https://www.kaggle.com/c/titanic';
