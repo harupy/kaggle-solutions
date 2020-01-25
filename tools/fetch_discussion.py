@@ -1,5 +1,5 @@
 """
-Fetch the metadata of a specified discussion.
+Fetch discussion meta data.
 """
 
 import os
