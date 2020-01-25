@@ -6,13 +6,13 @@ verify_ssl = true
 [dev-packages]
 flake8 = "*"
 autopep8 = "*"
+pytest = "*"
 
 [packages]
 selenium = "*"
 requests = "*"
 lxml = "*"
 beautifulsoup4 = "*"
-yaml = "*"
 pyyaml = "*"
 
 [requires]
