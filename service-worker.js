@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kaggle-solutions/precache-manifest.672b1c01820f835cea6ebd518f35909c.js"
+  "/kaggle-solutions/precache-manifest.1b29a4ae153cf8fe162d560771dd0464.js"
 );
 
 self.addEventListener('message', (event) => {
