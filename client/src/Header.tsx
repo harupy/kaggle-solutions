@@ -8,7 +8,8 @@ const Header: React.SFC = () => (
     <Menu.Item>
       <SemHeader style={{ color: KAGGLE_BLUE, fontWeight: 'bold' }}>Kaggle Solutions</SemHeader>
     </Menu.Item>
-    <Menu.Item position="right" onClick={() => {}}>
+    {/* Render as an anchor tag to enable highlighting on hover. */}
+    <Menu.Item position="right" as="a">
       <StarCounter url="https://github.com/harupy/kaggle-solutions" />
     </Menu.Item>
   </Menu>
