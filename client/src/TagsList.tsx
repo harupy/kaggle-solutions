@@ -6,9 +6,7 @@ interface TagsListProps {
 }
 
 const TagsList: React.SFC<TagsListProps> = ({ tags }) => {
-  return (
-    <Label.Group color="blue">{tags.map(tag => tag && <Label key={tag}>{tag}</Label>)}</Label.Group>
-  );
+  return <Label.Group>{tags.map(tag => tag && <Label key={tag}>{tag}</Label>)}</Label.Group>;
 };
 
 export default TagsList;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import data from './competitions.json';
-import { Table, Input } from 'semantic-ui-react';
+import { Table, Input, Message } from 'semantic-ui-react';
 
 import SolutionsList from './SolutionsList';
 import TagsList from './TagsList';
@@ -56,6 +56,9 @@ const CompetitionsTable: React.FC = () => {
   return (
     <div>
       <Input label="Search Competition" onChange={handleChange} />
+      <Message compact positive size="mini" style={{ marginLeft: 10 }}>
+        Colored competitions are ongoing.
+      </Message>
       <Table celled>
         <Table.Header>
           <Table.Row>
