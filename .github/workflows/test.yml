@@ -8,6 +8,8 @@ jobs:
   test:
     name: Test
     runs-on: ubuntu-latest
+    env:
+      working-directory: ./client
     steps:
       - uses: actions/checkout@v1
       - uses: actions/cache@v1
@@ -15,9 +17,12 @@ jobs:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: ${{ runner.os }}-node-
-      - name: Install dependencies
-        working-directory: ./client
+      - name: Install Dependencies
+        working-directory: ${{ env.working-directory }}
         run: npm install
       - name: Run Lint
-        working-directory: ./client
+        working-directory: ${{ env.working-directory }}
         run: npm run lint
+      - name: Run Test
+        working-directory: ${{ env.working-directory }}
+        run: npm run test
