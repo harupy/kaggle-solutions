@@ -1,0 +1,24 @@
+on:
+  push:
+    branches:
+      - master
+
+name: Deploy the app to GitHub pages
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    env:
+      working-directory: ./client
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install dependencies
+        working-directory: ${{env.working-directory}}
+        run: npm install
+      - name: Build
+        working-directory: ${{env.working-directory}}
+        run: npm run build
+      - name: Deploy
+        working-directory: ${{env.working-directory}}
+        run: npm run deploy
