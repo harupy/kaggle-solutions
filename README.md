@@ -1,5 +1,7 @@
 # Kaggle Solutions
 
+https://harupy.github.io/kaggle-solutions/
+
 ## Setup
 
 ```bash
