@@ -1,5 +1,5 @@
 """
-Fetch discussion meta data.
+Fetch discussion metadata.
 """
 
 import os
@@ -21,10 +21,10 @@ def parse_args():
     """
     Parse the command line arguments.
     """
-    parser = argparse.ArgumentParser(description='Extract metadata of a discussion.')
+    parser = argparse.ArgumentParser(description='Fetch discussion metadata.')
     parser.add_argument('-u', '--url', required=True, help='Discussion URL')
     parser.add_argument('-t', '--title',
-                        help='If specified, use this title instead of a scraped title.')
+                        help='Title to display on the UI.')
     return parser.parse_args()
 
 

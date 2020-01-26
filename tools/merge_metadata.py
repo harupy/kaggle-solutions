@@ -1,5 +1,5 @@
 """
-Merge competition meta data and save it in the client source directory.
+Merge competition metadata.
 """
 
 import os
@@ -7,6 +7,27 @@ import re
 
 from tools.utils import read_json, to_json
 from tools.config import COMPETITIONS_DIR, SOLUTIONS_DIR, CLIENT_SRC_DIR
+
+
+def parse_competition_slug(url):
+    """
+    Parse a competition slug from given URL.
+
+    Examples
+    --------
+    >>> parse_competition_slug('https://www.kaggle.com/c/titanic/discussion/1234')
+    'titanic'
+
+    >>> parse_competition_slug('https://www.kaggle.com/c/titanic')
+    'titanic'
+
+    >>> parse_competition_slug('https://www.kaggle.com/c/titanic/')
+    'titanic'
+
+    """
+    pattern = r'^https://www.kaggle.com/c/([^/]+)'
+    m = re.match(pattern, url)
+    return m.group(1)
 
 
 def parse_rank(solution_title):
@@ -31,7 +52,10 @@ def read_solutions(directory):
     Read solutions in the given directory.
 
     >>> with tempfile.TemporaryDirectory() as tmpdir:
-    ...     data = [{'title': '1st'}, {'title': '2nd'}]
+    ...     slug = os.path.basename(os.path.dirname(tmpdir))
+    ...     url = 'https://www.kaggle.com/c/{}'.format(slug)
+    ...     data = [{'title': '1st', 'url': url},
+    ...             {'title': '2nd', 'url': url}]
     ...     for idx, d in enumerate(data):
     ...         with open(os.path.join(tmpdir, f'{idx}.json'), 'w') as f:
     ...             json.dump(d, f)
@@ -40,6 +64,9 @@ def read_solutions(directory):
 
     """
     solutions = [read_json(os.path.join(directory, fn)) for fn in os.listdir(directory)]
+    # Assert the competition slug equals to the directory name.
+    comp_slug = os.path.basename(os.path.dirname(directory))
+    assert all(parse_competition_slug(sol['url']) == comp_slug for sol in solutions)
     solutions.sort(key=lambda sol: parse_rank(sol['title']))
     return solutions
 
