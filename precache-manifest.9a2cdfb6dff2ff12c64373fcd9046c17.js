@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4440257c257a81a2880b44e2fe1d7edf",
+    "revision": "6fb769bba751ade7b1831edb2229879d",
     "url": "/kaggle-solutions/index.html"
   },
   {
