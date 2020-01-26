@@ -8,7 +8,7 @@ interface StarCounterProps {
 const StarCounter: React.FC<StarCounterProps> = ({ url }) => {
   const [starCount, setStarCount] = useState<number | undefined>();
 
-  // Fetch stargazers count from GitHub using the GitHub REST API.
+  // Fetch stargazers count GitHub using the GitHub REST API.
   const fetchStarCount = async () => {
     const [user, repo] = url
       .split('/')
