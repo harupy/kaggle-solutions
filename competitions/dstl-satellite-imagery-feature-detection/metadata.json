@@ -3,21 +3,6 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 40,
-        "datasetCount": 187,
-        "description": null,
-        "displayName": "multiclass classification",
-        "fontAwesomeIcon": null,
-        "fullPath": "problem type > multiclass classification",
-        "id": 14202,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27multiclass classification%27",
-        "name": "multiclass classification",
-        "scriptCount": 335,
-        "tagUrl": "/tags/multiclass-classification",
-        "totalCount": 562
-      },
-      {
         "competitionCount": 7,
         "datasetCount": 58,
         "description": null,
@@ -33,6 +18,21 @@
         "totalCount": 150
       },
       {
+        "competitionCount": 40,
+        "datasetCount": 187,
+        "description": null,
+        "displayName": "multiclass classification",
+        "fontAwesomeIcon": null,
+        "fullPath": "problem type > multiclass classification",
+        "id": 14202,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27multiclass classification%27",
+        "name": "multiclass classification",
+        "scriptCount": 335,
+        "tagUrl": "/tags/multiclass-classification",
+        "totalCount": 562
+      },
+      {
         "competitionCount": 70,
         "datasetCount": 705,
         "description": null,
@@ -43,9 +43,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
         "name": "image data",
-        "scriptCount": 425,
+        "scriptCount": 426,
         "tagUrl": "/tags/image-data",
-        "totalCount": 1200
+        "totalCount": 1201
       }
     ],
     "type": "competition"

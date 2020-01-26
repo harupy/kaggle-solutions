@@ -3,21 +3,6 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 2,
-        "datasetCount": 113,
-        "description": null,
-        "displayName": "holidays and seasonal events",
-        "fontAwesomeIcon": null,
-        "fullPath": "people and self > personal life > leisure > special occasions > holidays and seasonal events",
-        "id": 16278,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27holidays and seasonal events%27",
-        "name": "holidays and seasonal events",
-        "scriptCount": 0,
-        "tagUrl": "/tags/holidays-and-seasonal-events",
-        "totalCount": 115
-      },
-      {
         "competitionCount": 3,
         "datasetCount": 9,
         "description": null,
@@ -28,9 +13,24 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27optimization%27",
         "name": "optimization",
-        "scriptCount": 91,
+        "scriptCount": 92,
         "tagUrl": "/tags/optimization",
-        "totalCount": 103
+        "totalCount": 104
+      },
+      {
+        "competitionCount": 2,
+        "datasetCount": 115,
+        "description": null,
+        "displayName": "holidays and seasonal events",
+        "fontAwesomeIcon": null,
+        "fullPath": "people and self > personal life > leisure > special occasions > holidays and seasonal events",
+        "id": 16278,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27holidays and seasonal events%27",
+        "name": "holidays and seasonal events",
+        "scriptCount": 0,
+        "tagUrl": "/tags/holidays-and-seasonal-events",
+        "totalCount": 117
       }
     ],
     "type": "competition"

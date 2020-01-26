@@ -3,21 +3,6 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 3,
-        "datasetCount": 400,
-        "description": "The automobile tag is everything about cars. Analyze insurance rates or how far you can go on one gallon of petrol.",
-        "displayName": "automobiles",
-        "fontAwesomeIcon": null,
-        "fullPath": "technology and applied sciences > transport > automobiles",
-        "id": 12402,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27automobiles%27",
-        "name": "automobiles",
-        "scriptCount": 23,
-        "tagUrl": "/tags/automobiles",
-        "totalCount": 426
-      },
-      {
         "competitionCount": 70,
         "datasetCount": 705,
         "description": null,
@@ -28,9 +13,24 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
         "name": "image data",
-        "scriptCount": 425,
+        "scriptCount": 426,
         "tagUrl": "/tags/image-data",
-        "totalCount": 1200
+        "totalCount": 1201
+      },
+      {
+        "competitionCount": 3,
+        "datasetCount": 399,
+        "description": "The automobile tag is everything about cars. Analyze insurance rates or how far you can go on one gallon of petrol.",
+        "displayName": "automobiles",
+        "fontAwesomeIcon": null,
+        "fullPath": "technology and applied sciences > transport > automobiles",
+        "id": 12402,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27automobiles%27",
+        "name": "automobiles",
+        "scriptCount": 23,
+        "tagUrl": "/tags/automobiles",
+        "totalCount": 425
       },
       {
         "competitionCount": 7,

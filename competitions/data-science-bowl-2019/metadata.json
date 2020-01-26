@@ -4,21 +4,6 @@
     "categories": [
       {
         "competitionCount": 2,
-        "datasetCount": 432,
-        "description": "Video games were originally created to prevent people from going to college and getting good jobs. That back-fired and now we have data centers full of GPUs training models to tell the difference between cats and dogs. All thanks to gamers.",
-        "displayName": "video games",
-        "fontAwesomeIcon": null,
-        "fullPath": "culture and arts > games and toys > video games",
-        "id": 2507,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27video games%27",
-        "name": "video games",
-        "scriptCount": 226,
-        "tagUrl": "/tags/video-games",
-        "totalCount": 660
-      },
-      {
-        "competitionCount": 2,
         "datasetCount": 20,
         "description": "A specific stage in the Homo sapiens lifecycle. Most of us even escape it.",
         "displayName": "children",
@@ -49,7 +34,7 @@
       },
       {
         "competitionCount": 2,
-        "datasetCount": 1376,
+        "datasetCount": 1384,
         "description": "Education datasets and kernels relate to statistics on student performance, university rankings, and answers for all your homework questions.",
         "displayName": "education",
         "fontAwesomeIcon": null,
@@ -60,7 +45,22 @@
         "name": "education",
         "scriptCount": 87,
         "tagUrl": "/tags/education",
-        "totalCount": 1465
+        "totalCount": 1473
+      },
+      {
+        "competitionCount": 2,
+        "datasetCount": 432,
+        "description": "Video games were originally created to prevent people from going to college and getting good jobs. That back-fired and now we have data centers full of GPUs training models to tell the difference between cats and dogs. All thanks to gamers.",
+        "displayName": "video games",
+        "fontAwesomeIcon": null,
+        "fullPath": "culture and arts > games and toys > video games",
+        "id": 2507,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27video games%27",
+        "name": "video games",
+        "scriptCount": 226,
+        "tagUrl": "/tags/video-games",
+        "totalCount": 660
       }
     ],
     "type": "competition"

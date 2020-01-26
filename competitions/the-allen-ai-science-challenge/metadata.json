@@ -3,23 +3,8 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 92,
-        "datasetCount": 97,
-        "description": null,
-        "displayName": "tabular data",
-        "fontAwesomeIcon": null,
-        "fullPath": "data type > tabular data",
-        "id": 14101,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
-        "name": "tabular data",
-        "scriptCount": 114,
-        "tagUrl": "/tags/tabular-data",
-        "totalCount": 303
-      },
-      {
         "competitionCount": 30,
-        "datasetCount": 282,
+        "datasetCount": 283,
         "description": null,
         "displayName": "text data",
         "fontAwesomeIcon": null,
@@ -28,9 +13,24 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
         "name": "text data",
-        "scriptCount": 434,
+        "scriptCount": 435,
         "tagUrl": "/tags/text-data",
-        "totalCount": 746
+        "totalCount": 748
+      },
+      {
+        "competitionCount": 92,
+        "datasetCount": 98,
+        "description": null,
+        "displayName": "tabular data",
+        "fontAwesomeIcon": null,
+        "fullPath": "data type > tabular data",
+        "id": 14101,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
+        "name": "tabular data",
+        "scriptCount": 115,
+        "tagUrl": "/tags/tabular-data",
+        "totalCount": 305
       },
       {
         "competitionCount": 1,

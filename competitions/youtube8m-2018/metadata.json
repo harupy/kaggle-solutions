@@ -3,21 +3,6 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 5,
-        "datasetCount": 17,
-        "description": null,
-        "displayName": "object labeling",
-        "fontAwesomeIcon": null,
-        "fullPath": "problem type > object labeling",
-        "id": 14215,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27object labeling%27",
-        "name": "object labeling",
-        "scriptCount": 5,
-        "tagUrl": "/tags/object-labeling",
-        "totalCount": 27
-      },
-      {
         "competitionCount": 3,
         "datasetCount": 23,
         "description": null,
@@ -31,6 +16,21 @@
         "scriptCount": 7,
         "tagUrl": "/tags/video-data",
         "totalCount": 33
+      },
+      {
+        "competitionCount": 5,
+        "datasetCount": 17,
+        "description": null,
+        "displayName": "object labeling",
+        "fontAwesomeIcon": null,
+        "fullPath": "problem type > object labeling",
+        "id": 14215,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27object labeling%27",
+        "name": "object labeling",
+        "scriptCount": 5,
+        "tagUrl": "/tags/object-labeling",
+        "totalCount": 27
       }
     ],
     "type": "competition"

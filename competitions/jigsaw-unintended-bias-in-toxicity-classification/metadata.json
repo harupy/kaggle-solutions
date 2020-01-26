@@ -18,21 +18,6 @@
         "totalCount": 6
       },
       {
-        "competitionCount": 30,
-        "datasetCount": 282,
-        "description": null,
-        "displayName": "text data",
-        "fontAwesomeIcon": null,
-        "fullPath": "data type > text data",
-        "id": 14104,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
-        "name": "text data",
-        "scriptCount": 434,
-        "tagUrl": "/tags/text-data",
-        "totalCount": 746
-      },
-      {
         "competitionCount": 4,
         "datasetCount": 377,
         "description": null,
@@ -43,9 +28,24 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27nlp%27",
         "name": "nlp",
-        "scriptCount": 940,
+        "scriptCount": 943,
         "tagUrl": "/tags/nlp",
-        "totalCount": 1321
+        "totalCount": 1324
+      },
+      {
+        "competitionCount": 30,
+        "datasetCount": 283,
+        "description": null,
+        "displayName": "text data",
+        "fontAwesomeIcon": null,
+        "fullPath": "data type > text data",
+        "id": 14104,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
+        "name": "text data",
+        "scriptCount": 435,
+        "tagUrl": "/tags/text-data",
+        "totalCount": 748
       }
     ],
     "type": "competition"

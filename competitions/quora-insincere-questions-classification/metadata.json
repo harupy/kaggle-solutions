@@ -3,6 +3,21 @@
   "categories": {
     "categories": [
       {
+        "competitionCount": 30,
+        "datasetCount": 283,
+        "description": null,
+        "displayName": "text data",
+        "fontAwesomeIcon": null,
+        "fullPath": "data type > text data",
+        "id": 14104,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
+        "name": "text data",
+        "scriptCount": 435,
+        "tagUrl": "/tags/text-data",
+        "totalCount": 748
+      },
+      {
         "competitionCount": 31,
         "datasetCount": 94,
         "description": null,
@@ -13,24 +28,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27binary classification%27",
         "name": "binary classification",
-        "scriptCount": 467,
+        "scriptCount": 469,
         "tagUrl": "/tags/binary-classification",
-        "totalCount": 592
-      },
-      {
-        "competitionCount": 30,
-        "datasetCount": 282,
-        "description": null,
-        "displayName": "text data",
-        "fontAwesomeIcon": null,
-        "fullPath": "data type > text data",
-        "id": 14104,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
-        "name": "text data",
-        "scriptCount": 434,
-        "tagUrl": "/tags/text-data",
-        "totalCount": 746
+        "totalCount": 594
       }
     ],
     "type": "competition"

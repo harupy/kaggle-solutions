@@ -4,6 +4,21 @@
     "categories": [
       {
         "competitionCount": 2,
+        "datasetCount": 21,
+        "description": null,
+        "displayName": "recommendation",
+        "fontAwesomeIcon": null,
+        "fullPath": "problem type > recommendation",
+        "id": 14208,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27recommendation%27",
+        "name": "recommendation",
+        "scriptCount": 52,
+        "tagUrl": "/tags/recommendation",
+        "totalCount": 75
+      },
+      {
+        "competitionCount": 2,
         "datasetCount": 33,
         "description": "A hotel is an establishment that provides paid lodging on a short-term basis. Find more information about hotels and their reviews in this tag.",
         "displayName": "hotels",
@@ -19,7 +34,7 @@
       },
       {
         "competitionCount": 92,
-        "datasetCount": 97,
+        "datasetCount": 98,
         "description": null,
         "displayName": "tabular data",
         "fontAwesomeIcon": null,
@@ -28,24 +43,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
         "name": "tabular data",
-        "scriptCount": 114,
+        "scriptCount": 115,
         "tagUrl": "/tags/tabular-data",
-        "totalCount": 303
-      },
-      {
-        "competitionCount": 2,
-        "datasetCount": 21,
-        "description": null,
-        "displayName": "recommendation",
-        "fontAwesomeIcon": null,
-        "fullPath": "problem type > recommendation",
-        "id": 14208,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27recommendation%27",
-        "name": "recommendation",
-        "scriptCount": 52,
-        "tagUrl": "/tags/recommendation",
-        "totalCount": 75
+        "totalCount": 305
       }
     ],
     "type": "competition"

@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 92,
-        "datasetCount": 97,
+        "datasetCount": 98,
         "description": null,
         "displayName": "tabular data",
         "fontAwesomeIcon": null,
@@ -13,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
         "name": "tabular data",
-        "scriptCount": 114,
+        "scriptCount": 115,
         "tagUrl": "/tags/tabular-data",
-        "totalCount": 303
+        "totalCount": 305
       },
       {
         "competitionCount": 8,
-        "datasetCount": 296,
+        "datasetCount": 294,
         "description": "Banks keep the financial system interesting by failing en masse every couple of generations.",
         "displayName": "banking",
         "fontAwesomeIcon": null,
@@ -30,7 +30,7 @@
         "name": "banking",
         "scriptCount": 86,
         "tagUrl": "/tags/banking",
-        "totalCount": 390
+        "totalCount": 388
       },
       {
         "competitionCount": 40,

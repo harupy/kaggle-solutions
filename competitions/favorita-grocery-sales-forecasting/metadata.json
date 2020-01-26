@@ -3,19 +3,34 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 92,
-        "datasetCount": 97,
+        "competitionCount": 15,
+        "datasetCount": 65,
         "description": null,
-        "displayName": "tabular data",
+        "displayName": "regression",
         "fontAwesomeIcon": null,
-        "fullPath": "data type > tabular data",
-        "id": 14101,
+        "fullPath": "problem type > regression",
+        "id": 14203,
         "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
-        "name": "tabular data",
-        "scriptCount": 114,
-        "tagUrl": "/tags/tabular-data",
-        "totalCount": 303
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27regression%27",
+        "name": "regression",
+        "scriptCount": 632,
+        "tagUrl": "/tags/regression",
+        "totalCount": 712
+      },
+      {
+        "competitionCount": 12,
+        "datasetCount": 73,
+        "description": null,
+        "displayName": "future prediction",
+        "fontAwesomeIcon": null,
+        "fullPath": "problem type > future prediction",
+        "id": 14209,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27future prediction%27",
+        "name": "future prediction",
+        "scriptCount": 116,
+        "tagUrl": "/tags/future-prediction",
+        "totalCount": 201
       },
       {
         "competitionCount": 6,
@@ -33,34 +48,19 @@
         "totalCount": 652
       },
       {
-        "competitionCount": 15,
-        "datasetCount": 64,
+        "competitionCount": 92,
+        "datasetCount": 98,
         "description": null,
-        "displayName": "regression",
+        "displayName": "tabular data",
         "fontAwesomeIcon": null,
-        "fullPath": "problem type > regression",
-        "id": 14203,
+        "fullPath": "data type > tabular data",
+        "id": 14101,
         "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27regression%27",
-        "name": "regression",
-        "scriptCount": 631,
-        "tagUrl": "/tags/regression",
-        "totalCount": 710
-      },
-      {
-        "competitionCount": 12,
-        "datasetCount": 73,
-        "description": null,
-        "displayName": "future prediction",
-        "fontAwesomeIcon": null,
-        "fullPath": "problem type > future prediction",
-        "id": 14209,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27future prediction%27",
-        "name": "future prediction",
-        "scriptCount": 116,
-        "tagUrl": "/tags/future-prediction",
-        "totalCount": 201
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
+        "name": "tabular data",
+        "scriptCount": 115,
+        "tagUrl": "/tags/tabular-data",
+        "totalCount": 305
       }
     ],
     "type": "competition"

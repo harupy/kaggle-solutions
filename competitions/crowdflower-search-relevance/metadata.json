@@ -3,36 +3,6 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 15,
-        "datasetCount": 1573,
-        "description": "An interconnected network of tubes that connects the entire world together. This tag covers a broad range of tags; anything from cryptocurrency to website analytics.",
-        "displayName": "internet",
-        "fontAwesomeIcon": null,
-        "fullPath": "technology and applied sciences > computing > internet",
-        "id": 12116,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27internet%27",
-        "name": "internet",
-        "scriptCount": 181,
-        "tagUrl": "/tags/internet",
-        "totalCount": 1769
-      },
-      {
-        "competitionCount": 92,
-        "datasetCount": 97,
-        "description": null,
-        "displayName": "tabular data",
-        "fontAwesomeIcon": null,
-        "fullPath": "data type > tabular data",
-        "id": 14101,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
-        "name": "tabular data",
-        "scriptCount": 114,
-        "tagUrl": "/tags/tabular-data",
-        "totalCount": 303
-      },
-      {
         "competitionCount": 5,
         "datasetCount": 13,
         "description": null,
@@ -46,6 +16,36 @@
         "scriptCount": 6,
         "tagUrl": "/tags/ranking",
         "totalCount": 24
+      },
+      {
+        "competitionCount": 92,
+        "datasetCount": 98,
+        "description": null,
+        "displayName": "tabular data",
+        "fontAwesomeIcon": null,
+        "fullPath": "data type > tabular data",
+        "id": 14101,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
+        "name": "tabular data",
+        "scriptCount": 115,
+        "tagUrl": "/tags/tabular-data",
+        "totalCount": 305
+      },
+      {
+        "competitionCount": 15,
+        "datasetCount": 1582,
+        "description": "An interconnected network of tubes that connects the entire world together. This tag covers a broad range of tags; anything from cryptocurrency to website analytics.",
+        "displayName": "internet",
+        "fontAwesomeIcon": null,
+        "fullPath": "technology and applied sciences > computing > internet",
+        "id": 12116,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27internet%27",
+        "name": "internet",
+        "scriptCount": 181,
+        "tagUrl": "/tags/internet",
+        "totalCount": 1778
       }
     ],
     "type": "competition"
