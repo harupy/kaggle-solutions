@@ -1150,6 +1150,107 @@
     "rewardDisplay": "$25,000",
     "rewardQuantity": 25000.0,
     "rewardTypeName": "USD",
+    "solutions": [
+      {
+        "authorId": "mmotoki",
+        "authorName": "Matt Motoki",
+        "avatarImage": "331718-kg.png",
+        "discussionId": 124709,
+        "raw_title": "1st Place Solution Team Isamu & Matt",
+        "title": "1st place solution",
+        "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/124709"
+      },
+      {
+        "authorId": "rohanrao",
+        "authorName": "Vopani",
+        "avatarImage": "113389-kg.png",
+        "discussionId": 123481,
+        "raw_title": "2nd Place Solution",
+        "title": "2nd place solution",
+        "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/123481"
+      },
+      {
+        "authorId": "chabir",
+        "authorName": "eagle4",
+        "avatarImage": "389607-kg.jpg",
+        "discussionId": 124984,
+        "raw_title": "3rd Place Solution",
+        "title": "3rd place solution",
+        "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/124984"
+      },
+      {
+        "authorId": "tassan",
+        "authorName": "TASSAN",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 127086,
+        "raw_title": "5th Place Solution",
+        "title": "5th place solution",
+        "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/127086"
+      },
+      {
+        "authorId": "mpware",
+        "authorName": "MPWARE",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 123525,
+        "raw_title": "9th place solution",
+        "title": "9th place solution",
+        "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/123525"
+      },
+      {
+        "authorId": "teeyee314",
+        "authorName": "Tim Yee",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 123496,
+        "raw_title": "13th place gold solution",
+        "title": "13rd place solution",
+        "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/123496"
+      },
+      {
+        "authorId": "vladimirsydor",
+        "authorName": "Vladimir",
+        "avatarImage": "1690820-kg.jpg",
+        "discussionId": 123654,
+        "raw_title": "20 Private LB rank solution",
+        "title": "20th place solution",
+        "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/123654"
+      },
+      {
+        "authorId": "gpamoukoff",
+        "authorName": "Georgi Pamukov",
+        "avatarImage": "840485-kg.jpg",
+        "discussionId": 125307,
+        "raw_title": "25th Place Solution",
+        "title": "25th place solution",
+        "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/125307"
+      },
+      {
+        "authorId": "nroman",
+        "authorName": "Roman",
+        "avatarImage": "1696976-kg.png",
+        "discussionId": 122863,
+        "raw_title": "40th place Public solution. My part.",
+        "title": "40th place solution",
+        "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/122863"
+      },
+      {
+        "authorId": "wittmannf",
+        "authorName": "Fernando Wittmann",
+        "avatarImage": "419002-gr.jpg",
+        "discussionId": 123288,
+        "raw_title": "[46th Pvt LB] 18th Public LB - Very simple solution",
+        "title": "46th place solution",
+        "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/123288"
+      },
+      {
+        "authorId": "gusevpvl",
+        "authorName": "Pavel Gusev",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 124557,
+        "raw_title": "Thanks and 52nd place solution.",
+        "title": "52nd place solution",
+        "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/124557"
+      }
+    ],
     "submissionsDisabled": false,
     "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/9994/logos/thumb76_76.png?t=2019-10-08-17-08-54",
     "totalKernels": 0,
