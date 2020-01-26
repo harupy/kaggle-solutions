@@ -20,7 +20,7 @@ def parse_args():
     """
     parser = argparse.ArgumentParser(description='Fetch competition metadata.')
     parser.add_argument('-s', '--slug', required=True, help='Competition slug')
-    parser.add_argument('-o', '--overwrite', action='store_false',
+    parser.add_argument('-o', '--overwrite', action='store_true',
                         help='If specified, overwrite an existing file.')
     return parser.parse_args()
 
@@ -70,7 +70,8 @@ def main():
     candidates = get_solution_candidates(soup)
     save_path = os.path.join('solution-candidates', f'{args.slug}.json')
     if not args.overwrite and os.path.exists(save_path):
-        raise IOError('Could not save to', save_path, 'because the file already exists.')
+        raise IOError(f'Could not write to {save_path} because the file already exists.'
+                      'If you want to overwrite it, use `--overwrite` option.')
     to_json(candidates, save_path)
     print('Saved to:', save_path)
 
