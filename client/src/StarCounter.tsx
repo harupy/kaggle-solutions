@@ -16,7 +16,6 @@ const StarCounter: React.FC<StarCounterProps> = ({ url }) => {
       .slice(-2);
     const API_URL = `https://api.github.com/repos/${user}/${repo}`;
     const resp = await fetch(API_URL);
-    console.log(resp);
 
     if (!resp.ok) {
       throw new Error(`${resp.status} ${resp.statusText}`);
