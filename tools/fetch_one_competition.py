@@ -77,7 +77,7 @@ def main():
 
     save_path = os.path.join(save_dir, 'metadata.json')
     to_json(comp, save_path)
-    print('\nSaved to', save_path)
+    print('Saved to:', save_path)
 
 
 if __name__ == '__main__':

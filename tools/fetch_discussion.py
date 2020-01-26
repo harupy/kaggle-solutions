@@ -202,7 +202,7 @@ def main():
                              SOLUTIONS_DIR,
                              f'{author_id}_{discussion_id}.json')
     to_json(data, save_path)
-    print('\nSaved to', save_path)
+    print('Saved to:', save_path)
 
 
 if __name__ == '__main__':
