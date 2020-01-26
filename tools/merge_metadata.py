@@ -9,6 +9,27 @@ from tools.utils import read_json, to_json
 from tools.config import COMPETITIONS_DIR, SOLUTIONS_DIR, CLIENT_SRC_DIR
 
 
+def parse_competition_slug(url):
+    """
+    Parse a competition slug from given URL.
+
+    Examples
+    --------
+    >>> parse_competition_slug('https://www.kaggle.com/c/titanic/discussion/1234')
+    'titanic'
+
+    >>> parse_competition_slug('https://www.kaggle.com/c/titanic')
+    'titanic'
+
+    >>> parse_competition_slug('https://www.kaggle.com/c/titanic/')
+    'titanic'
+
+    """
+    pattern = r'^https://www.kaggle.com/c/([^/]+)'
+    m = re.match(pattern, url)
+    return m.group(1)
+
+
 def parse_rank(solution_title):
     """
     Parse a rank from a solution title.
@@ -40,6 +61,9 @@ def read_solutions(directory):
 
     """
     solutions = [read_json(os.path.join(directory, fn)) for fn in os.listdir(directory)]
+    # Assert the competition slug equals to the directory name.
+    comp_slug = os.path.basename(os.path.dirname(directory))
+    assert all(parse_competition_slug(sol['url']) == comp_slug for sol in solutions)
     solutions.sort(key=lambda sol: parse_rank(sol['title']))
     return solutions
 
