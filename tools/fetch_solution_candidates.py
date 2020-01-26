@@ -30,13 +30,22 @@ def get_solution_candidates(soup):
     Get solution candidates.
     """
     result = []
-    for link in soup.select('a.block-link__anchor'):
+    for block in soup.select('div.block-link'):
+        link = block.select('a.block-link__anchor')[0]
+        author = block.select('a.avatar')[0]
+        avatar = block.select('img.avatar__thumbnail')[0]
+
         raw_title = link.get('title')
         if 'solution' not in raw_title.strip().lower():
             continue
+
         url = KAGGLE_URL + link.get('href')
+        author_id = os.path.basename(author.get('href'))
+        author_name = avatar.get('alt')
         result.append({
             'raw_title': raw_title,
+            'author_id': author_id,
+            'author_name': author_name,
             'title': None,
             'rank': None,
             'url': url}
