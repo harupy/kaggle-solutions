@@ -168,13 +168,13 @@ def fetch_discussions(items):
         avatar_image = get_avatar_image(soup)
         author_name, author_id = get_author_name_and_id(soup)
         data = {
-            'raw_title': raw_title,
+            'rawTitle': raw_title,
             'title': title,
             'discussionId': discussion_id,
             'authorName': author_name,
             'authorId': author_id,
             'avatarImage': avatar_image,
-            "url": url,
+            'url': url,
         }
 
         save_dir = os.path.join(COMPETITIONS_DIR, comp_slug, SOLUTIONS_DIR)
@@ -186,8 +186,8 @@ def fetch_discussions(items):
         print('Saved to:', save_path)
 
         # Prevent NewConnectionError.
-        if num_items > 1:
-            time.sleep(30)
+        if (num_items > 1) and (item_idx != num_items - 1):
+            time.sleep(5)
 
 
 def main():

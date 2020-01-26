@@ -44,8 +44,8 @@ def get_solution_candidates(soup):
         author_name = avatar.get('alt')
         result.append({
             'raw_title': raw_title,
-            'author_id': author_id,
-            'author_name': author_name,
+            'authorId': author_id,
+            'authorName': author_name,
             'title': None,
             'rank': None,
             'url': url}

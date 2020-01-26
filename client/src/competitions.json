@@ -782,6 +782,134 @@
     "rewardDisplay": "$50,000",
     "rewardQuantity": 50000.0,
     "rewardTypeName": "USD",
+    "solutions": [
+      {
+        "authorId": "wowfattie",
+        "authorName": "Guanshuo Xu",
+        "avatarImage": "478989-kg.jpeg",
+        "discussionId": 127551,
+        "rawTitle": "1st place solution",
+        "title": "1st place solution",
+        "url": "https://www.kaggle.com/c/tensorflow2-question-answering/discussion/127551"
+      },
+      {
+        "authorId": "seesee",
+        "authorName": "See--",
+        "avatarImage": "712087-kg.png",
+        "discussionId": 127333,
+        "rawTitle": "2nd place solution",
+        "title": "2nd place solution",
+        "url": "https://www.kaggle.com/c/tensorflow2-question-answering/discussion/127333"
+      },
+      {
+        "authorId": "christofhenkel",
+        "authorName": "Dieter",
+        "avatarImage": "1424766-kg.png",
+        "discussionId": 127339,
+        "rawTitle": "3rd place solution",
+        "title": "3rd place solution",
+        "url": "https://www.kaggle.com/c/tensorflow2-question-answering/discussion/127339"
+      },
+      {
+        "authorId": "tonyxu",
+        "authorName": "toxu",
+        "avatarImage": "696031-kg.jpg",
+        "discussionId": 127371,
+        "rawTitle": "4th place Solution",
+        "title": "4th place solution",
+        "url": "https://www.kaggle.com/c/tensorflow2-question-answering/discussion/127371"
+      },
+      {
+        "authorId": "prokaj",
+        "authorName": "prvi",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 127521,
+        "rawTitle": "6th place solution",
+        "title": "6th place solution",
+        "url": "https://www.kaggle.com/c/tensorflow2-question-answering/discussion/127521"
+      },
+      {
+        "authorId": "boliu0",
+        "authorName": "Bo",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 127259,
+        "rawTitle": "7th place solution",
+        "title": "7th place solution",
+        "url": "https://www.kaggle.com/c/tensorflow2-question-answering/discussion/127259"
+      },
+      {
+        "authorId": "olegplatonov",
+        "authorName": "Oleg Platonov",
+        "avatarImage": "779065-kg.jpg",
+        "discussionId": 127545,
+        "rawTitle": "8th place solution",
+        "title": "8th place solution",
+        "url": "https://www.kaggle.com/c/tensorflow2-question-answering/discussion/127545"
+      },
+      {
+        "authorId": "ddanevskyi",
+        "authorName": "Dmitriy Danevskiy",
+        "avatarImage": "512750-kg.JPG",
+        "discussionId": 127350,
+        "rawTitle": "Brief summary of 13th place solution (hide the pain Harold)",
+        "title": "13rd place solution",
+        "url": "https://www.kaggle.com/c/tensorflow2-question-answering/discussion/127350"
+      },
+      {
+        "authorId": "siriuself",
+        "authorName": "Zhengkai Tu",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 127241,
+        "rawTitle": "17th Place solution [bert-disjoint] kernel + all utility scripts",
+        "title": "17th place solution",
+        "url": "https://www.kaggle.com/c/tensorflow2-question-answering/discussion/127241"
+      },
+      {
+        "authorId": "kentaronakanishi",
+        "authorName": "cfiken",
+        "avatarImage": "193592-kg.jpg",
+        "discussionId": 127374,
+        "rawTitle": "23rd place solution: ensemble, rank passage and predict span",
+        "title": "23rd place solution",
+        "url": "https://www.kaggle.com/c/tensorflow2-question-answering/discussion/127374"
+      },
+      {
+        "authorId": "httpwwwfszyc",
+        "authorName": "Yue Zhang",
+        "avatarImage": "2721247-kg.jpg",
+        "discussionId": 127299,
+        "rawTitle": "27th solution with luck and some questions from me",
+        "title": "27th place solution",
+        "url": "https://www.kaggle.com/c/tensorflow2-question-answering/discussion/127299"
+      },
+      {
+        "authorId": "higepon",
+        "authorName": "higepon",
+        "avatarImage": "2199749-gr.jpg",
+        "discussionId": 127232,
+        "rawTitle": "31st solution with custom loss",
+        "title": "31st place solution",
+        "url": "https://www.kaggle.com/c/tensorflow2-question-answering/discussion/127232"
+      },
+      {
+        "authorId": "thedrcat",
+        "authorName": "Darek K\u0142eczek",
+        "avatarImage": "1328185-kg.jpg",
+        "discussionId": 127258,
+        "rawTitle": "45th solution, my journey and learnings, feeling grateful :)",
+        "title": "45th place solution",
+        "url": "https://www.kaggle.com/c/tensorflow2-question-answering/discussion/127258"
+      },
+      {
+        "authorId": "axel81",
+        "authorName": "Ram Ramrakhya",
+        "avatarImage": "887695-kg.jpg",
+        "discussionId": 127266,
+        "rawTitle": "49th Place Solution Write-Up (Ensembling)",
+        "title": "49th place solution",
+        "url": "https://www.kaggle.com/c/tensorflow2-question-answering/discussion/127266"
+      }
+    ],
     "submissionsDisabled": false,
     "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/12863/logos/thumb76_76.png?t=2019-10-22-16-56-17",
     "totalKernels": 0,
@@ -890,7 +1018,7 @@
         "authorName": "zr",
         "avatarImage": "996327-kg.jpg",
         "discussionId": "127469",
-        "raw_title": "1st place solution",
+        "rawTitle": "1st place solution",
         "title": "1st place solution",
         "url": "https://www.kaggle.com/c/data-science-bowl-2019/discussion/127469"
       },
@@ -899,7 +1027,7 @@
         "authorName": "yabea",
         "avatarImage": "1846168-kg.png",
         "discussionId": "127388",
-        "raw_title": "2nd place solution",
+        "rawTitle": "2nd place solution",
         "title": "2nd place solution",
         "url": "https://www.kaggle.com/c/data-science-bowl-2019/discussion/127388"
       },
@@ -908,7 +1036,7 @@
         "authorName": "DmitryS",
         "avatarImage": "597945-kg.png",
         "discussionId": "127312",
-        "raw_title": "4th private (7th public) place (part II)",
+        "rawTitle": "4th private (7th public) place (part II)",
         "title": "4th place solution (part II)",
         "url": "https://www.kaggle.com/c/data-science-bowl-2019/discussion/127312"
       },
@@ -917,7 +1045,7 @@
         "authorName": "narsil",
         "avatarImage": "494641-kg.jpg",
         "discussionId": "127213",
-        "raw_title": "7th Place Solution",
+        "rawTitle": "7th Place Solution",
         "title": "7th place solution",
         "url": "https://www.kaggle.com/c/data-science-bowl-2019/discussion/127213"
       },
@@ -926,7 +1054,7 @@
         "authorName": "LeiZhou",
         "avatarImage": "734027-fb.jpg",
         "discussionId": "127285",
-        "raw_title": "8th place solution",
+        "rawTitle": "8th place solution",
         "title": "8th place solution",
         "url": "https://www.kaggle.com/c/data-science-bowl-2019/discussion/127285"
       },
@@ -935,7 +1063,7 @@
         "authorName": "pao",
         "avatarImage": "1305588-kg.jpg",
         "discussionId": "127332",
-        "raw_title": "10th place Solution",
+        "rawTitle": "10th place Solution",
         "title": "10th place solution",
         "url": "https://www.kaggle.com/c/data-science-bowl-2019/discussion/127332"
       },
@@ -944,7 +1072,7 @@
         "authorName": "Y.Nakama",
         "avatarImage": "1695531-kg.jpeg",
         "discussionId": "127500",
-        "raw_title": "15th palce solution",
+        "rawTitle": "15th palce solution",
         "title": "15th place solution",
         "url": "https://www.kaggle.com/c/data-science-bowl-2019/discussion/127500"
       },
@@ -953,7 +1081,7 @@
         "authorName": "fakeplastictrees",
         "avatarImage": "168767-fb.jpg",
         "discussionId": "127331",
-        "raw_title": "16th place solution",
+        "rawTitle": "16th place solution",
         "title": "16th place solution",
         "url": "https://www.kaggle.com/c/data-science-bowl-2019/discussion/127331"
       },
@@ -962,7 +1090,7 @@
         "authorName": "steubk",
         "avatarImage": "214989-kg.jpg",
         "discussionId": "127396",
-        "raw_title": "19th place solution",
+        "rawTitle": "19th place solution",
         "title": "19th place solution",
         "url": "https://www.kaggle.com/c/data-science-bowl-2019/discussion/127396"
       },
@@ -971,7 +1099,7 @@
         "authorName": "Arturo Garcia",
         "avatarImage": "949714-kg.jpg",
         "discussionId": "127543",
-        "raw_title": "21st place solution (link to R kernel)",
+        "rawTitle": "21st place solution (link to R kernel)",
         "title": "21st place solution",
         "url": "https://www.kaggle.com/c/data-science-bowl-2019/discussion/127543"
       }
@@ -1048,6 +1176,71 @@
     "rewardDisplay": "$25,000",
     "rewardQuantity": 25000.0,
     "rewardTypeName": "USD",
+    "solutions": [
+      {
+        "authorId": "outrunner",
+        "authorName": "outrunner",
+        "avatarImage": "933653-kg.jpg",
+        "discussionId": 127037,
+        "rawTitle": "1st place solution (1/26 details updated)",
+        "title": "1st place solution",
+        "url": "https://www.kaggle.com/c/pku-autonomous-driving/discussion/127037"
+      },
+      {
+        "authorId": "stevenwudi",
+        "authorName": "stevenwudi",
+        "avatarImage": "16463-gr.jpg",
+        "discussionId": 127099,
+        "rawTitle": "2nd Place solution",
+        "title": "2nd place solution",
+        "url": "https://www.kaggle.com/c/pku-autonomous-driving/discussion/127099"
+      },
+      {
+        "authorId": "uiiurz1",
+        "authorName": "4ui_iurz1",
+        "avatarImage": "849476-kg.png",
+        "discussionId": 127065,
+        "rawTitle": "(part of) 5th place solution",
+        "title": "5th place solution (4ui_iurz1)",
+        "url": "https://www.kaggle.com/c/pku-autonomous-driving/discussion/127065"
+      },
+      {
+        "authorId": "css919",
+        "authorName": "Shin Siang",
+        "avatarImage": "2202881-kg.jpg",
+        "discussionId": 127145,
+        "rawTitle": "(Another part of) 5th place solution",
+        "title": "5th place solution (Shin Siang)",
+        "url": "https://www.kaggle.com/c/pku-autonomous-driving/discussion/127145"
+      },
+      {
+        "authorId": "bamps53",
+        "authorName": "Camaro",
+        "avatarImage": "1554318-kg.jpg",
+        "discussionId": 127056,
+        "rawTitle": "(part of) 7th place solution with code",
+        "title": "7th place solution (Camaro)",
+        "url": "https://www.kaggle.com/c/pku-autonomous-driving/discussion/127056"
+      },
+      {
+        "authorId": "phalanx",
+        "authorName": "phalanx",
+        "avatarImage": "1620223-kg.JPG",
+        "discussionId": 127034,
+        "rawTitle": "7th place solution",
+        "title": "7th place solution (phalanx)",
+        "url": "https://www.kaggle.com/c/pku-autonomous-driving/discussion/127034"
+      },
+      {
+        "authorId": "ren4yu",
+        "authorName": "yu4u",
+        "avatarImage": "745525-kg.png",
+        "discussionId": 127052,
+        "rawTitle": "9th Place Solution",
+        "title": "9th place solution",
+        "url": "https://www.kaggle.com/c/pku-autonomous-driving/discussion/127052"
+      }
+    ],
     "submissionsDisabled": false,
     "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/9993/logos/thumb76_76.png?t=2019-10-23-04-47-20",
     "totalKernels": 0,
@@ -1156,7 +1349,7 @@
         "authorName": "Matt Motoki",
         "avatarImage": "331718-kg.png",
         "discussionId": 124709,
-        "raw_title": "1st Place Solution Team Isamu & Matt",
+        "rawTitle": "1st Place Solution Team Isamu & Matt",
         "title": "1st place solution",
         "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/124709"
       },
@@ -1165,7 +1358,7 @@
         "authorName": "Vopani",
         "avatarImage": "113389-kg.png",
         "discussionId": 123481,
-        "raw_title": "2nd Place Solution",
+        "rawTitle": "2nd Place Solution",
         "title": "2nd place solution",
         "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/123481"
       },
@@ -1174,7 +1367,7 @@
         "authorName": "eagle4",
         "avatarImage": "389607-kg.jpg",
         "discussionId": 124984,
-        "raw_title": "3rd Place Solution",
+        "rawTitle": "3rd Place Solution",
         "title": "3rd place solution",
         "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/124984"
       },
@@ -1183,7 +1376,7 @@
         "authorName": "TASSAN",
         "avatarImage": "default-thumb.png",
         "discussionId": 127086,
-        "raw_title": "5th Place Solution",
+        "rawTitle": "5th Place Solution",
         "title": "5th place solution",
         "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/127086"
       },
@@ -1192,7 +1385,7 @@
         "authorName": "MPWARE",
         "avatarImage": "default-thumb.png",
         "discussionId": 123525,
-        "raw_title": "9th place solution",
+        "rawTitle": "9th place solution",
         "title": "9th place solution",
         "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/123525"
       },
@@ -1201,7 +1394,7 @@
         "authorName": "Tim Yee",
         "avatarImage": "default-thumb.png",
         "discussionId": 123496,
-        "raw_title": "13th place gold solution",
+        "rawTitle": "13th place gold solution",
         "title": "13rd place solution",
         "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/123496"
       },
@@ -1210,7 +1403,7 @@
         "authorName": "Vladimir",
         "avatarImage": "1690820-kg.jpg",
         "discussionId": 123654,
-        "raw_title": "20 Private LB rank solution",
+        "rawTitle": "20 Private LB rank solution",
         "title": "20th place solution",
         "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/123654"
       },
@@ -1219,7 +1412,7 @@
         "authorName": "Georgi Pamukov",
         "avatarImage": "840485-kg.jpg",
         "discussionId": 125307,
-        "raw_title": "25th Place Solution",
+        "rawTitle": "25th Place Solution",
         "title": "25th place solution",
         "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/125307"
       },
@@ -1228,7 +1421,7 @@
         "authorName": "Roman",
         "avatarImage": "1696976-kg.png",
         "discussionId": 122863,
-        "raw_title": "40th place Public solution. My part.",
+        "rawTitle": "40th place Public solution. My part.",
         "title": "40th place solution",
         "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/122863"
       },
@@ -1237,7 +1430,7 @@
         "authorName": "Fernando Wittmann",
         "avatarImage": "419002-gr.jpg",
         "discussionId": 123288,
-        "raw_title": "[46th Pvt LB] 18th Public LB - Very simple solution",
+        "rawTitle": "[46th Pvt LB] 18th Public LB - Very simple solution",
         "title": "46th place solution",
         "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/123288"
       },
@@ -1246,7 +1439,7 @@
         "authorName": "Pavel Gusev",
         "avatarImage": "default-thumb.png",
         "discussionId": 124557,
-        "raw_title": "Thanks and 52nd place solution.",
+        "rawTitle": "Thanks and 52nd place solution.",
         "title": "52nd place solution",
         "url": "https://www.kaggle.com/c/ashrae-energy-prediction/discussion/124557"
       }
@@ -1323,6 +1516,44 @@
     "rewardDisplay": "$75,000",
     "rewardQuantity": 75000.0,
     "rewardTypeName": "USD",
+    "solutions": [
+      {
+        "authorId": "dott1718",
+        "authorName": "dott",
+        "avatarImage": "85156-gr.jpg",
+        "discussionId": 119400,
+        "rawTitle": "1st place solution The Zoo",
+        "title": "1st place solution",
+        "url": "https://www.kaggle.com/c/nfl-big-data-bowl-2020/discussion/119400"
+      },
+      {
+        "authorId": "wimwim",
+        "authorName": "Patrick Yam",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 119314,
+        "rawTitle": "3rd place (Public LB) Solution - Transformer",
+        "title": "3rd place solution",
+        "url": "https://www.kaggle.com/c/nfl-big-data-bowl-2020/discussion/119314"
+      },
+      {
+        "authorId": "felipefonte99",
+        "authorName": "Felipe Loque",
+        "avatarImage": "2191934-kg.jpg",
+        "discussionId": 119301,
+        "rawTitle": "30th Place Solution",
+        "title": "30th place solution",
+        "url": "https://www.kaggle.com/c/nfl-big-data-bowl-2020/discussion/119301"
+      },
+      {
+        "authorId": "stefancurtress",
+        "authorName": "Stefan C",
+        "avatarImage": "3982690-kg.png",
+        "discussionId": 125162,
+        "rawTitle": "Private LB 37th Place Solution",
+        "title": "37th place solution",
+        "url": "https://www.kaggle.com/c/nfl-big-data-bowl-2020/discussion/125162"
+      }
+    ],
     "submissionsDisabled": false,
     "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/15696/logos/thumb76_76.png?t=2019-10-04-16-17-46",
     "totalKernels": 0,
@@ -1482,6 +1713,134 @@
     "rewardDisplay": "$25,000",
     "rewardQuantity": 25000.0,
     "rewardTypeName": "USD",
+    "solutions": [
+      {
+        "authorId": "shentao",
+        "authorName": "SeuTao",
+        "avatarImage": "1025985-kg.jpg",
+        "discussionId": 117210,
+        "rawTitle": "1st Place Solution. Sequence model wins",
+        "title": "1st place solution",
+        "url": "https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117210"
+      },
+      {
+        "authorId": "darraghdog",
+        "authorName": "Darragh",
+        "avatarImage": "213493-fb.jpg",
+        "discussionId": 117228,
+        "rawTitle": "2nd Place Solution - Sequential model",
+        "title": "2nd place solution",
+        "url": "https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117228"
+      },
+      {
+        "authorId": "takuok",
+        "authorName": "takuoko",
+        "avatarImage": "841938-kg.jpg",
+        "discussionId": 117223,
+        "rawTitle": "3rd place solution & become GM!! (updated with code)",
+        "title": "3rd place solution",
+        "url": "https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117223"
+      },
+      {
+        "authorId": "antherxu",
+        "authorName": "Miranda X",
+        "avatarImage": "2215248-gp.jpg",
+        "discussionId": 118249,
+        "rawTitle": "4th Place Solution with code",
+        "title": "4th place solution",
+        "url": "https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/118249"
+      },
+      {
+        "authorId": "backaggle",
+        "authorName": "Bac Nguyen",
+        "avatarImage": "1938879-kg.JPG",
+        "discussionId": 117232,
+        "rawTitle": "5th place solution (with code).",
+        "title": "5th place solution",
+        "url": "https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117232"
+      },
+      {
+        "authorId": "godaibo",
+        "authorName": "DavidGbodiOdaibo",
+        "avatarImage": "369212-fb.jpg",
+        "discussionId": 117301,
+        "rawTitle": "6th place solution End to End Sequence to Sequence with sliding window.",
+        "title": "6th place solution",
+        "url": "https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117301"
+      },
+      {
+        "authorId": "maciejbudys",
+        "authorName": "Maciej Budy\u015b",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 118780,
+        "rawTitle": "8th place solution + code",
+        "title": "8th place solution",
+        "url": "https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/118780"
+      },
+      {
+        "authorId": "antorsae",
+        "authorName": "Andres Torrubia",
+        "avatarImage": "8507-gp.jpg",
+        "discussionId": 117211,
+        "rawTitle": "#9 Solution with CODE - Team BIG HEAD: Training model bonanza, TTA and L2 stacking.",
+        "title": "9th place solution",
+        "url": "https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117211"
+      },
+      {
+        "authorId": "shimacos",
+        "authorName": "shimacos",
+        "avatarImage": "1227363-kg.jpg",
+        "discussionId": 118873,
+        "rawTitle": "10th place solution (+ github code)",
+        "title": "10th place solution",
+        "url": "https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/118873"
+      },
+      {
+        "authorId": "appian",
+        "authorName": "Appian",
+        "avatarImage": "2073090-kg.jpg",
+        "discussionId": 117330,
+        "rawTitle": "11th place solution (with updated code on github)",
+        "title": "11st place solution",
+        "url": "https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117330"
+      },
+      {
+        "authorId": "yuval6967",
+        "authorName": "yuval reina",
+        "avatarImage": "1552664-fb.jpg",
+        "discussionId": 117480,
+        "rawTitle": "A surprise Gold, GM, and the real 12th place solution*",
+        "title": "12nd place solution",
+        "url": "https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117480"
+      },
+      {
+        "authorId": "dattran2346",
+        "authorName": "nan",
+        "avatarImage": "3342872-kg.png",
+        "discussionId": 119079,
+        "rawTitle": "13th place solution with code",
+        "title": "13rd place solution",
+        "url": "https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/119079"
+      },
+      {
+        "authorId": "akensert",
+        "authorName": "akensert",
+        "avatarImage": "2183023-kg.jpg",
+        "discussionId": 117277,
+        "rawTitle": "15th place solution (0.047) --- Close but no Cigar!",
+        "title": "15th place solution",
+        "url": "https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117277"
+      },
+      {
+        "authorId": "beomheep",
+        "authorName": "Beomhee Park",
+        "avatarImage": "2276152-kg.png",
+        "discussionId": 117417,
+        "rawTitle": "16th place solution",
+        "title": "16th place solution",
+        "url": "https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/discussion/117417"
+      }
+    ],
     "submissionsDisabled": false,
     "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/13451/logos/thumb76_76.png?t=2019-08-26-19-58-36",
     "totalKernels": 0,
@@ -1671,6 +2030,62 @@
     "rewardDisplay": "$25,000",
     "rewardQuantity": 25000.0,
     "rewardTypeName": "USD",
+    "solutions": [
+      {
+        "authorId": "nywenjing",
+        "authorName": "Wenjing Zhang",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 122820,
+        "rawTitle": "1st place solution (0.220 public LB)",
+        "title": "1st place solution",
+        "url": "https://www.kaggle.com/c/3d-object-detection-for-autonomous-vehicles/discussion/122820"
+      },
+      {
+        "authorId": "kylelee",
+        "authorName": "Kyle Lee",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 123004,
+        "rawTitle": "2nd Place Solution Summary (Private: 0.202 / Public: 0.205)",
+        "title": "2nd place solution",
+        "url": "https://www.kaggle.com/c/3d-object-detection-for-autonomous-vehicles/discussion/123004"
+      },
+      {
+        "authorId": "yukke42",
+        "authorName": "yukke42",
+        "avatarImage": "1072858-kg.JPG",
+        "discussionId": 117269,
+        "rawTitle": "3rd place solution [0.182 Private LB]",
+        "title": "3rd place solution",
+        "url": "https://www.kaggle.com/c/3d-object-detection-for-autonomous-vehicles/discussion/117269"
+      },
+      {
+        "authorId": "rishabhiitbhu",
+        "authorName": "Rishabh Agrahari",
+        "avatarImage": "761152-kg.jpg",
+        "discussionId": 117560,
+        "rawTitle": "19th place solution with code",
+        "title": "19th place solution",
+        "url": "https://www.kaggle.com/c/3d-object-detection-for-autonomous-vehicles/discussion/117560"
+      },
+      {
+        "authorId": "toshik",
+        "authorName": "toshi_k",
+        "avatarImage": "172060-fb.jpg",
+        "discussionId": 119220,
+        "rawTitle": "22th place solution",
+        "title": "22nd place solution",
+        "url": "https://www.kaggle.com/c/3d-object-detection-for-autonomous-vehicles/discussion/119220"
+      },
+      {
+        "authorId": "jackvial",
+        "authorName": "Jack Vial",
+        "avatarImage": "1005864-kg.jpg",
+        "discussionId": 117809,
+        "rawTitle": "26th Place Solution Summary [0.078 Private LB]",
+        "title": "26th place solution",
+        "url": "https://www.kaggle.com/c/3d-object-detection-for-autonomous-vehicles/discussion/117809"
+      }
+    ],
     "submissionsDisabled": false,
     "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/15768/logos/thumb76_76.png?t=2019-08-27-22-43-26",
     "totalKernels": 0,
