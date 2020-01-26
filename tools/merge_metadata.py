@@ -3,7 +3,6 @@ Merge competition metadata.
 """
 
 import os
-import json
 import re
 
 from tools.utils import read_json, to_json
