@@ -75,9 +75,9 @@ def main():
     if not os.path.exists(save_dir):
         os.mkdir(save_dir)
 
-    fpath = os.path.join(save_dir, 'metadata.json')
-    to_json(comp, fpath)
-    print('\nSaved to', fpath)
+    save_path = os.path.join(save_dir, 'metadata.json')
+    to_json(comp, save_path)
+    print('\nSaved to', save_path)
 
 
 if __name__ == '__main__':
