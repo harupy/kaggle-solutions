@@ -10,9 +10,6 @@ import requests
 from tools.utils import to_json
 
 
-PARENT_DIR = 'competitions'
-
-
 def fetch_competitions():
     """
     Fetch all the compeditions from Kaggle.
@@ -50,6 +47,8 @@ def fetch_competitions():
 
 
 def main():
+    PARENT_DIR = 'competitions'
+
     if not os.path.exists(PARENT_DIR):
         os.mkdir(PARENT_DIR)
 

@@ -11,9 +11,6 @@ import requests
 from tools.utils import to_json
 
 
-PARENT_DIR = 'competitions'
-
-
 def parse_args():
     """
     Parse the command line arguments.
@@ -65,6 +62,8 @@ def find_competition(slug):
 
 
 def main():
+    PARENT_DIR = 'competitions'
+
     args = parse_args()
 
     if not os.path.exists(PARENT_DIR):
