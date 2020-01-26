@@ -1,4 +1,4 @@
-import unittest
+# import unittest
 
 from tools.merge_metadata import merge_metadata
 from tools.utils import read_json
