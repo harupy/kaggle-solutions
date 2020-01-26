@@ -17,12 +17,28 @@ pipenv shell
 
 ## How to fetch data
 
+### Competition data
+
 ```bash
-# Competition data
+# Usage
 python tools/fetch_one_competition -s <competition_slug>
 
-# Solution data
+# Example
+python tools/fetch_one_competition -s titanic
+```
+
+### Solution data
+
+To fetch solution data, ChromeDriver is required. If you don't have one, download [here](https://chromedriver.chromium.org/downloads) and put it in the repository root.
+
+```bash
+# Usage
 python tools/fetch_discussion.py -u <discussion_url> -t <title>
+
+# Example
+python tools/fetch_one_competition \
+  -s https://www.kaggle.com/c/titanic/discussion/1234
+  -t "1st place solution"
 ```
 
 ## How to run the UI
@@ -35,11 +51,13 @@ npm install
 
 # Run the UI.
 npm start
+
+# Open localhost:3000 on your browser.
 ```
 
 ## Test
 
-Tools
+### Tools
 
 ```bash
 # Lint
@@ -47,10 +65,9 @@ Tools
 
 # Test
 ./dev/test.sh
-
 ```
 
-UI
+### UI
 
 ```bash
 # Lint
