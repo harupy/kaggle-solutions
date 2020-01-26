@@ -12,7 +12,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-from tools.utils import to_json, make_soup
+from tools.utils import to_json, make_soup, make_headless_chrome
 from tools.config import COMPETITIONS_DIR, SOLUTIONS_DIR
 
 
@@ -142,12 +142,11 @@ def get_title(soup):
     return soup.find('title').text.split('|')[0].strip()
 
 
+def fetch_discussion(url, title):
+
+
 def main():
-    # Please download ChromeDriver from the link below if you don't have one.
-    # https://chromedriver.chromium.org/downloads
-    options = Options()
-    options.add_argument('--headless')
-    driver = Chrome('./chromedriver', options=options)
+    driver = make_headless_chrome()
 
     args = parse_args()
     url = args.url

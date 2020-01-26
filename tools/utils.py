@@ -59,6 +59,11 @@ def make_soup(html):
 def make_headless_chrome():
     """
     Make a headless chrome driver.
+
+    Notes
+    -----
+    Please download ChromeDriver from the link below if you don't have one.
+    https://chromedriver.chromium.org/downloads
     """
     options = Options()
     options.add_argument('--headless')
