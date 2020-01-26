@@ -100,7 +100,7 @@ def main():
     meta_all = merge_metadata()
     save_path = os.path.join(CLIENT_SRC_DIR, 'competitions.json')
     to_json(meta_all, save_path)
-    print('Saved to', save_path)
+    print('Saved to:', save_path)
 
 
 if __name__ == '__main__':

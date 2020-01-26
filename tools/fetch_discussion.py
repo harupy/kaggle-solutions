@@ -3,17 +3,15 @@ Fetch discussion metadata.
 """
 
 import os
+import time
 import argparse
 import traceback
 import re
-from bs4 import BeautifulSoup
-from selenium.webdriver import Chrome
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-from tools.utils import to_json
+from tools.utils import to_json, make_soup, make_headless_chrome
 from tools.config import COMPETITIONS_DIR, SOLUTIONS_DIR
 
 
@@ -63,20 +61,6 @@ def validate_solution_title(title):
     m = re.match(pattern, title)
     if m is None:
         raise ValueError('Solution title "{}" is not acceptable.'.format(title))
-
-
-def make_soup(html):
-    """
-    Instantiate a soup object.
-
-    Examples
-    --------
-    >>> html = '<html><body><h1>header</h1></body></html>'
-    >>> make_soup(html)
-    <html><body><h1>header</h1></body></html>
-
-    """
-    return BeautifulSoup(html, 'lxml')
 
 
 def get_discussion_id(url):
@@ -157,52 +141,58 @@ def get_title(soup):
     return soup.find('title').text.split('|')[0].strip()
 
 
+def fetch_discussions(items):
+    num_items = len(items)
+
+    for item_idx, (url, title) in enumerate(items):
+        driver = make_headless_chrome()
+        comp_slug = get_competition_slug(url)
+        discussion_id = get_discussion_id(url)
+
+        try:
+            driver.get(url)
+            WebDriverWait(driver, 30).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, 'div.comment-list')))
+            html = driver.page_source
+        except Exception:
+            print(traceback.format_exc())
+        finally:
+            driver.quit()
+
+        soup = make_soup(html)
+        raw_title = get_title(soup)
+        title = title or raw_title
+        title = format_solution_title(title)
+        validate_solution_title(title)
+
+        avatar_image = get_avatar_image(soup)
+        author_name, author_id = get_author_name_and_id(soup)
+        data = {
+            'raw_title': raw_title,
+            'title': title,
+            'discussionId': discussion_id,
+            'authorName': author_name,
+            'authorId': author_id,
+            'avatarImage': avatar_image,
+            "url": url,
+        }
+
+        save_dir = os.path.join(COMPETITIONS_DIR, comp_slug, SOLUTIONS_DIR)
+        if not os.path.exists(save_dir):
+            os.mkdir(save_dir)
+
+        save_path = os.path.join(save_dir, f'{author_id}_{discussion_id}.json')
+        to_json(data, save_path)
+        print('Saved to:', save_path)
+
+        # Prevent NewConnectionError.
+        if num_items > 1:
+            time.sleep(30)
+
+
 def main():
-    # Please download ChromeDriver from the link below if you don't have one.
-    # https://chromedriver.chromium.org/downloads
-    options = Options()
-    options.add_argument('--headless')
-    driver = Chrome('./chromedriver', options=options)
-
     args = parse_args()
-    url = args.url
-    comp_slug = get_competition_slug(url)
-    discussion_id = get_discussion_id(url)
-
-    try:
-        driver.get(url)
-        WebDriverWait(driver, 30).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, 'div.comment-list')))
-        html = driver.page_source
-    except Exception:
-        print(traceback.format_exc())
-    finally:
-        driver.quit()
-
-    soup = make_soup(html)
-    raw_title = get_title(soup)
-    title = args.title or raw_title
-    title = format_solution_title(title)
-    validate_solution_title(title)
-
-    avatar_image = get_avatar_image(soup)
-    author_name, author_id = get_author_name_and_id(soup)
-    data = {
-        'raw_title': raw_title,
-        'title': title,
-        'discussionId': discussion_id,
-        'authorName': author_name,
-        'authorId': author_id,
-        'avatarImage': avatar_image,
-        "url": url,
-    }
-
-    save_path = os.path.join(COMPETITIONS_DIR,
-                             comp_slug,
-                             SOLUTIONS_DIR,
-                             f'{author_id}_{discussion_id}.json')
-    to_json(data, save_path)
-    print('\nSaved to', save_path)
+    fetch_discussions([(args.url, args.title)])
 
 
 if __name__ == '__main__':
