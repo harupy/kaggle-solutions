@@ -3,6 +3,7 @@ Fetch discussion metadata.
 """
 
 import os
+import time
 import argparse
 import traceback
 import re
@@ -140,50 +141,58 @@ def get_title(soup):
     return soup.find('title').text.split('|')[0].strip()
 
 
-def fetch_discussion(url, title):
-    driver = make_headless_chrome()
-    comp_slug = get_competition_slug(url)
-    discussion_id = get_discussion_id(url)
+def fetch_discussions(items):
+    num_items = len(items)
 
-    try:
-        driver.get(url)
-        WebDriverWait(driver, 30).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, 'div.comment-list')))
-        html = driver.page_source
-    except Exception:
-        print(traceback.format_exc())
-    finally:
-        driver.quit()
+    for item_idx, (url, title) in enumerate(items):
+        driver = make_headless_chrome()
+        comp_slug = get_competition_slug(url)
+        discussion_id = get_discussion_id(url)
 
-    soup = make_soup(html)
-    raw_title = get_title(soup)
-    title = title or raw_title
-    title = format_solution_title(title)
-    validate_solution_title(title)
+        try:
+            driver.get(url)
+            WebDriverWait(driver, 30).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, 'div.comment-list')))
+            html = driver.page_source
+        except Exception:
+            print(traceback.format_exc())
+        finally:
+            driver.quit()
 
-    avatar_image = get_avatar_image(soup)
-    author_name, author_id = get_author_name_and_id(soup)
-    data = {
-        'raw_title': raw_title,
-        'title': title,
-        'discussionId': discussion_id,
-        'authorName': author_name,
-        'authorId': author_id,
-        'avatarImage': avatar_image,
-        "url": url,
-    }
+        soup = make_soup(html)
+        raw_title = get_title(soup)
+        title = title or raw_title
+        title = format_solution_title(title)
+        validate_solution_title(title)
 
-    save_path = os.path.join(COMPETITIONS_DIR,
-                             comp_slug,
-                             SOLUTIONS_DIR,
-                             f'{author_id}_{discussion_id}.json')
-    to_json(data, save_path)
-    print('Saved to:', save_path)
+        avatar_image = get_avatar_image(soup)
+        author_name, author_id = get_author_name_and_id(soup)
+        data = {
+            'raw_title': raw_title,
+            'title': title,
+            'discussionId': discussion_id,
+            'authorName': author_name,
+            'authorId': author_id,
+            'avatarImage': avatar_image,
+            "url": url,
+        }
+
+        save_dir = os.path.join(COMPETITIONS_DIR, comp_slug, SOLUTIONS_DIR)
+        if not os.path.exists(save_dir):
+            os.mkdir(save_dir)
+
+        save_path = os.path.join(save_dir, f'{author_id}_{discussion_id}.json')
+        to_json(data, save_path)
+        print('Saved to:', save_path)
+
+        # Prevent NewConnectionError.
+        if num_items > 1:
+            time.sleep(30)
 
 
 def main():
     args = parse_args()
-    fetch_discussion(args.url, args.title)
+    fetch_discussions([(args.url, args.title)])
 
 
 if __name__ == '__main__':

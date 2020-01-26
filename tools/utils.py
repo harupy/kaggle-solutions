@@ -67,4 +67,8 @@ def make_headless_chrome():
     """
     options = Options()
     options.add_argument('--headless')
+    user_agent = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) '
+                  'AppleWebKit/537.36 (KHTML, like Gecko) '
+                  'Chrome/79.0.3945.117 Safari/537.36')
+    options.add_argument(f'--user-agent={user_agent}')
     return Chrome('./chromedriver', options=options)

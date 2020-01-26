@@ -4,7 +4,7 @@ Fetch solutions.
 
 import argparse
 
-from tools.fetch_discussion import fetch_discussion
+from tools.fetch_discussion import fetch_discussions
 from tools.utils import read_json
 
 
@@ -36,16 +36,25 @@ def ordinalize(n):
     return str(n) + mapper.get(n % 10, 'th')
 
 
-def main():
-    args = parse_args()
-    candidates = read_json(args.file)
-
+def process_candidates(candidates):
+    """
+    Make (url, title) pairs.
+    """
+    result = []
     for cand in candidates:
         if cand['rank'] is None:
             continue
         rank_str = ordinalize(cand['rank'])
         title = f'{rank_str} place solution'
-        fetch_discussion(cand['url'], title)
+        result.append((cand['url'], title))
+    return result
+
+
+def main():
+    args = parse_args()
+    candidates = read_json(args.file)
+    items = process_candidates(candidates)
+    fetch_discussions(items)
 
 
 if __name__ == '__main__':
