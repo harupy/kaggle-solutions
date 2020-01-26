@@ -1,5 +1,5 @@
 """
-Merge competition meta data and save it in the client source directory.
+Merge competition metadata.
 """
 
 import os

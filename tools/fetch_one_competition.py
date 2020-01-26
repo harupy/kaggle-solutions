@@ -1,5 +1,5 @@
 """
-Fetch one competition meta data.
+Fetch competition metadata.
 """
 
 import os
@@ -16,7 +16,7 @@ def parse_args():
     """
     Parse the command line arguments.
     """
-    parser = argparse.ArgumentParser(description='Extract metadata of a discussion.')
+    parser = argparse.ArgumentParser(description='Fetch competition metadata.')
     parser.add_argument('-s', '--slug', required=True, help='Competition slug')
     return parser.parse_args()
 

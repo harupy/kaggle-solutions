@@ -40,8 +40,8 @@ python tools/fetch_discussion.py -u <discussion_url> -t <title>
 
 # Example
 python tools/fetch_discussion.py \
-  -u https://www.kaggle.com/c/titanic/discussion/1234  # discussion url
-  -t "1st place solution"  # title to display on the UI.
+  -u https://www.kaggle.com/c/titanic/discussion/1234  # Discussion url
+  -t "1st place solution"  # Title to display on the UI.
 ```
 
 ## How to run the UI

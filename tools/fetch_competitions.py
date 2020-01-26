@@ -1,5 +1,5 @@
 """
-Fetch competion meta data.
+Fetch all competition metadata.
 """
 
 import os
@@ -13,7 +13,7 @@ from tools.config import COMPETITIONS_DIR
 
 def fetch_competitions():
     """
-    Fetch all the compeditions from Kaggle.
+    Fetch all competition metadata from Kaggle.
 
     Notes
     -----
