@@ -19,4 +19,5 @@ def test_metadata_updated():
     # tc.assertCountEqual(actual, expected, msg)
 
     for a, b in zip(actual, expected):
+        print(a, b)
         assert a == b, msg
