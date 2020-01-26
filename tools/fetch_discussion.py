@@ -142,9 +142,6 @@ def get_title(soup):
     return soup.find('title').text.split('|')[0].strip()
 
 
-def fetch_discussion(url, title):
-
-
 def main():
     driver = make_headless_chrome()
 
