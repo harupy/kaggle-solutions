@@ -15,5 +15,7 @@ module.exports = {
     project: './tsconfig.json',
   },
   ignorePatterns: ['src/serviceWorker.ts', 'node_modules/'],
-  rules: {},
+  rules: {
+    'no-console': 2,
+  },
 };
