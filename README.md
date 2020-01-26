@@ -13,6 +13,9 @@ pipenv install
 
 # Activate the environment.
 pipenv shell
+
+# Add the repository root to `PYTHONPATH`.
+source dev/setup.sh
 ```
 
 ## How to fetch data
