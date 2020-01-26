@@ -28,3 +28,7 @@ cd client
 npm install
 npm start
 ```
+
+## License
+
+MTI
