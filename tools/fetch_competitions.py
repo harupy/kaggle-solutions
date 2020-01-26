@@ -35,12 +35,13 @@ def fetch_competitions():
             total_comps = data['pagedCompetitionGroup']['totalCompetitions']
             total_pages = math.ceil(total_comps / PAGE_SIZE)
 
+        print(f'{page} / {total_pages}', f'(status code: {resp.status_code})')
+
         comps = data['pagedCompetitionGroup']['competitions']
         if len(comps) == 0:
             break
         comps_all += comps
 
-        print(f'{page} / {total_pages}', f'(status code: {resp.status_code})')
         time.sleep(SLEEP_DURATION)  # Prevent HTTP error 429.
 
     return comps_all
