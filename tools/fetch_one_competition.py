@@ -9,6 +9,7 @@ import argparse
 import requests
 
 from tools.utils import to_json
+from tools.config import COMPETITIONS_DIR
 
 
 def parse_args():
@@ -62,16 +63,14 @@ def find_competition(slug):
 
 
 def main():
-    PARENT_DIR = 'competitions'
-
     args = parse_args()
 
-    if not os.path.exists(PARENT_DIR):
-        os.mkdir(PARENT_DIR)
+    if not os.path.exists(COMPETITIONS_DIR):
+        os.mkdir(COMPETITIONS_DIR)
 
     comp = find_competition(args.slug.strip())
     comp_name = os.path.basename(comp['competitionUrl'])
-    save_dir = os.path.join(PARENT_DIR, comp_name)
+    save_dir = os.path.join(COMPETITIONS_DIR, comp_name)
 
     if not os.path.exists(save_dir):
         os.mkdir(save_dir)

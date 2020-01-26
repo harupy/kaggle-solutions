@@ -14,6 +14,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
 from tools.utils import to_json
+from tools.config import COMPETITIONS_DIR, SOLUTIONS_DIR
 
 
 def parse_args():
@@ -196,8 +197,10 @@ def main():
         "url": url,
     }
 
-    save_path = os.path.join('competitions/{}/solutions/{}_{}.json'
-                             .format(comp_slug, author_id, discussion_id))
+    save_path = os.path.join(COMPETITIONS_DIR,
+                             SOLUTIONS_DIR,
+                             comp_slug,
+                             f'{author_id}_{discussion_id}.json')
     to_json(data, save_path)
     print('\nSaved to', save_path)
 
