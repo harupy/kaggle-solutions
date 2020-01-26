@@ -21,7 +21,7 @@ pipenv shell
 python tools/fetch_discussion.py -u <discussion_url> -t <title>
 ```
 
-## UI
+## How to run the UI
 
 ```bash
 cd client
@@ -31,4 +31,4 @@ npm start
 
 ## License
 
-MTI
+MIT
