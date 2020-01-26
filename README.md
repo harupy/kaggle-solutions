@@ -15,9 +15,13 @@ pipenv install
 pipenv shell
 ```
 
-## How to fetch solution data
+## How to fetch data
 
 ```bash
+# Competition data
+python tools/fetch_one_competition -s <competition_slug>
+
+# Solution data
 python tools/fetch_discussion.py -u <discussion_url> -t <title>
 ```
 
