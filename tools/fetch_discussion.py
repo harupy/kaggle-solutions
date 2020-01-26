@@ -168,7 +168,7 @@ def fetch_discussions(items):
         avatar_image = get_avatar_image(soup)
         author_name, author_id = get_author_name_and_id(soup)
         data = {
-            'raw_title': raw_title,
+            'rawTitle': raw_title,
             'title': title,
             'discussionId': discussion_id,
             'authorName': author_name,
