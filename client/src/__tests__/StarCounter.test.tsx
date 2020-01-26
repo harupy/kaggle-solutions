@@ -1,7 +1,5 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
-import { act } from 'react-dom/test-utils';
-import { render } from '@testing-library/react';
+import { shallow } from 'enzyme';
 
 import StarCounter from '../StarCounter';
 import { REPO_URL } from '../constants';
