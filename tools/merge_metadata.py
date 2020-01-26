@@ -6,6 +6,7 @@ import os
 import re
 
 from tools.utils import read_json, to_json
+from tools.config import COMPETITIONS_DIR, SOLUTIONS_DIR, CLIENT_SRC_DIR
 
 
 def parse_rank(solution_title):
@@ -44,22 +45,20 @@ def read_solutions(directory):
 
 
 def merge_metadata():
-    ROOT_DIR = 'competitions'
-
     meta_all = []
-    comps = os.listdir(ROOT_DIR)
+    comps = os.listdir(COMPETITIONS_DIR)
     num_comps = len(comps)
 
     for comp_idx, comp_slug in enumerate(comps):
         print(f'{comp_idx + 1} / {num_comps}')
-        comp_dir = os.path.join(ROOT_DIR, comp_slug)
+        comp_dir = os.path.join(COMPETITIONS_DIR, comp_slug)
 
         if not os.path.isdir(comp_dir):
             continue
 
         comp_meta = read_json(os.path.join(comp_dir, 'metadata.json'))
 
-        solutions_dir = os.path.join(comp_dir, 'solutions')
+        solutions_dir = os.path.join(comp_dir, SOLUTIONS_DIR)
         if os.path.exists(solutions_dir):
             solutions = read_solutions(solutions_dir)
             comp_meta['solutions'] = solutions
@@ -72,7 +71,7 @@ def merge_metadata():
 
 def main():
     meta_all = merge_metadata()
-    save_path = os.path.join('client/src', 'competitions.json')
+    save_path = os.path.join(CLIENT_SRC_DIR, 'competitions.json')
     to_json(meta_all, save_path)
     print('Saved to', save_path)
 
