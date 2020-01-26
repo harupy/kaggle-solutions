@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.js": "/kaggle-solutions/static/js/main.6ef25f95.chunk.js",
-    "main.js.map": "/kaggle-solutions/static/js/main.6ef25f95.chunk.js.map",
+    "main.js": "/kaggle-solutions/static/js/main.343413cf.chunk.js",
+    "main.js.map": "/kaggle-solutions/static/js/main.343413cf.chunk.js.map",
     "runtime-main.js": "/kaggle-solutions/static/js/runtime-main.059264b3.js",
     "runtime-main.js.map": "/kaggle-solutions/static/js/runtime-main.059264b3.js.map",
     "static/css/2.6b7a3d9c.chunk.css": "/kaggle-solutions/static/css/2.6b7a3d9c.chunk.css",
-    "static/js/2.99f383ef.chunk.js": "/kaggle-solutions/static/js/2.99f383ef.chunk.js",
-    "static/js/2.99f383ef.chunk.js.map": "/kaggle-solutions/static/js/2.99f383ef.chunk.js.map",
+    "static/js/2.7d844f81.chunk.js": "/kaggle-solutions/static/js/2.7d844f81.chunk.js",
+    "static/js/2.7d844f81.chunk.js.map": "/kaggle-solutions/static/js/2.7d844f81.chunk.js.map",
     "index.html": "/kaggle-solutions/index.html",
-    "precache-manifest.3a4b4bc6e93d3ec40a8d66f914720016.js": "/kaggle-solutions/precache-manifest.3a4b4bc6e93d3ec40a8d66f914720016.js",
+    "precache-manifest.01b434ac9731115c0ee9857edcd87aab.js": "/kaggle-solutions/precache-manifest.01b434ac9731115c0ee9857edcd87aab.js",
     "service-worker.js": "/kaggle-solutions/service-worker.js",
     "static/css/2.6b7a3d9c.chunk.css.map": "/kaggle-solutions/static/css/2.6b7a3d9c.chunk.css.map",
-    "static/js/2.99f383ef.chunk.js.LICENSE": "/kaggle-solutions/static/js/2.99f383ef.chunk.js.LICENSE",
+    "static/js/2.7d844f81.chunk.js.LICENSE": "/kaggle-solutions/static/js/2.7d844f81.chunk.js.LICENSE",
     "static/media/semantic.min.css": "/kaggle-solutions/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.059264b3.js",
     "static/css/2.6b7a3d9c.chunk.css",
-    "static/js/2.99f383ef.chunk.js",
-    "static/js/main.6ef25f95.chunk.js"
+    "static/js/2.7d844f81.chunk.js",
+    "static/js/main.343413cf.chunk.js"
   ]
 }
