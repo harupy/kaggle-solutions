@@ -37,7 +37,7 @@ def get_solution_candidates(soup):
         url = KAGGLE_URL + link.get('href')
         result.append({
             'raw_title': raw_title,
-            'title': '',
+            'title': None,
             'rank': None,
             'url': url}
         )
