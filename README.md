@@ -39,7 +39,7 @@ To fetch solution data, ChromeDriver is required. If you don't have one, downloa
 python tools/fetch_discussion.py -u <discussion_url> -t <title>
 
 # Example
-python tools/fetch_one_competition \
+python tools/fetch_discussion \
   -u https://www.kaggle.com/c/titanic/discussion/1234  # discussion url
   -t "1st place solution"  # title to display on the UI.
 ```
