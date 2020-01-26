@@ -187,7 +187,7 @@ def fetch_discussions(items):
 
         # Prevent NewConnectionError.
         if (num_items > 1) and (item_idx != num_items - 1):
-            time.sleep(30)
+            time.sleep(5)
 
 
 def main():
