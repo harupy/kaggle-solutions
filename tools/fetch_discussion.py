@@ -174,7 +174,7 @@ def fetch_discussions(items):
             'authorName': author_name,
             'authorId': author_id,
             'avatarImage': avatar_image,
-            "url": url,
+            'url': url,
         }
 
         save_dir = os.path.join(COMPETITIONS_DIR, comp_slug, SOLUTIONS_DIR)
