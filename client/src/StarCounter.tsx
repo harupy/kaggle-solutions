@@ -5,25 +5,28 @@ interface StarCounterProps {
   url: string;
 }
 
-const GitHubLink: React.FC<StarCounterProps> = ({ url }) => {
+const StarCounter: React.FC<StarCounterProps> = ({ url }) => {
   const [starCount, setStarCount] = useState<number | undefined>();
 
+  // Fetch stargazers count from GitHub using the GitHub REST API.
+  const fetchStarCount = async () => {
+    const [user, repo] = url
+      .split('/')
+      .slice(1)
+      .slice(-2);
+    const API_URL = `https://api.github.com/repos/${user}/${repo}`;
+    const resp = await fetch(API_URL);
+    console.log(resp);
+
+    if (!resp.ok) {
+      throw new Error(`${resp.status} ${resp.statusText}`);
+    }
+
+    const data = await resp.json();
+    setStarCount(data.stargazers_count);
+  };
+
   useEffect(() => {
-    const fetchStarCount = async () => {
-      const [user, repo] = url
-        .split('/')
-        .slice(1)
-        .slice(-2);
-      const API_URL = `https://api.github.com/repos/${user}/${repo}`;
-      const resp = await fetch(API_URL);
-
-      if (!resp.ok) {
-        throw new Error(`${resp.status} ${resp.statusText}`);
-      }
-
-      const data = await resp.json();
-      setStarCount(data.stargazers_count);
-    };
     fetchStarCount();
   }, []);
 
@@ -42,4 +45,4 @@ const GitHubLink: React.FC<StarCounterProps> = ({ url }) => {
   );
 };
 
-export default GitHubLink;
+export default StarCounter;
