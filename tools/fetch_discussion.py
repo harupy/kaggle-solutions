@@ -6,14 +6,13 @@ import os
 import argparse
 import traceback
 import re
-from bs4 import BeautifulSoup
 from selenium.webdriver import Chrome
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
-from tools.utils import to_json
+from tools.utils import to_json, make_soup
 from tools.config import COMPETITIONS_DIR, SOLUTIONS_DIR
 
 
@@ -63,20 +62,6 @@ def validate_solution_title(title):
     m = re.match(pattern, title)
     if m is None:
         raise ValueError('Solution title "{}" is not acceptable.'.format(title))
-
-
-def make_soup(html):
-    """
-    Instantiate a soup object.
-
-    Examples
-    --------
-    >>> html = '<html><body><h1>header</h1></body></html>'
-    >>> make_soup(html)
-    <html><body><h1>header</h1></body></html>
-
-    """
-    return BeautifulSoup(html, 'lxml')
 
 
 def get_discussion_id(url):
