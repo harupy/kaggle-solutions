@@ -94,7 +94,7 @@ def merge_metadata():
         meta_all.append(comp_meta)
 
     meta_all.sort(key=lambda m: m['enabledDate'], reverse=True)
-    return json.loads(json.dumps(meta_all, sort_keys=True))
+    return meta_all
 
 
 def main():
