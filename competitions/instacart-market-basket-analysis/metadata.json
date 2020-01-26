@@ -3,21 +3,6 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 1,
-        "datasetCount": 5,
-        "description": null,
-        "displayName": "market basket",
-        "fontAwesomeIcon": null,
-        "fullPath": "problem type > market basket",
-        "id": 14219,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27market basket%27",
-        "name": "market basket",
-        "scriptCount": 20,
-        "tagUrl": "/tags/market-basket",
-        "totalCount": 26
-      },
-      {
         "competitionCount": 6,
         "datasetCount": 294,
         "description": "If you love food and drink, don't look in this tag unless you want to ruin your day by learning how many calories burritos have. On the other hand, do look into these datasets and kernels for general nutrition facts, restaurant ratings, and various food and drink related reviews.",
@@ -31,6 +16,21 @@
         "scriptCount": 352,
         "tagUrl": "/tags/food-and-drink",
         "totalCount": 652
+      },
+      {
+        "competitionCount": 1,
+        "datasetCount": 5,
+        "description": null,
+        "displayName": "market basket",
+        "fontAwesomeIcon": null,
+        "fullPath": "problem type > market basket",
+        "id": 14219,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27market basket%27",
+        "name": "market basket",
+        "scriptCount": 20,
+        "tagUrl": "/tags/market-basket",
+        "totalCount": 26
       }
     ],
     "type": "competition"

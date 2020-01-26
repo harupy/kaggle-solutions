@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 30,
-        "datasetCount": 282,
+        "datasetCount": 283,
         "description": null,
         "displayName": "text data",
         "fontAwesomeIcon": null,
@@ -13,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
         "name": "text data",
-        "scriptCount": 434,
+        "scriptCount": 435,
         "tagUrl": "/tags/text-data",
-        "totalCount": 746
+        "totalCount": 748
       },
       {
         "competitionCount": 1,
-        "datasetCount": 101,
+        "datasetCount": 102,
         "description": null,
         "displayName": "text mining",
         "fontAwesomeIcon": null,
@@ -30,7 +30,7 @@
         "name": "text mining",
         "scriptCount": 341,
         "tagUrl": "/tags/text-mining",
-        "totalCount": 443
+        "totalCount": 444
       }
     ],
     "type": "competition"

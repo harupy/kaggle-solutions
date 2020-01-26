@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 4,
-        "datasetCount": 965,
+        "datasetCount": 966,
         "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
         "displayName": "finance",
         "fontAwesomeIcon": null,
@@ -15,7 +15,7 @@
         "name": "finance",
         "scriptCount": 387,
         "tagUrl": "/tags/finance",
-        "totalCount": 1356
+        "totalCount": 1357
       },
       {
         "competitionCount": 12,

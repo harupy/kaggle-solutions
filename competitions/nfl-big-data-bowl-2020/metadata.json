@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 2,
-        "datasetCount": 202,
+        "datasetCount": 203,
         "description": "Blue! 42! Hut hut! Pour gatorade all over your GPU and go for the hail mary! Analyze these datasets and predict who is going to win the Superbowl.",
         "displayName": "american football",
         "fontAwesomeIcon": null,
@@ -13,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27american football%27",
         "name": "american football",
-        "scriptCount": 24,
+        "scriptCount": 25,
         "tagUrl": "/tags/american-football",
-        "totalCount": 228
+        "totalCount": 230
       },
       {
         "competitionCount": 9,
-        "datasetCount": 632,
+        "datasetCount": 634,
         "description": "The sports tag covers the whole spectrum of sports around the world. We've got tennis, we've got football, and we've even got kitefoil racing.",
         "displayName": "sports",
         "fontAwesomeIcon": null,
@@ -30,7 +30,7 @@
         "name": "sports",
         "scriptCount": 215,
         "tagUrl": "/tags/sports",
-        "totalCount": 856
+        "totalCount": 858
       }
     ],
     "type": "competition"

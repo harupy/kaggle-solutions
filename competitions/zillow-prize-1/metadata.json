@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 3,
-        "datasetCount": 281,
+        "datasetCount": 283,
         "description": "Datsets and kernels analyzing housing, apartments, and property in general. For those of you house-hunting, you should avoid max(house_price). It's high. Really high.",
         "displayName": "real estate",
         "fontAwesomeIcon": null,
@@ -15,7 +15,7 @@
         "name": "real estate",
         "scriptCount": 25,
         "tagUrl": "/tags/real-estate",
-        "totalCount": 309
+        "totalCount": 311
       },
       {
         "competitionCount": 4,

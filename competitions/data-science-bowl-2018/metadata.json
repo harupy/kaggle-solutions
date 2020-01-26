@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 2,
-        "datasetCount": 519,
+        "datasetCount": 525,
         "description": "Explore datasets and kernels about gene expressions, transcriptomics, and even the works of Charles Darwin.",
         "displayName": "biology",
         "fontAwesomeIcon": null,
@@ -15,7 +15,7 @@
         "name": "biology",
         "scriptCount": 45,
         "tagUrl": "/tags/biology",
-        "totalCount": 566
+        "totalCount": 572
       }
     ],
     "type": "competition"

@@ -3,6 +3,21 @@
   "categories": {
     "categories": [
       {
+        "competitionCount": 70,
+        "datasetCount": 705,
+        "description": null,
+        "displayName": "image data",
+        "fontAwesomeIcon": null,
+        "fullPath": "data type > image data",
+        "id": 14102,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
+        "name": "image data",
+        "scriptCount": 426,
+        "tagUrl": "/tags/image-data",
+        "totalCount": 1201
+      },
+      {
         "competitionCount": 1,
         "datasetCount": 86,
         "description": "Geology is an earth science concerned with the solid Earth, the rocks of which it is composed, and the processes by which they change over time",
@@ -16,21 +31,6 @@
         "scriptCount": 5,
         "tagUrl": "/tags/geology",
         "totalCount": 92
-      },
-      {
-        "competitionCount": 70,
-        "datasetCount": 705,
-        "description": null,
-        "displayName": "image data",
-        "fontAwesomeIcon": null,
-        "fullPath": "data type > image data",
-        "id": 14102,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
-        "name": "image data",
-        "scriptCount": 425,
-        "tagUrl": "/tags/image-data",
-        "totalCount": 1200
       }
     ],
     "type": "competition"

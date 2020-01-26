@@ -3,51 +3,6 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 70,
-        "datasetCount": 705,
-        "description": null,
-        "displayName": "image data",
-        "fontAwesomeIcon": null,
-        "fullPath": "data type > image data",
-        "id": 14102,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
-        "name": "image data",
-        "scriptCount": 425,
-        "tagUrl": "/tags/image-data",
-        "totalCount": 1200
-      },
-      {
-        "competitionCount": 31,
-        "datasetCount": 94,
-        "description": null,
-        "displayName": "binary classification",
-        "fontAwesomeIcon": null,
-        "fullPath": "problem type > binary classification",
-        "id": 14201,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27binary classification%27",
-        "name": "binary classification",
-        "scriptCount": 467,
-        "tagUrl": "/tags/binary-classification",
-        "totalCount": 592
-      },
-      {
-        "competitionCount": 1,
-        "datasetCount": 219,
-        "description": "Weather datasets and kernels come in all wind speeds and directions. You have weather data about hurricanes and other inclement phenomena, hourly readings, and general weather for various cities.",
-        "displayName": "weather",
-        "fontAwesomeIcon": null,
-        "fullPath": "natural and physical sciences > physical sciences > climate > weather",
-        "id": 7408,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27weather%27",
-        "name": "weather",
-        "scriptCount": 31,
-        "tagUrl": "/tags/weather",
-        "totalCount": 251
-      },
-      {
         "competitionCount": 1,
         "datasetCount": 6,
         "description": "Shipping is moving things from point A to point B all while confronting the traveling salesman problem. Will you prove P=NP with these kernels and datasets?",
@@ -61,6 +16,51 @@
         "scriptCount": 2,
         "tagUrl": "/tags/shipping",
         "totalCount": 9
+      },
+      {
+        "competitionCount": 70,
+        "datasetCount": 705,
+        "description": null,
+        "displayName": "image data",
+        "fontAwesomeIcon": null,
+        "fullPath": "data type > image data",
+        "id": 14102,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
+        "name": "image data",
+        "scriptCount": 426,
+        "tagUrl": "/tags/image-data",
+        "totalCount": 1201
+      },
+      {
+        "competitionCount": 1,
+        "datasetCount": 220,
+        "description": "Weather datasets and kernels come in all wind speeds and directions. You have weather data about hurricanes and other inclement phenomena, hourly readings, and general weather for various cities.",
+        "displayName": "weather",
+        "fontAwesomeIcon": null,
+        "fullPath": "natural and physical sciences > physical sciences > climate > weather",
+        "id": 7408,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27weather%27",
+        "name": "weather",
+        "scriptCount": 31,
+        "tagUrl": "/tags/weather",
+        "totalCount": 252
+      },
+      {
+        "competitionCount": 31,
+        "datasetCount": 94,
+        "description": null,
+        "displayName": "binary classification",
+        "fontAwesomeIcon": null,
+        "fullPath": "problem type > binary classification",
+        "id": 14201,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27binary classification%27",
+        "name": "binary classification",
+        "scriptCount": 469,
+        "tagUrl": "/tags/binary-classification",
+        "totalCount": 594
       }
     ],
     "type": "competition"

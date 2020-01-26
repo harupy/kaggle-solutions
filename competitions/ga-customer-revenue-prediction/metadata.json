@@ -3,23 +3,8 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 15,
-        "datasetCount": 64,
-        "description": null,
-        "displayName": "regression",
-        "fontAwesomeIcon": null,
-        "fullPath": "problem type > regression",
-        "id": 14203,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27regression%27",
-        "name": "regression",
-        "scriptCount": 631,
-        "tagUrl": "/tags/regression",
-        "totalCount": 710
-      },
-      {
         "competitionCount": 92,
-        "datasetCount": 97,
+        "datasetCount": 98,
         "description": null,
         "displayName": "tabular data",
         "fontAwesomeIcon": null,
@@ -28,9 +13,24 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
         "name": "tabular data",
-        "scriptCount": 114,
+        "scriptCount": 115,
         "tagUrl": "/tags/tabular-data",
-        "totalCount": 303
+        "totalCount": 305
+      },
+      {
+        "competitionCount": 15,
+        "datasetCount": 65,
+        "description": null,
+        "displayName": "regression",
+        "fontAwesomeIcon": null,
+        "fullPath": "problem type > regression",
+        "id": 14203,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27regression%27",
+        "name": "regression",
+        "scriptCount": 632,
+        "tagUrl": "/tags/regression",
+        "totalCount": 712
       }
     ],
     "type": "competition"

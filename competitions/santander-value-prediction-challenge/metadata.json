@@ -3,23 +3,8 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 8,
-        "datasetCount": 296,
-        "description": "Banks keep the financial system interesting by failing en masse every couple of generations.",
-        "displayName": "banking",
-        "fontAwesomeIcon": null,
-        "fullPath": "society and social sciences > society > finance > banking",
-        "id": 11129,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27banking%27",
-        "name": "banking",
-        "scriptCount": 86,
-        "tagUrl": "/tags/banking",
-        "totalCount": 390
-      },
-      {
         "competitionCount": 4,
-        "datasetCount": 965,
+        "datasetCount": 966,
         "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
         "displayName": "finance",
         "fontAwesomeIcon": null,
@@ -30,7 +15,22 @@
         "name": "finance",
         "scriptCount": 387,
         "tagUrl": "/tags/finance",
-        "totalCount": 1356
+        "totalCount": 1357
+      },
+      {
+        "competitionCount": 8,
+        "datasetCount": 294,
+        "description": "Banks keep the financial system interesting by failing en masse every couple of generations.",
+        "displayName": "banking",
+        "fontAwesomeIcon": null,
+        "fullPath": "society and social sciences > society > finance > banking",
+        "id": 11129,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27banking%27",
+        "name": "banking",
+        "scriptCount": 86,
+        "tagUrl": "/tags/banking",
+        "totalCount": 388
       }
     ],
     "type": "competition"

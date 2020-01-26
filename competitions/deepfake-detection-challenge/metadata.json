@@ -3,6 +3,21 @@
   "categories": {
     "categories": [
       {
+        "competitionCount": 1,
+        "datasetCount": 176,
+        "description": null,
+        "displayName": "online video",
+        "fontAwesomeIcon": null,
+        "fullPath": "culture and arts > arts and entertainment > tv and video > online video",
+        "id": 16102,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27online video%27",
+        "name": "online video",
+        "scriptCount": 0,
+        "tagUrl": "/tags/online-video",
+        "totalCount": 177
+      },
+      {
         "competitionCount": 3,
         "datasetCount": 23,
         "description": null,
@@ -16,21 +31,6 @@
         "scriptCount": 7,
         "tagUrl": "/tags/video-data",
         "totalCount": 33
-      },
-      {
-        "competitionCount": 1,
-        "datasetCount": 174,
-        "description": null,
-        "displayName": "online video",
-        "fontAwesomeIcon": null,
-        "fullPath": "culture and arts > arts and entertainment > tv and video > online video",
-        "id": 16102,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27online video%27",
-        "name": "online video",
-        "scriptCount": 0,
-        "tagUrl": "/tags/online-video",
-        "totalCount": 175
       }
     ],
     "type": "competition"
@@ -65,7 +65,7 @@
   "submissionsDisabled": false,
   "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/16880/logos/thumb76_76.png?t=2019-12-09-05-41-17",
   "totalKernels": 0,
-  "totalTeams": 1260,
+  "totalTeams": 1289,
   "userHasEntered": false,
   "userRank": null,
   "userTeamUsers": []

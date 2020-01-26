@@ -3,21 +3,6 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 92,
-        "datasetCount": 97,
-        "description": null,
-        "displayName": "tabular data",
-        "fontAwesomeIcon": null,
-        "fullPath": "data type > tabular data",
-        "id": 14101,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
-        "name": "tabular data",
-        "scriptCount": 114,
-        "tagUrl": "/tags/tabular-data",
-        "totalCount": 303
-      },
-      {
         "competitionCount": 1,
         "datasetCount": 117,
         "description": "There are lots of fun datasets here for you to analyze, and who knows, maybe you'll find a habitable planet hidden in the data that no one else saw. Then you could have a planet named after you!",
@@ -46,6 +31,21 @@
         "scriptCount": 396,
         "tagUrl": "/tags/time-series",
         "totalCount": 600
+      },
+      {
+        "competitionCount": 92,
+        "datasetCount": 98,
+        "description": null,
+        "displayName": "tabular data",
+        "fontAwesomeIcon": null,
+        "fullPath": "data type > tabular data",
+        "id": 14101,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
+        "name": "tabular data",
+        "scriptCount": 115,
+        "tagUrl": "/tags/tabular-data",
+        "totalCount": 305
       }
     ],
     "type": "competition"

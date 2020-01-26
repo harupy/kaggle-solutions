@@ -3,21 +3,6 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 92,
-        "datasetCount": 97,
-        "description": null,
-        "displayName": "tabular data",
-        "fontAwesomeIcon": null,
-        "fullPath": "data type > tabular data",
-        "id": 14101,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
-        "name": "tabular data",
-        "scriptCount": 114,
-        "tagUrl": "/tags/tabular-data",
-        "totalCount": 303
-      },
-      {
         "competitionCount": 12,
         "datasetCount": 73,
         "description": null,
@@ -31,6 +16,21 @@
         "scriptCount": 116,
         "tagUrl": "/tags/future-prediction",
         "totalCount": 201
+      },
+      {
+        "competitionCount": 92,
+        "datasetCount": 98,
+        "description": null,
+        "displayName": "tabular data",
+        "fontAwesomeIcon": null,
+        "fullPath": "data type > tabular data",
+        "id": 14101,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
+        "name": "tabular data",
+        "scriptCount": 115,
+        "tagUrl": "/tags/tabular-data",
+        "totalCount": 305
       }
     ],
     "type": "competition"

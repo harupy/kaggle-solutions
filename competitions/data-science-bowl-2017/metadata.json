@@ -3,6 +3,21 @@
   "categories": {
     "categories": [
       {
+        "competitionCount": 31,
+        "datasetCount": 94,
+        "description": null,
+        "displayName": "binary classification",
+        "fontAwesomeIcon": null,
+        "fullPath": "problem type > binary classification",
+        "id": 14201,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27binary classification%27",
+        "name": "binary classification",
+        "scriptCount": 469,
+        "tagUrl": "/tags/binary-classification",
+        "totalCount": 594
+      },
+      {
         "competitionCount": 6,
         "datasetCount": 247,
         "description": "AI in healthcare is a growing interest. One of the major problems is simply converting research into an application. Should be easy, right?",
@@ -13,9 +28,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27healthcare%27",
         "name": "healthcare",
-        "scriptCount": 282,
+        "scriptCount": 283,
         "tagUrl": "/tags/healthcare",
-        "totalCount": 535
+        "totalCount": 536
       },
       {
         "competitionCount": 70,
@@ -28,24 +43,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
         "name": "image data",
-        "scriptCount": 425,
+        "scriptCount": 426,
         "tagUrl": "/tags/image-data",
-        "totalCount": 1200
-      },
-      {
-        "competitionCount": 31,
-        "datasetCount": 94,
-        "description": null,
-        "displayName": "binary classification",
-        "fontAwesomeIcon": null,
-        "fullPath": "problem type > binary classification",
-        "id": 14201,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27binary classification%27",
-        "name": "binary classification",
-        "scriptCount": 467,
-        "tagUrl": "/tags/binary-classification",
-        "totalCount": 592
+        "totalCount": 1201
       }
     ],
     "type": "competition"
