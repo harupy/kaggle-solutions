@@ -5,7 +5,7 @@ https://harupy.github.io/kaggle-solutions/
 ## Setup
 
 ```bash
-# This step is optional.
+# Install pipenv (optional).
 pip install pipenv
 
 # Install dependencies.
@@ -29,8 +29,35 @@ python tools/fetch_discussion.py -u <discussion_url> -t <title>
 
 ```bash
 cd client
+
+# Install dependencies.
 npm install
+
+# Run the UI.
 npm start
+```
+
+## Test
+
+Tools
+
+```bash
+# Lint
+./dev/lint.sh
+
+# Test
+./dev/test.sh
+
+```
+
+UI
+
+```bash
+# Lint
+npm run lint
+
+# Test
+npm run test
 ```
 
 ## License
