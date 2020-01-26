@@ -45,7 +45,8 @@ def process_candidates(candidates):
         if cand['rank'] is None:
             continue
         rank_str = ordinalize(cand['rank'])
-        title = f'{rank_str} place solution'
+
+        title = cand['title'] or f'{rank_str} place solution'
         result.append((cand['url'], title))
     return result
 

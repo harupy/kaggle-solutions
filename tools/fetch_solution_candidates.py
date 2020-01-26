@@ -20,6 +20,8 @@ def parse_args():
     """
     parser = argparse.ArgumentParser(description='Fetch competition metadata.')
     parser.add_argument('-s', '--slug', required=True, help='Competition slug')
+    parser.add_argument('-o', '--overwrite', action='store_true',
+                        help='If specified, overwrite an existing file.')
     return parser.parse_args()
 
 
@@ -28,14 +30,23 @@ def get_solution_candidates(soup):
     Get solution candidates.
     """
     result = []
-    for link in soup.select('a.block-link__anchor'):
+    for block in soup.select('div.block-link'):
+        link = block.select('a.block-link__anchor')[0]
+        author = block.select('a.avatar')[0]
+        avatar = block.select('img.avatar__thumbnail')[0]
+
         raw_title = link.get('title')
         if 'solution' not in raw_title.strip().lower():
             continue
+
         url = KAGGLE_URL + link.get('href')
+        author_id = os.path.basename(author.get('href'))
+        author_name = avatar.get('alt')
         result.append({
             'raw_title': raw_title,
-            'title': '',
+            'author_id': author_id,
+            'author_name': author_name,
+            'title': None,
             'rank': None,
             'url': url}
         )
@@ -67,6 +78,9 @@ def main():
     soup = make_soup(html)
     candidates = get_solution_candidates(soup)
     save_path = os.path.join('solution-candidates', f'{args.slug}.json')
+    if not args.overwrite and os.path.exists(save_path):
+        raise IOError(f'Could not write to {save_path} because the file already exists.'
+                      'If you want to overwrite it, use `--overwrite` option.')
     to_json(candidates, save_path)
     print('Saved to:', save_path)
 
