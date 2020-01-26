@@ -140,11 +140,8 @@ def get_title(soup):
     return soup.find('title').text.split('|')[0].strip()
 
 
-def main():
+def fetch_discussion(url, title):
     driver = make_headless_chrome()
-
-    args = parse_args()
-    url = args.url
     comp_slug = get_competition_slug(url)
     discussion_id = get_discussion_id(url)
 
@@ -160,7 +157,7 @@ def main():
 
     soup = make_soup(html)
     raw_title = get_title(soup)
-    title = args.title or raw_title
+    title = title or raw_title
     title = format_solution_title(title)
     validate_solution_title(title)
 
@@ -182,6 +179,11 @@ def main():
                              f'{author_id}_{discussion_id}.json')
     to_json(data, save_path)
     print('Saved to:', save_path)
+
+
+def main():
+    args = parse_args()
+    fetch_discussion(args.url, args.title)
 
 
 if __name__ == '__main__':
