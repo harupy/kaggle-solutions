@@ -52,7 +52,10 @@ def read_solutions(directory):
     Read solutions in the given directory.
 
     >>> with tempfile.TemporaryDirectory() as tmpdir:
-    ...     data = [{'title': '1st'}, {'title': '2nd'}]
+    ...     slug = os.path.basename(os.path.dirname(tmpdir))
+    ...     url = 'https://www.kaggle.com/c/{}'.format(slug)
+    ...     data = [{'title': '1st', 'url': url},
+    ...             {'title': '2nd', 'url': url}]
     ...     for idx, d in enumerate(data):
     ...         with open(os.path.join(tmpdir, f'{idx}.json'), 'w') as f:
     ...             json.dump(d, f)
