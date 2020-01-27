@@ -42,7 +42,7 @@ def fetch_solution_candidates(soup):
         author_id = os.path.basename(author.get('href'))
         author_name = avatar.get('alt')
         result.append({
-            'raw_title': raw_title,
+            'rawTitle': raw_title,
             'authorId': author_id,
             'authorName': author_name,
             'title': None,
