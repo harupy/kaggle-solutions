@@ -156,15 +156,15 @@ def fetch_discussions(items):
             raise e
 
         soup = make_soup(html)
-        rawTitle = get_title(soup)
-        title = title or rawTitle
+        raw_title = get_title(soup)
+        title = title or raw_title
         title = format_solution_title(title)
         validate_solution_title(title)
 
         avatar_image = get_avatar_image(soup)
         author_name, author_id = get_author_name_and_id(soup)
         data = {
-            'rawTitle': rawTitle,
+            'rawTitle': raw_title,
             'title': title,
             'discussionId': discussion_id,
             'authorName': author_name,
