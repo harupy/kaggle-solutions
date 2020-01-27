@@ -1,4 +1,3 @@
-from pprint import pprint
 from tools.merge_metadata import merge_metadata
 from tools.utils import read_json
 
