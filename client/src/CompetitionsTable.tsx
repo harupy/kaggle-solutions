@@ -44,7 +44,6 @@ const CompetitionsTable: React.FC = () => {
     evaluationMetric: 'Metric',
     enabledDate: 'Start',
     deadline: 'End',
-    totalTeams: '# of Teams',
   };
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>): void => {
