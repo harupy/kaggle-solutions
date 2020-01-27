@@ -5,7 +5,6 @@ Fetch solution candidates.
 import os
 import time
 import argparse
-import traceback
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
@@ -20,12 +19,12 @@ def parse_args():
     """
     parser = argparse.ArgumentParser(description='Fetch competition metadata.')
     parser.add_argument('-s', '--slug', required=True, help='Competition slug')
-    parser.add_argument('-o', '--overwrite', action='store_true',
+    parser.add_argument('-o', '--overwrite', action='store_true',  # Default value is `False`.
                         help='If specified, overwrite an existing file.')
     return parser.parse_args()
 
 
-def get_solution_candidates(soup):
+def fetch_solution_candidates(soup):
     """
     Get solution candidates.
     """
@@ -57,6 +56,8 @@ def main():
     args = parse_args()
     url = f'https://www.kaggle.com/c/{args.slug}/discussion'
     driver = make_headless_chrome()
+    num_scrolls = 2
+    sleep_duration = 5
 
     try:
         driver.get(url)
@@ -64,23 +65,27 @@ def main():
             EC.presence_of_element_located((By.CSS_SELECTOR, 'input.smart-list__search')))
         input_box = driver.find_element_by_css_selector('input.smart-list__search')
         input_box.send_keys('solution')
-        time.sleep(5)  # Wait for the search to finish. TODO: Use wait-until.
-        # Scroll to the bottom twice to increase discussions.
-        for i in range(2):
+        # TODO: Use wait-until if possible.
+        time.sleep(sleep_duration)  # Wait for the search to finish.
+
+        # Scroll to the bottom twice to increase discussions (one scroll adds 20 discussions).
+        for i in range(num_scrolls):
             driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
-            time.sleep(5)  # Wait for the loading to finish.  TODO: Use wait-until.
+            # TODO: Use wait-until if possible.
+            time.sleep(sleep_duration)  # Wait for the loading to finish.
         html = driver.page_source
-    except Exception:
-        print(traceback.format_exc())
-    finally:
-        driver.quit()
+    except Exception as e:
+        driver.quite()
+        raise e
 
     soup = make_soup(html)
-    candidates = get_solution_candidates(soup)
+    candidates = fetch_solution_candidates(soup)
     save_path = os.path.join('solution-candidates', f'{args.slug}.json')
+
     if not args.overwrite and os.path.exists(save_path):
-        raise IOError(f'Could not write to {save_path} because the file already exists.'
-                      'If you want to overwrite it, use `--overwrite` option.')
+        raise IOError(f'A file named `{save_path}` already exists. '
+                      'If you want to overwrite it, enable `--overwrite` option.')
+
     to_json(candidates, save_path)
     print('Saved to:', save_path)
 

@@ -3,9 +3,7 @@ Fetch discussion metadata.
 """
 
 import os
-import time
 import argparse
-import traceback
 import re
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -20,9 +18,9 @@ def parse_args():
     Parse the command line arguments.
     """
     parser = argparse.ArgumentParser(description='Fetch discussion metadata.')
-    parser.add_argument('-u', '--url', required=True, help='Discussion URL')
-    parser.add_argument('-t', '--title',
-                        help='Title to display on the UI.')
+    parser.add_argument('-u', '--urls', nargs='+', required=True, help='Discussion URL(s)')
+    parser.add_argument('-t', '--titles', nargs='+',
+                        help='Title(s) to display on the UI.')
     return parser.parse_args()
 
 
@@ -142,10 +140,9 @@ def get_title(soup):
 
 
 def fetch_discussions(items):
-    num_items = len(items)
+    driver = make_headless_chrome()
 
     for item_idx, (url, title) in enumerate(items):
-        driver = make_headless_chrome()
         comp_slug = get_competition_slug(url)
         discussion_id = get_discussion_id(url)
 
@@ -154,10 +151,9 @@ def fetch_discussions(items):
             WebDriverWait(driver, 30).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, 'div.comment-list')))
             html = driver.page_source
-        except Exception:
-            print(traceback.format_exc())
-        finally:
+        except Exception as e:
             driver.quit()
+            raise e
 
         soup = make_soup(html)
         raw_title = get_title(soup)
@@ -185,14 +181,18 @@ def fetch_discussions(items):
         to_json(data, save_path)
         print('Saved to:', save_path)
 
-        # Prevent NewConnectionError.
-        if (num_items > 1) and (item_idx != num_items - 1):
-            time.sleep(5)
-
 
 def main():
     args = parse_args()
-    fetch_discussions([(args.url, args.title)])
+
+    if args.titles is not None:
+        msg = '`urls` and `titles` must be the same length.'
+        assert len(args.urls) == len(args.titles), msg
+    else:
+        titles = [None for _ in range(len(args.urls))]
+
+    items = [(url, title) for url, title in zip(args.urls, titles)]
+    fetch_discussions(items)
 
 
 if __name__ == '__main__':
