@@ -2535,6 +2535,134 @@
     "rewardDisplay": "$120,000",
     "rewardQuantity": 120000.0,
     "rewardTypeName": "USD",
+    "solutions": [
+      {
+        "authorId": "rguo97",
+        "authorName": "R Guo",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 114254,
+        "rawTitle": "1st Place Solution",
+        "title": "1st place solution",
+        "url": "https://www.kaggle.com/c/severstal-steel-defect-detection/discussion/114254"
+      },
+      {
+        "authorId": "ericji",
+        "authorName": "ChienYiChi",
+        "avatarImage": "263239-kg.jpg",
+        "discussionId": 117377,
+        "rawTitle": "3rd Place Solution",
+        "title": "3rd place solution",
+        "url": "https://www.kaggle.com/c/severstal-steel-defect-detection/discussion/117377"
+      },
+      {
+        "authorId": "spsancti",
+        "authorName": "Borys Tymchenko",
+        "avatarImage": "1511684-kg.jpg",
+        "discussionId": 114716,
+        "rawTitle": "4th place solution",
+        "title": "4th place solution",
+        "url": "https://www.kaggle.com/c/severstal-steel-defect-detection/discussion/114716"
+      },
+      {
+        "authorId": "tugstugi",
+        "authorName": "tugstugi",
+        "avatarImage": "1071458-gr.jpg",
+        "discussionId": 114215,
+        "rawTitle": "7-th place solution",
+        "title": "7th place solution",
+        "url": "https://www.kaggle.com/c/severstal-steel-defect-detection/discussion/114215"
+      },
+      {
+        "authorId": "carnav0400",
+        "authorName": "Arnav Chavan",
+        "avatarImage": "3623493-kg.jpg",
+        "discussionId": 114696,
+        "rawTitle": "8th Place Solution",
+        "title": "8th place solution",
+        "url": "https://www.kaggle.com/c/severstal-steel-defect-detection/discussion/114696"
+      },
+      {
+        "authorId": "jacekpoplawski",
+        "authorName": "Jacek Poplawski",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 114297,
+        "rawTitle": "Step by step (9th place solution)",
+        "title": "9th place solution",
+        "url": "https://www.kaggle.com/c/severstal-steel-defect-detection/discussion/114297"
+      },
+      {
+        "authorId": "alexisrozhkov",
+        "authorName": "Alexey Rozhkov",
+        "avatarImage": "495774-kg.jpg",
+        "discussionId": 114465,
+        "rawTitle": "10th place solution",
+        "title": "10th place solution",
+        "url": "https://www.kaggle.com/c/severstal-steel-defect-detection/discussion/114465"
+      },
+      {
+        "authorId": "ilyadobrynin",
+        "authorName": "Ilya Dobrynin",
+        "avatarImage": "934290-kg.jpg",
+        "discussionId": 114309,
+        "rawTitle": "12th place solution overview",
+        "title": "12nd place solution",
+        "url": "https://www.kaggle.com/c/severstal-steel-defect-detection/discussion/114309"
+      },
+      {
+        "authorId": "mhiro2",
+        "authorName": "mhiro2",
+        "avatarImage": "390388-kg.png",
+        "discussionId": 114332,
+        "rawTitle": "13th place solution",
+        "title": "13rd place solution",
+        "url": "https://www.kaggle.com/c/severstal-steel-defect-detection/discussion/114332"
+      },
+      {
+        "authorId": "jihangz",
+        "authorName": "GeSnow",
+        "avatarImage": "1605499-kg.jpg",
+        "discussionId": 114367,
+        "rawTitle": "14th Place Solution",
+        "title": "14th place solution",
+        "url": "https://www.kaggle.com/c/severstal-steel-defect-detection/discussion/114367"
+      },
+      {
+        "authorId": "ilialar",
+        "authorName": "Ilia",
+        "avatarImage": "951222-kg.jpg",
+        "discussionId": 115876,
+        "rawTitle": "27th place solution (8 classification and 8 segmentation models)",
+        "title": "27th place solution",
+        "url": "https://www.kaggle.com/c/severstal-steel-defect-detection/discussion/115876"
+      },
+      {
+        "authorId": "bamps53",
+        "authorName": "Camaro",
+        "avatarImage": "1554318-kg.jpg",
+        "discussionId": 114225,
+        "rawTitle": "30th place solution with code",
+        "title": "30th place solution",
+        "url": "https://www.kaggle.com/c/severstal-steel-defect-detection/discussion/114225"
+      },
+      {
+        "authorId": "insaff",
+        "authorName": "Insaf Ashrapov",
+        "avatarImage": "465880-fb.jpg",
+        "discussionId": 114383,
+        "rawTitle": "31st place solution with github code",
+        "title": "31st place solution",
+        "url": "https://www.kaggle.com/c/severstal-steel-defect-detection/discussion/114383"
+      },
+      {
+        "authorId": "mobassir",
+        "authorName": "Mobassir",
+        "avatarImage": "2034058-kg.jpg",
+        "discussionId": 114269,
+        "rawTitle": "First silver(3x kaggle expert) 36th place solution",
+        "title": "36th place solution",
+        "url": "https://www.kaggle.com/c/severstal-steel-defect-detection/discussion/114269"
+      }
+    ],
     "submissionsDisabled": false,
     "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/14241/logos/thumb76_76.png?t=2019-06-17-15-52-14",
     "totalKernels": 0,
