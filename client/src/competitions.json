@@ -2245,6 +2245,152 @@
     "rewardDisplay": "$10,000",
     "rewardQuantity": 10000.0,
     "rewardTypeName": "USD",
+    "solutions": [
+      {
+        "authorId": "pudae81",
+        "authorName": "pudae",
+        "avatarImage": "852781-kg.jpg",
+        "discussionId": 118080,
+        "rawTitle": "1st placed solution with code",
+        "title": "1st place solution",
+        "url": "https://www.kaggle.com/c/understanding_cloud_organization/discussion/118080"
+      },
+      {
+        "authorId": "ekydna",
+        "authorName": "Andrey Kiryasov",
+        "avatarImage": "505196-kg.jpg",
+        "discussionId": 118255,
+        "rawTitle": "2nd place solution",
+        "title": "2nd place solution",
+        "url": "https://www.kaggle.com/c/understanding_cloud_organization/discussion/118255"
+      },
+      {
+        "authorId": "naivelamb",
+        "authorName": "Xuan Cao",
+        "avatarImage": "999074-kg.jpg",
+        "discussionId": 117949,
+        "rawTitle": "Finally GM & 1st time won prize money! And 3rd place solution.",
+        "title": "3rd place solution",
+        "url": "https://www.kaggle.com/c/understanding_cloud_organization/discussion/117949"
+      },
+      {
+        "authorId": "chingloong",
+        "authorName": "Ching-Loong Seow",
+        "avatarImage": "660999-kg.png",
+        "discussionId": 118016,
+        "rawTitle": "4th Place Solution: Stabilizing Convergence in Understanding Clouds",
+        "title": "4th place solution",
+        "url": "https://www.kaggle.com/c/understanding_cloud_organization/discussion/118016"
+      },
+      {
+        "authorId": "q525614",
+        "authorName": "langzi",
+        "avatarImage": "1169240-kg.jpg",
+        "discussionId": 117987,
+        "rawTitle": "5th place solution(single segmentation model private lb 0.66806)",
+        "title": "5th place solution",
+        "url": "https://www.kaggle.com/c/understanding_cloud_organization/discussion/117987"
+      },
+      {
+        "authorId": "limerobot",
+        "authorName": "limerobot",
+        "avatarImage": "1658108-kg.jpg",
+        "discussionId": 118017,
+        "rawTitle": "6th simple solution, pre-training, single model private 0.66927",
+        "title": "6th place solution",
+        "url": "https://www.kaggle.com/c/understanding_cloud_organization/discussion/118017"
+      },
+      {
+        "authorId": "garybios",
+        "authorName": "Gary",
+        "avatarImage": "1270655-kg.jpeg",
+        "discussionId": 117974,
+        "rawTitle": "Finally GM & 7th place solution",
+        "title": "7th place solution",
+        "url": "https://www.kaggle.com/c/understanding_cloud_organization/discussion/117974"
+      },
+      {
+        "authorId": "iru538",
+        "authorName": "Toru Ito",
+        "avatarImage": "1413386-kg.png",
+        "discussionId": 118262,
+        "rawTitle": "10th place solution",
+        "title": "10th place solution",
+        "url": "https://www.kaggle.com/c/understanding_cloud_organization/discussion/118262"
+      },
+      {
+        "authorId": "tikutiku",
+        "authorName": "Tom",
+        "avatarImage": "1565399-kg.png",
+        "discussionId": 118072,
+        "rawTitle": "13th place solution",
+        "title": "13rd place solution",
+        "url": "https://www.kaggle.com/c/understanding_cloud_organization/discussion/118072"
+      },
+      {
+        "authorId": "bamps53",
+        "authorName": "Camaro",
+        "avatarImage": "1554318-kg.jpg",
+        "discussionId": 117975,
+        "rawTitle": "19th place solution with code",
+        "title": "19th place solution",
+        "url": "https://www.kaggle.com/c/understanding_cloud_organization/discussion/117975"
+      },
+      {
+        "authorId": "khornlund",
+        "authorName": "Karl Hornlund",
+        "avatarImage": "2116899-kg.jpg",
+        "discussionId": 118250,
+        "rawTitle": "34th Place Solution + Code",
+        "title": "34th place solution",
+        "url": "https://www.kaggle.com/c/understanding_cloud_organization/discussion/118250"
+      },
+      {
+        "authorId": "cdeotte",
+        "authorName": "Chris Deotte",
+        "avatarImage": "1723677-kg.jpg",
+        "discussionId": 118086,
+        "rawTitle": "Krazy Klassifiers - 48th place solution",
+        "title": "48th place solution",
+        "url": "https://www.kaggle.com/c/understanding_cloud_organization/discussion/118086"
+      },
+      {
+        "authorId": "vzaguskin",
+        "authorName": "Victor Zaguskin",
+        "avatarImage": "3040299-kg.jpg",
+        "discussionId": 118060,
+        "rawTitle": "86-th(bronze) writeup - solution description and lessons learned.",
+        "title": "86th place solution",
+        "url": "https://www.kaggle.com/c/understanding_cloud_organization/discussion/118060"
+      },
+      {
+        "authorId": "manojprabhaakr",
+        "authorName": "Manoj Prabhakar",
+        "avatarImage": "413189-kg.jpg",
+        "discussionId": 118115,
+        "rawTitle": "95th Place Solution",
+        "title": "95th place solution",
+        "url": "https://www.kaggle.com/c/understanding_cloud_organization/discussion/118115"
+      },
+      {
+        "authorId": "axel81",
+        "authorName": "Ram Ramrakhya",
+        "avatarImage": "887695-kg.jpg",
+        "discussionId": 118213,
+        "rawTitle": "129th Place solution (Classifer Cascading + Segmentation)",
+        "title": "129th place solution",
+        "url": "https://www.kaggle.com/c/understanding_cloud_organization/discussion/118213"
+      },
+      {
+        "authorId": "belindatrotta",
+        "authorName": "Belinda Trotta",
+        "avatarImage": "113431-kg.png",
+        "discussionId": 118018,
+        "rawTitle": "143rd place (bronze) solution with code",
+        "title": "143rd place solution",
+        "url": "https://www.kaggle.com/c/understanding_cloud_organization/discussion/118018"
+      }
+    ],
     "submissionsDisabled": false,
     "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/13333/logos/thumb76_76.png?t=2019-06-07-19-19-14",
     "totalKernels": 0,
