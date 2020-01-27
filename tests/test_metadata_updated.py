@@ -1,3 +1,4 @@
+from pprint import pprint
 from tools.merge_metadata import merge_metadata
 from tools.utils import read_json
 
@@ -9,4 +10,6 @@ def test_metadata_updated():
            f'the result of `{script_path}`. Please run `{script_path}`.')
     actual = read_json(metadata_path)
     expected = merge_metadata()
+    pprint(actual[12])
+    pprint(expected[12])
     assert expected == actual, msg
