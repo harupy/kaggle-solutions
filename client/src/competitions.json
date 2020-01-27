@@ -1017,7 +1017,7 @@
         "authorId": "mzr2017",
         "authorName": "zr",
         "avatarImage": "996327-kg.jpg",
-        "discussionId": "127469",
+        "discussionId": 127469,
         "rawTitle": "1st place solution",
         "title": "1st place solution",
         "url": "https://www.kaggle.com/c/data-science-bowl-2019/discussion/127469"
@@ -1026,7 +1026,7 @@
         "authorId": "yukia18",
         "authorName": "yabea",
         "avatarImage": "1846168-kg.png",
-        "discussionId": "127388",
+        "discussionId": 127388,
         "rawTitle": "2nd place solution",
         "title": "2nd place solution",
         "url": "https://www.kaggle.com/c/data-science-bowl-2019/discussion/127388"
@@ -1035,7 +1035,7 @@
         "authorId": "simakov",
         "authorName": "DmitryS",
         "avatarImage": "597945-kg.png",
-        "discussionId": "127312",
+        "discussionId": 127312,
         "rawTitle": "4th private (7th public) place (part II)",
         "title": "4th place solution (part II)",
         "url": "https://www.kaggle.com/c/data-science-bowl-2019/discussion/127312"
@@ -1044,7 +1044,7 @@
         "authorId": "narsil",
         "authorName": "narsil",
         "avatarImage": "494641-kg.jpg",
-        "discussionId": "127213",
+        "discussionId": 127213,
         "rawTitle": "7th Place Solution",
         "title": "7th place solution",
         "url": "https://www.kaggle.com/c/data-science-bowl-2019/discussion/127213"
@@ -1053,7 +1053,7 @@
         "authorId": "zgzjnbzl",
         "authorName": "LeiZhou",
         "avatarImage": "734027-fb.jpg",
-        "discussionId": "127285",
+        "discussionId": 127285,
         "rawTitle": "8th place solution",
         "title": "8th place solution",
         "url": "https://www.kaggle.com/c/data-science-bowl-2019/discussion/127285"
@@ -1062,7 +1062,7 @@
         "authorId": "go5kuramubon",
         "authorName": "pao",
         "avatarImage": "1305588-kg.jpg",
-        "discussionId": "127332",
+        "discussionId": 127332,
         "rawTitle": "10th place Solution",
         "title": "10th place solution",
         "url": "https://www.kaggle.com/c/data-science-bowl-2019/discussion/127332"
@@ -1071,7 +1071,7 @@
         "authorId": "yasufuminakama",
         "authorName": "Y.Nakama",
         "avatarImage": "1695531-kg.jpeg",
-        "discussionId": "127500",
+        "discussionId": 127500,
         "rawTitle": "15th palce solution",
         "title": "15th place solution",
         "url": "https://www.kaggle.com/c/data-science-bowl-2019/discussion/127500"
@@ -1080,7 +1080,7 @@
         "authorId": "fakeplastictrees",
         "authorName": "fakeplastictrees",
         "avatarImage": "168767-fb.jpg",
-        "discussionId": "127331",
+        "discussionId": 127331,
         "rawTitle": "16th place solution",
         "title": "16th place solution",
         "url": "https://www.kaggle.com/c/data-science-bowl-2019/discussion/127331"
@@ -1089,7 +1089,7 @@
         "authorId": "steubk",
         "authorName": "steubk",
         "avatarImage": "214989-kg.jpg",
-        "discussionId": "127396",
+        "discussionId": 127396,
         "rawTitle": "19th place solution",
         "title": "19th place solution",
         "url": "https://www.kaggle.com/c/data-science-bowl-2019/discussion/127396"
@@ -1098,7 +1098,7 @@
         "authorId": "artmatician",
         "authorName": "Arturo Garcia",
         "avatarImage": "949714-kg.jpg",
-        "discussionId": "127543",
+        "discussionId": 127543,
         "rawTitle": "21st place solution (link to R kernel)",
         "title": "21st place solution",
         "url": "https://www.kaggle.com/c/data-science-bowl-2019/discussion/127543"
