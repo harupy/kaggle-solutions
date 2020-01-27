@@ -54,8 +54,8 @@ def read_solutions(directory):
     >>> with tempfile.TemporaryDirectory() as tmpdir:
     ...     slug = os.path.basename(os.path.dirname(tmpdir))
     ...     url = 'https://www.kaggle.com/c/{}'.format(slug)
-    ...     data = [{'title': '1st', 'url': url},
-    ...             {'title': '2nd', 'url': url}]
+    ...     data = [{'title': '1st', 'url': url, 'discussionId': 1},
+    ...             {'title': '2nd', 'url': url, 'discussionId': 2}]
     ...     for idx, d in enumerate(data):
     ...         with open(os.path.join(tmpdir, f'{idx}.json'), 'w') as f:
     ...             json.dump(d, f)
@@ -67,7 +67,10 @@ def read_solutions(directory):
     # Assert the competition slug equals to the directory name.
     comp_slug = os.path.basename(os.path.dirname(directory))
     assert all(parse_competition_slug(sol['url']) == comp_slug for sol in solutions)
-    solutions.sort(key=lambda sol: parse_rank(sol['title']))
+
+    # Use discussion id to make the order of solutions becomes non-deterministic
+    # when some solutions have the same rank.
+    solutions.sort(key=lambda sol: (parse_rank(sol['title']), sol['discussionId']))
     return solutions
 
 

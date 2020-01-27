@@ -10,6 +10,4 @@ def test_metadata_updated():
            f'the result of `{script_path}`. Please run `{script_path}`.')
     actual = read_json(metadata_path)
     expected = merge_metadata()
-    pprint(actual[12])
-    pprint(expected[12])
-    assert expected[12]['solutions'][2] == actual[12]['solutions'][2], msg
+    assert expected == actual, msg

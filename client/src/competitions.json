@@ -1214,15 +1214,6 @@
         "url": "https://www.kaggle.com/c/pku-autonomous-driving/discussion/127145"
       },
       {
-        "authorId": "bamps53",
-        "authorName": "Camaro",
-        "avatarImage": "1554318-kg.jpg",
-        "discussionId": 127056,
-        "rawTitle": "(part of) 7th place solution with code",
-        "title": "7th place solution (Camaro)",
-        "url": "https://www.kaggle.com/c/pku-autonomous-driving/discussion/127056"
-      },
-      {
         "authorId": "phalanx",
         "authorName": "phalanx",
         "avatarImage": "1620223-kg.JPG",
@@ -1230,6 +1221,15 @@
         "rawTitle": "7th place solution",
         "title": "7th place solution (phalanx)",
         "url": "https://www.kaggle.com/c/pku-autonomous-driving/discussion/127034"
+      },
+      {
+        "authorId": "bamps53",
+        "authorName": "Camaro",
+        "avatarImage": "1554318-kg.jpg",
+        "discussionId": 127056,
+        "rawTitle": "(part of) 7th place solution with code",
+        "title": "7th place solution (Camaro)",
+        "url": "https://www.kaggle.com/c/pku-autonomous-driving/discussion/127056"
       },
       {
         "authorId": "ren4yu",
