@@ -12,4 +12,4 @@ def test_metadata_updated():
     expected = merge_metadata()
     pprint(actual[12])
     pprint(expected[12])
-    assert expected[12]['solutions'] == actual[12]['solutions'], msg
+    assert expected[12]['solutions'][2] == actual[12]['solutions'][2], msg
