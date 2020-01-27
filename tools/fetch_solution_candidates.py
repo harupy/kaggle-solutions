@@ -34,15 +34,15 @@ def fetch_solution_candidates(soup):
         author = block.select('a.avatar')[0]
         avatar = block.select('img.avatar__thumbnail')[0]
 
-        raw_title = link.get('title')
-        if 'solution' not in raw_title.strip().lower():
+        rawTitle = link.get('title')
+        if 'solution' not in rawTitle.strip().lower():
             continue
 
         url = KAGGLE_URL + link.get('href')
         author_id = os.path.basename(author.get('href'))
         author_name = avatar.get('alt')
         result.append({
-            'rawTitle': raw_title,
+            'rawTitle': rawTitle,
             'authorId': author_id,
             'authorName': author_name,
             'title': None,
