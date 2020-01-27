@@ -2637,6 +2637,98 @@
     "rewardDisplay": "$15,000",
     "rewardQuantity": 15000.0,
     "rewardTypeName": "USD",
+    "solutions": [
+      {
+        "authorId": "tascj0",
+        "authorName": "tascj",
+        "avatarImage": "381412-kg.png",
+        "discussionId": 112788,
+        "rawTitle": "1st place solution",
+        "title": "1st place solution",
+        "url": "https://www.kaggle.com/c/kuzushiji-recognition/discussion/112788"
+      },
+      {
+        "authorId": "lopuhin",
+        "authorName": "Konstantin Lopuhin",
+        "avatarImage": "19390-kg.jpg",
+        "discussionId": 112712,
+        "rawTitle": "2nd place solution overview: detection + full-page classification",
+        "title": "2nd place solution",
+        "url": "https://www.kaggle.com/c/kuzushiji-recognition/discussion/112712"
+      },
+      {
+        "authorId": "knjcode",
+        "authorName": "Kenji",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 113049,
+        "rawTitle": "3rd place solution overview: 2-stage + FalsePositive Predictor",
+        "title": "3rd place solution",
+        "url": "https://www.kaggle.com/c/kuzushiji-recognition/discussion/113049"
+      },
+      {
+        "authorId": "linhui",
+        "authorName": "kolman",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 114764,
+        "rawTitle": "4th place solution",
+        "title": "4th place solution",
+        "url": "https://www.kaggle.com/c/kuzushiji-recognition/discussion/114764"
+      },
+      {
+        "authorId": "seesee",
+        "authorName": "See--",
+        "avatarImage": "712087-kg.png",
+        "discussionId": 112771,
+        "rawTitle": "5th place solution overview: One stage CenterNet",
+        "title": "5th place solution",
+        "url": "https://www.kaggle.com/c/kuzushiji-recognition/discussion/112771"
+      },
+      {
+        "authorId": "kmat2019",
+        "authorName": "K_mat",
+        "avatarImage": "2938236-kg.jpg",
+        "discussionId": 112899,
+        "rawTitle": "7th place solution",
+        "title": "7th place solution",
+        "url": "https://www.kaggle.com/c/kuzushiji-recognition/discussion/112899"
+      },
+      {
+        "authorId": "toshinori",
+        "authorName": "t-hanya",
+        "avatarImage": "394597-kg.png",
+        "discussionId": 113419,
+        "rawTitle": "8th place solution: Two stage & kuzushiji data augmentation",
+        "title": "8th place solution",
+        "url": "https://www.kaggle.com/c/kuzushiji-recognition/discussion/113419"
+      },
+      {
+        "authorId": "jesucristo",
+        "authorName": "Nanashi",
+        "avatarImage": "2779868-kg.jpg",
+        "discussionId": 112807,
+        "rawTitle": "Top 9th Solution: Simple but complete approach.",
+        "title": "9th place solution",
+        "url": "https://www.kaggle.com/c/kuzushiji-recognition/discussion/112807"
+      },
+      {
+        "authorId": "jsday96",
+        "authorName": "James Day",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 113518,
+        "rawTitle": "13th place solution + unsuccessful language model",
+        "title": "13rd place solution",
+        "url": "https://www.kaggle.com/c/kuzushiji-recognition/discussion/113518"
+      },
+      {
+        "authorId": "statsu",
+        "authorName": "statsu",
+        "avatarImage": "2117884-kg.png",
+        "discussionId": 114120,
+        "rawTitle": "15th place solution",
+        "title": "15th place solution",
+        "url": "https://www.kaggle.com/c/kuzushiji-recognition/discussion/114120"
+      }
+    ],
     "submissionsDisabled": false,
     "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/13578/logos/thumb76_76.png?t=2019-04-24-22-48-08",
     "totalKernels": 0,
