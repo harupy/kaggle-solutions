@@ -50,18 +50,6 @@ def parse_rank(solution_title):
 def read_solutions(directory):
     """
     Read solutions in the given directory.
-
-    >>> with tempfile.TemporaryDirectory() as tmpdir:
-    ...     slug = os.path.basename(os.path.dirname(tmpdir))
-    ...     url = 'https://www.kaggle.com/c/{}'.format(slug)
-    ...     data = [{'title': '1st', 'url': url, 'discussionId': 1},
-    ...             {'title': '2nd', 'url': url, 'discussionId': 2}]
-    ...     for idx, d in enumerate(data):
-    ...         with open(os.path.join(tmpdir, f'{idx}.json'), 'w') as f:
-    ...             json.dump(d, f)
-    ...     data == read_solutions(tmpdir)
-    True
-
     """
     solutions = [read_json(os.path.join(directory, fn)) for fn in os.listdir(directory)]
     # Assert the competition slug equals to the directory name.
