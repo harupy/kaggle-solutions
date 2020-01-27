@@ -65,12 +65,14 @@ def main():
             EC.presence_of_element_located((By.CSS_SELECTOR, 'input.smart-list__search')))
         input_box = driver.find_element_by_css_selector('input.smart-list__search')
         input_box.send_keys('solution')
-        time.sleep(sleep_duration)  # Wait for the search to finish. TODO: Use wait-until if possible.
+        # TODO: Use wait-until if possible.
+        time.sleep(sleep_duration)  # Wait for the search to finish.
 
         # Scroll to the bottom twice to increase discussions (one scroll adds 20 discussions).
         for i in range(num_scrolls):
             driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
-            time.sleep(sleep_duration)  # Wait for the loading to finish.  TODO: Use wait-until if possible.
+            # TODO: Use wait-until if possible.
+            time.sleep(sleep_duration)  # Wait for the loading to finish.
         html = driver.page_source
     except Exception as e:
         driver.quite()
