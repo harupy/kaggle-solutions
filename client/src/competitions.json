@@ -2929,6 +2929,161 @@
     "rewardDisplay": "$20,000",
     "rewardQuantity": 20000.0,
     "rewardTypeName": "USD",
+    "solutions": [
+      {
+        "authorId": "cdeotte",
+        "authorName": "Chris Deotte",
+        "avatarImage": "1723677-kg.jpg",
+        "discussionId": 111284,
+        "rawTitle": "1st Place Solution - Part 1",
+        "title": "1st place solution (part 1)",
+        "url": "https://www.kaggle.com/c/ieee-fraud-detection/discussion/111284"
+      },
+      {
+        "authorId": "cpmpml",
+        "authorName": "CPMP",
+        "avatarImage": "75976-gr.jpg",
+        "discussionId": 111321,
+        "rawTitle": "2nd Solution, CPMP View",
+        "title": "2nd place solution (CPMP View)",
+        "url": "https://www.kaggle.com/c/ieee-fraud-detection/discussion/111321"
+      },
+      {
+        "authorId": "sggpls",
+        "authorName": "Sergey Bryansky",
+        "avatarImage": "502737-kg.jpg",
+        "discussionId": 111554,
+        "rawTitle": "2nd Solution, sggpls view",
+        "title": "2nd place solution (sggpls view)",
+        "url": "https://www.kaggle.com/c/ieee-fraud-detection/discussion/111554"
+      },
+      {
+        "authorId": "naotaka1128",
+        "authorName": "ML_Bear",
+        "avatarImage": "164146-kg.png",
+        "discussionId": 111735,
+        "rawTitle": "5th Place Solution: Lions",
+        "title": "5th place solution",
+        "url": "https://www.kaggle.com/c/ieee-fraud-detection/discussion/111735"
+      },
+      {
+        "authorId": "philippsinger",
+        "authorName": "Psi",
+        "avatarImage": "37166-kg.png",
+        "discussionId": 111247,
+        "rawTitle": "6th place solution: The Zoo",
+        "title": "6th place solution",
+        "url": "https://www.kaggle.com/c/ieee-fraud-detection/discussion/111247"
+      },
+      {
+        "authorId": "alijs1",
+        "authorName": "alijs",
+        "avatarImage": "666918-kg.jpg",
+        "discussionId": 111234,
+        "rawTitle": "9th place solution notes",
+        "title": "9th place solution",
+        "url": "https://www.kaggle.com/c/ieee-fraud-detection/discussion/111234"
+      },
+      {
+        "authorId": "daishu",
+        "authorName": "daishu",
+        "avatarImage": "1098915-kg.png",
+        "discussionId": 113159,
+        "rawTitle": "10th solution and code",
+        "title": "10th place solution",
+        "url": "https://www.kaggle.com/c/ieee-fraud-detection/discussion/113159"
+      },
+      {
+        "authorId": "kainsama",
+        "authorName": "Kain",
+        "avatarImage": "1658094-kg.jpg",
+        "discussionId": 111235,
+        "rawTitle": "11th Place Solution",
+        "title": "11st place solution",
+        "url": "https://www.kaggle.com/c/ieee-fraud-detection/discussion/111235"
+      },
+      {
+        "authorId": "maxduan",
+        "authorName": "maxduan",
+        "avatarImage": "2918468-kg.jpg",
+        "discussionId": 112897,
+        "rawTitle": "IEEE-CIS 12nd solution \u4e2d\u82f1\u6ce8\u91ca",
+        "title": "12nd place solution",
+        "url": "https://www.kaggle.com/c/ieee-fraud-detection/discussion/112897"
+      },
+      {
+        "authorId": "nejumi",
+        "authorName": "YuyaYamamoto",
+        "avatarImage": "570506-gr.jpg",
+        "discussionId": 111485,
+        "rawTitle": "13th place solution",
+        "title": "13rd place solution",
+        "url": "https://www.kaggle.com/c/ieee-fraud-detection/discussion/111485"
+      },
+      {
+        "authorId": "fatihozturk",
+        "authorName": "Fatih",
+        "avatarImage": "864216-kg.jpg",
+        "discussionId": 111454,
+        "rawTitle": "15th place solution",
+        "title": "15th place solution",
+        "url": "https://www.kaggle.com/c/ieee-fraud-detection/discussion/111454"
+      },
+      {
+        "authorId": "tmheo74",
+        "authorName": "Taemyung Heo",
+        "avatarImage": "940278-kg.jpg",
+        "discussionId": 111696,
+        "rawTitle": "17th place solution summary - there is nothing special",
+        "title": "17th place solution",
+        "url": "https://www.kaggle.com/c/ieee-fraud-detection/discussion/111696"
+      },
+      {
+        "authorId": "takoihiraokazu",
+        "authorName": "Hirokazu Takoi",
+        "avatarImage": "623370-kg.JPG",
+        "discussionId": 111489,
+        "rawTitle": "19th Place Solution summary",
+        "title": "19th place solution",
+        "url": "https://www.kaggle.com/c/ieee-fraud-detection/discussion/111489"
+      },
+      {
+        "authorId": "whitebird",
+        "authorName": "bird",
+        "avatarImage": "486077-kg.png",
+        "discussionId": 111197,
+        "rawTitle": "Solution and code from 21st",
+        "title": "21st place solution",
+        "url": "https://www.kaggle.com/c/ieee-fraud-detection/discussion/111197"
+      },
+      {
+        "authorId": "xkagjaeo05",
+        "authorName": "giba.kim",
+        "avatarImage": "1231967-kg.png",
+        "discussionId": 111511,
+        "rawTitle": "25th Solution",
+        "title": "25th place solution",
+        "url": "https://www.kaggle.com/c/ieee-fraud-detection/discussion/111511"
+      },
+      {
+        "authorId": "nroman",
+        "authorName": "Roman",
+        "avatarImage": "1696976-kg.png",
+        "discussionId": 111245,
+        "rawTitle": "40th place solution, my part.",
+        "title": "40th place solution",
+        "url": "https://www.kaggle.com/c/ieee-fraud-detection/discussion/111245"
+      },
+      {
+        "authorId": "returnofsputnik",
+        "authorName": "CoreyLevinson",
+        "avatarImage": "1238844-kg.jpg",
+        "discussionId": 111341,
+        "rawTitle": "41st place solution",
+        "title": "41st place solution",
+        "url": "https://www.kaggle.com/c/ieee-fraud-detection/discussion/111341"
+      }
+    ],
     "submissionsDisabled": false,
     "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/14242/logos/thumb76_76.png?t=2019-07-11-17-50-36",
     "totalKernels": 0,
