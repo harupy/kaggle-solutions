@@ -11,7 +11,7 @@ const Header: React.SFC = () => {
 
   return (
     <Menu borderless inverted fixed="top" size="massive" style={{ backgroundColor: KAGGLE_GRAY }}>
-      {/* Render as an anchor tag to enable highlighting on hover. */}
+      {/* Add link to highlight menu items when they are hovered. */}
       <Menu.Item link>
         <SemHeader>
           <a href={`/${REPO_NAME}`} style={{ color: KAGGLE_BLUE, fontWeight: 'bold' }}>
