@@ -3156,6 +3156,35 @@
     "rewardDisplay": "$25,000",
     "rewardQuantity": 25000.0,
     "rewardTypeName": "USD",
+    "solutions": [
+      {
+        "authorId": "boliu0",
+        "authorName": "Bo",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 110983,
+        "rawTitle": "7th place solution",
+        "title": "7th place solution",
+        "url": "https://www.kaggle.com/c/open-images-2019-instance-segmentation/discussion/110983"
+      },
+      {
+        "authorId": "hirotoschwert",
+        "authorName": "Schwert",
+        "avatarImage": "2259429-kg.png",
+        "discussionId": 111351,
+        "rawTitle": "11th place solution [0.4796 private LB]",
+        "title": "11st place solution",
+        "url": "https://www.kaggle.com/c/open-images-2019-instance-segmentation/discussion/111351"
+      },
+      {
+        "authorId": "ren4yu",
+        "authorName": "yu4u",
+        "avatarImage": "745525-kg.png",
+        "discussionId": 110908,
+        "rawTitle": "(tentative) 20th place solution - maskrcnn-benchmark baseline",
+        "title": "20th place solution",
+        "url": "https://www.kaggle.com/c/open-images-2019-instance-segmentation/discussion/110908"
+      }
+    ],
     "submissionsDisabled": false,
     "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/15043/logos/thumb76_76.png?t=2019-06-18-19-30-08",
     "totalKernels": 0,
@@ -3197,6 +3226,26 @@
     "rewardDisplay": "$10,000",
     "rewardQuantity": 10000.0,
     "rewardTypeName": "USD",
+    "solutions": [
+      {
+        "authorId": "tikutiku",
+        "authorName": "Tom",
+        "avatarImage": "1565399-kg.png",
+        "discussionId": 106324,
+        "rawTitle": "1st place solution",
+        "title": "1st place solution",
+        "url": "https://www.kaggle.com/c/generative-dog-images/discussion/106324"
+      },
+      {
+        "authorId": "katotetsuro",
+        "authorName": "tkato",
+        "avatarImage": "916454-kg.png",
+        "discussionId": 106452,
+        "rawTitle": "8th place solution(private 89)",
+        "title": "8th place solution",
+        "url": "https://www.kaggle.com/c/generative-dog-images/discussion/106452"
+      }
+    ],
     "submissionsDisabled": true,
     "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/15062/logos/thumb76_76.png?t=2019-06-20-21-52-51",
     "totalKernels": 0,
