@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "528b8b2ed28179af552a70409f7bab06",
+    "revision": "28e0db432d511b30cc81899019753851",
     "url": "/kaggle-solutions/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kaggle-solutions/static/js/2.7d844f81.chunk.js.LICENSE"
   },
   {
-    "revision": "cefd5092904a7f7d4f15",
-    "url": "/kaggle-solutions/static/js/main.8831c5eb.chunk.js"
+    "revision": "9d16b10b62bf32cb708d",
+    "url": "/kaggle-solutions/static/js/main.b5e0c4ab.chunk.js"
   },
   {
     "revision": "d6a40ea0be38b0acacf8",
