@@ -83,7 +83,7 @@ def merge_metadata():
 
         meta_all.append(comp_meta)
 
-    meta_all.sort(key=lambda m: m['enabledDate'], reverse=True)
+    meta_all.sort(key=lambda m: (m['enabledDate'], m['competitionId']), reverse=True)
     return meta_all
 
 
