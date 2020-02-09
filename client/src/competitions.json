@@ -3823,6 +3823,125 @@
     "rewardDisplay": "$30,000",
     "rewardQuantity": 30000.0,
     "rewardTypeName": "USD",
+    "solutions": [
+      {
+        "authorId": "sneddy",
+        "authorName": "Aimoldin Anuar [dsmlkz]",
+        "avatarImage": "536790-kg.jpg",
+        "discussionId": 107824,
+        "rawTitle": "1st place solution (with code and configs)",
+        "title": "1st place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/107824"
+      },
+      {
+        "authorId": "lanjunyelan",
+        "authorName": "yelan",
+        "avatarImage": "2186594-kg.jpg",
+        "discussionId": 108009,
+        "rawTitle": "2nd place solution",
+        "title": "2nd place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/108009"
+      },
+      {
+        "authorId": "bestfitting",
+        "authorName": "bestfitting",
+        "avatarImage": "708283-kg.jpg",
+        "discussionId": 107981,
+        "rawTitle": "The 3rd place solution",
+        "title": "3rd place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/107981"
+      },
+      {
+        "authorId": "amiras",
+        "authorName": "Miras Amir",
+        "avatarImage": "413252-kg.jpg",
+        "discussionId": 108397,
+        "rawTitle": "4th place solution",
+        "title": "4th place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/108397"
+      },
+      {
+        "authorId": "qiaojian",
+        "authorName": "earhian",
+        "avatarImage": "1397798-kg.jpg",
+        "discussionId": 107603,
+        "rawTitle": "5th place solution && code updated",
+        "title": "5th place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/107603"
+      },
+      {
+        "authorId": "wispzero",
+        "authorName": "WispZero",
+        "avatarImage": "451003-fb.jpg",
+        "discussionId": 107743,
+        "rawTitle": "6th place solution",
+        "title": "6th place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/107743"
+      },
+      {
+        "authorId": "arc144",
+        "authorName": "Eduardo Rocha de Andrade",
+        "avatarImage": "1648129-kg.jpg",
+        "discussionId": 107872,
+        "rawTitle": "7th place solution",
+        "title": "7th place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/107872"
+      },
+      {
+        "authorId": "vaillant",
+        "authorName": "Ian Pan",
+        "avatarImage": "281652-kg.jpg",
+        "discussionId": 107522,
+        "rawTitle": "[8th place] Solution Overview + Code",
+        "title": "8th place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/107522"
+      },
+      {
+        "authorId": "scizzzo",
+        "authorName": "Scizzzo",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 108060,
+        "rawTitle": "9th place solution",
+        "title": "9th place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/108060"
+      },
+      {
+        "authorId": "deyury",
+        "authorName": "Yury  Dzerin",
+        "avatarImage": "223112-kg.jpg",
+        "discussionId": 107687,
+        "rawTitle": "[solution] 10-th place",
+        "title": "10th place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/107687"
+      },
+      {
+        "authorId": "drn01z3",
+        "authorName": "n01z3",
+        "avatarImage": "407384-kg.jpg",
+        "discussionId": 107518,
+        "rawTitle": "11th place - [ods.ai] Dies irae - solution with code",
+        "title": "11st place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/107518"
+      },
+      {
+        "authorId": "yukkyo",
+        "authorName": "fam_taro",
+        "avatarImage": "1670024-kg.png",
+        "discussionId": 107757,
+        "rawTitle": "12th place solution: UNet with mask scoring head",
+        "title": "12nd place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/107757"
+      },
+      {
+        "authorId": "soonhwankwon",
+        "authorName": "Soonhwan Kwon",
+        "avatarImage": "173840-fb.jpg",
+        "discussionId": 107666,
+        "rawTitle": "19th place solution",
+        "title": "19th place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/107666"
+      }
+    ],
     "submissionsDisabled": false,
     "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/14652/logos/thumb76_76.png?t=2019-05-15-19-37-10",
     "totalKernels": 0,
