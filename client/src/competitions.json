@@ -3823,6 +3823,125 @@
     "rewardDisplay": "$30,000",
     "rewardQuantity": 30000.0,
     "rewardTypeName": "USD",
+    "solutions": [
+      {
+        "authorId": "sneddy",
+        "authorName": "Aimoldin Anuar [dsmlkz]",
+        "avatarImage": "536790-kg.jpg",
+        "discussionId": 107824,
+        "rawTitle": "1st place solution (with code and configs)",
+        "title": "1st place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/107824"
+      },
+      {
+        "authorId": "lanjunyelan",
+        "authorName": "yelan",
+        "avatarImage": "2186594-kg.jpg",
+        "discussionId": 108009,
+        "rawTitle": "2nd place solution",
+        "title": "2nd place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/108009"
+      },
+      {
+        "authorId": "bestfitting",
+        "authorName": "bestfitting",
+        "avatarImage": "708283-kg.jpg",
+        "discussionId": 107981,
+        "rawTitle": "The 3rd place solution",
+        "title": "3rd place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/107981"
+      },
+      {
+        "authorId": "amiras",
+        "authorName": "Miras Amir",
+        "avatarImage": "413252-kg.jpg",
+        "discussionId": 108397,
+        "rawTitle": "4th place solution",
+        "title": "4th place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/108397"
+      },
+      {
+        "authorId": "qiaojian",
+        "authorName": "earhian",
+        "avatarImage": "1397798-kg.jpg",
+        "discussionId": 107603,
+        "rawTitle": "5th place solution && code updated",
+        "title": "5th place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/107603"
+      },
+      {
+        "authorId": "wispzero",
+        "authorName": "WispZero",
+        "avatarImage": "451003-fb.jpg",
+        "discussionId": 107743,
+        "rawTitle": "6th place solution",
+        "title": "6th place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/107743"
+      },
+      {
+        "authorId": "arc144",
+        "authorName": "Eduardo Rocha de Andrade",
+        "avatarImage": "1648129-kg.jpg",
+        "discussionId": 107872,
+        "rawTitle": "7th place solution",
+        "title": "7th place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/107872"
+      },
+      {
+        "authorId": "vaillant",
+        "authorName": "Ian Pan",
+        "avatarImage": "281652-kg.jpg",
+        "discussionId": 107522,
+        "rawTitle": "[8th place] Solution Overview + Code",
+        "title": "8th place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/107522"
+      },
+      {
+        "authorId": "scizzzo",
+        "authorName": "Scizzzo",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 108060,
+        "rawTitle": "9th place solution",
+        "title": "9th place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/108060"
+      },
+      {
+        "authorId": "deyury",
+        "authorName": "Yury  Dzerin",
+        "avatarImage": "223112-kg.jpg",
+        "discussionId": 107687,
+        "rawTitle": "[solution] 10-th place",
+        "title": "10th place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/107687"
+      },
+      {
+        "authorId": "drn01z3",
+        "authorName": "n01z3",
+        "avatarImage": "407384-kg.jpg",
+        "discussionId": 107518,
+        "rawTitle": "11th place - [ods.ai] Dies irae - solution with code",
+        "title": "11st place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/107518"
+      },
+      {
+        "authorId": "yukkyo",
+        "authorName": "fam_taro",
+        "avatarImage": "1670024-kg.png",
+        "discussionId": 107757,
+        "rawTitle": "12th place solution: UNet with mask scoring head",
+        "title": "12nd place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/107757"
+      },
+      {
+        "authorId": "soonhwankwon",
+        "authorName": "Soonhwan Kwon",
+        "avatarImage": "173840-fb.jpg",
+        "discussionId": 107666,
+        "rawTitle": "19th place solution",
+        "title": "19th place solution",
+        "url": "https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/discussion/107666"
+      }
+    ],
     "submissionsDisabled": false,
     "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/14652/logos/thumb76_76.png?t=2019-05-15-19-37-10",
     "totalKernels": 0,
@@ -4054,6 +4173,170 @@
     "rewardDisplay": "$30,000",
     "rewardQuantity": 30000.0,
     "rewardTypeName": "USD",
+    "solutions": [
+      {
+        "authorId": "zkolter",
+        "authorName": "zkolter",
+        "avatarImage": "1151276-kg.png",
+        "discussionId": 106575,
+        "rawTitle": "#1 Solution - hybrid",
+        "title": "1st place solution",
+        "url": "https://www.kaggle.com/c/champs-scalar-coupling/discussion/106575"
+      },
+      {
+        "authorId": "antorsae",
+        "authorName": "Andres Torrubia",
+        "avatarImage": "8507-gp.jpg",
+        "discussionId": 106468,
+        "rawTitle": "#2 solution \ud83e\udd16 Quantum Uncertainty \ud83e\udd16",
+        "title": "2nd place solution",
+        "url": "https://www.kaggle.com/c/champs-scalar-coupling/discussion/106468"
+      },
+      {
+        "authorId": "antorsae",
+        "authorName": "Andres Torrubia",
+        "avatarImage": "8507-gp.jpg",
+        "discussionId": 108845,
+        "rawTitle": "#2 Solution: Source code",
+        "title": "2nd place solution (source code)",
+        "url": "https://www.kaggle.com/c/champs-scalar-coupling/discussion/108845"
+      },
+      {
+        "authorId": "youhanlee",
+        "authorName": "YouHan Lee",
+        "avatarImage": "1155353-kg.jpg",
+        "discussionId": 106572,
+        "rawTitle": "3rd solution - BERT in chemistry - End to End  is all you need",
+        "title": "3rd place solution",
+        "url": "https://www.kaggle.com/c/champs-scalar-coupling/discussion/106572"
+      },
+      {
+        "authorId": "milosh",
+        "authorName": "Milos Popovic",
+        "avatarImage": "1954966-gr.jpg",
+        "discussionId": 106534,
+        "rawTitle": "#4 Solution [Hyperspatial Engineers]",
+        "title": "4th place solution",
+        "url": "https://www.kaggle.com/c/champs-scalar-coupling/discussion/106534"
+      },
+      {
+        "authorId": "grjhuard",
+        "authorName": "Guillaume Huard",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 106864,
+        "rawTitle": "5th place solution : DL guys",
+        "title": "5th place solution",
+        "url": "https://www.kaggle.com/c/champs-scalar-coupling/discussion/106864"
+      },
+      {
+        "authorId": "robin111",
+        "authorName": "Robin N",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 106407,
+        "rawTitle": "6th place solution",
+        "title": "6th place solution",
+        "url": "https://www.kaggle.com/c/champs-scalar-coupling/discussion/106407"
+      },
+      {
+        "authorId": "cpmpml",
+        "authorName": "CPMP",
+        "avatarImage": "75976-gr.jpg",
+        "discussionId": 106421,
+        "rawTitle": "Solution 7th (CPMP view)",
+        "title": "7th place solution (CPMP)",
+        "url": "https://www.kaggle.com/c/champs-scalar-coupling/discussion/106421"
+      },
+      {
+        "authorId": "christofhenkel",
+        "authorName": "Dieter",
+        "avatarImage": "1424766-kg.png",
+        "discussionId": 106347,
+        "rawTitle": "8th place solution - a densely connected GNN",
+        "title": "8th place solution",
+        "url": "https://www.kaggle.com/c/champs-scalar-coupling/discussion/106347"
+      },
+      {
+        "authorId": "jaechang",
+        "authorName": "Jaechang Lim",
+        "avatarImage": "1590020-kg.jpg",
+        "discussionId": 106649,
+        "rawTitle": "#9 Solution: model with only atom type and distance",
+        "title": "9th place solution",
+        "url": "https://www.kaggle.com/c/champs-scalar-coupling/discussion/106649"
+      },
+      {
+        "authorId": "khahuras",
+        "authorName": "khahuras",
+        "avatarImage": "1829450-kg.jpg",
+        "discussionId": 106271,
+        "rawTitle": "10th place solution",
+        "title": "10th place solution",
+        "url": "https://www.kaggle.com/c/champs-scalar-coupling/discussion/106271"
+      },
+      {
+        "authorId": "akirasosa",
+        "authorName": "AkiraSosa",
+        "avatarImage": "1333985-gr.jpg",
+        "discussionId": 106293,
+        "rawTitle": "10th place solution (AkiraSosa view)",
+        "title": "10th place solution (AkiraSosa)",
+        "url": "https://www.kaggle.com/c/champs-scalar-coupling/discussion/106293"
+      },
+      {
+        "authorId": "ehthiede",
+        "authorName": "Erik Thiede",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 106275,
+        "rawTitle": "12 Place Solution",
+        "title": "12nd place solution",
+        "url": "https://www.kaggle.com/c/champs-scalar-coupling/discussion/106275"
+      },
+      {
+        "authorId": "kfujikawa",
+        "authorName": "KF",
+        "avatarImage": "2311404-kg.jpg",
+        "discussionId": 106377,
+        "rawTitle": "13th place solution",
+        "title": "13rd place solution",
+        "url": "https://www.kaggle.com/c/champs-scalar-coupling/discussion/106377"
+      },
+      {
+        "authorId": "cedben",
+        "authorName": "C\u00e9dric B\u00e9ny",
+        "avatarImage": "3330197-kg.jpg",
+        "discussionId": 106298,
+        "rawTitle": "14th place solution (GCN from scratch in Kaggle kernel)",
+        "title": "14th place solution",
+        "url": "https://www.kaggle.com/c/champs-scalar-coupling/discussion/106298"
+      },
+      {
+        "authorId": "zhenlanwang",
+        "authorName": "Zhenlan",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 106288,
+        "rawTitle": "15th place solution",
+        "title": "15th place solution",
+        "url": "https://www.kaggle.com/c/champs-scalar-coupling/discussion/106288"
+      },
+      {
+        "authorId": "toshik",
+        "authorName": "toshi_k",
+        "avatarImage": "172060-fb.jpg",
+        "discussionId": 106905,
+        "rawTitle": "19th place solution",
+        "title": "19th place solution",
+        "url": "https://www.kaggle.com/c/champs-scalar-coupling/discussion/106905"
+      },
+      {
+        "authorId": "fnands",
+        "authorName": "fnand",
+        "avatarImage": "314368-kg.jpg",
+        "discussionId": 106379,
+        "rawTitle": "20th place solution, MPNN part",
+        "title": "20th place solution (MPNN part)",
+        "url": "https://www.kaggle.com/c/champs-scalar-coupling/discussion/106379"
+      }
+    ],
     "submissionsDisabled": false,
     "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/14313/logos/thumb76_76.png?t=2019-05-20-20-29-23",
     "totalKernels": 0,
