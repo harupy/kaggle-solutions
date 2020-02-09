@@ -41,6 +41,6 @@ jobs:
       - name: Run Lint
         run: |
           ./dev/lint.sh
-          ./dev/lint_python.sh
+          ./dev/lint-python.sh
       - name: Run Test
         run: ./dev/test.sh
