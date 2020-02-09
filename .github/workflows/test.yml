@@ -39,6 +39,8 @@ jobs:
           pip install pipenv
           pipenv install --dev
       - name: Run Lint
-        run: ./dev/lint.sh
+        run: |
+          ./dev/lint.sh
+          ./dev/lint_python.sh
       - name: Run Test
         run: ./dev/test.sh
