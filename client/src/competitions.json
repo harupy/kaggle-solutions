@@ -3348,6 +3348,116 @@
     "rewardDisplay": "$50,000",
     "rewardQuantity": 50000.0,
     "rewardTypeName": "USD",
+    "solutions": [
+      {
+        "authorId": "wowfattie",
+        "authorName": "Guanshuo Xu",
+        "avatarImage": "478989-kg.jpeg",
+        "discussionId": 108065,
+        "rawTitle": "1st place solution summary",
+        "title": "1st place solution",
+        "url": "https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/108065"
+      },
+      {
+        "authorId": "firenero",
+        "authorName": "Mykhailo Matviiv",
+        "avatarImage": "1224218-kg.JPG",
+        "discussionId": 107926,
+        "rawTitle": "4th place solution (2nd after LB cleaning)",
+        "title": "4th place solution",
+        "url": "https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/107926"
+      },
+      {
+        "authorId": "haqishen",
+        "authorName": "Qishen Ha",
+        "avatarImage": "448347-kg.jpeg",
+        "discussionId": 107987,
+        "rawTitle": "4th place solution",
+        "title": "4th place solution",
+        "url": "https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/107987"
+      },
+      {
+        "authorId": "garybios",
+        "authorName": "Gary",
+        "avatarImage": "1270655-kg.jpeg",
+        "discussionId": 107960,
+        "rawTitle": "5th place solution",
+        "title": "5th place solution",
+        "url": "https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/107960"
+      },
+      {
+        "authorId": "drhabib",
+        "authorName": "DrHB",
+        "avatarImage": "991320-kg.jpg",
+        "discussionId": 108030,
+        "rawTitle": "8th Place Solution",
+        "title": "8th place solution",
+        "url": "https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/108030"
+      },
+      {
+        "authorId": "philippsinger",
+        "authorName": "Psi",
+        "avatarImage": "37166-kg.png",
+        "discussionId": 107990,
+        "rawTitle": "9th place solution",
+        "title": "9th place solution",
+        "url": "https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/107990"
+      },
+      {
+        "authorId": "uiiurz1",
+        "authorName": "4ui_iurz1",
+        "avatarImage": "849476-kg.png",
+        "discussionId": 107958,
+        "rawTitle": "11th place solution",
+        "title": "11st place solution",
+        "url": "https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/107958"
+      },
+      {
+        "authorId": "buaazijian",
+        "authorName": "JIANJIAN",
+        "avatarImage": "2156075-kg.jpg",
+        "discussionId": 107995,
+        "rawTitle": "12th place solution",
+        "title": "12nd place solution",
+        "url": "https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/107995"
+      },
+      {
+        "authorId": "learnmower",
+        "authorName": "Thomas Yokota",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 108072,
+        "rawTitle": "12th place solution",
+        "title": "12nd place solution",
+        "url": "https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/108072"
+      },
+      {
+        "authorId": "bamps53",
+        "authorName": "Camaro",
+        "avatarImage": "1554318-kg.jpg",
+        "discussionId": 107944,
+        "rawTitle": "13th place solution",
+        "title": "13rd place solution",
+        "url": "https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/107944"
+      },
+      {
+        "authorId": "carlospk",
+        "authorName": "CarlosPK",
+        "avatarImage": "700866-kg.jpg",
+        "discussionId": 108711,
+        "rawTitle": "#16 Solution",
+        "title": "16th place solution",
+        "url": "https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/108711"
+      },
+      {
+        "authorId": "naivelamb",
+        "authorName": "Xuan Cao",
+        "avatarImage": "999074-kg.jpg",
+        "discussionId": 107916,
+        "rawTitle": "17th place solution",
+        "title": "17th place solution",
+        "url": "https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/107916"
+      }
+    ],
     "submissionsDisabled": false,
     "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/14774/logos/thumb76_76.png?t=2019-06-24-18-15-40",
     "totalKernels": 0,
