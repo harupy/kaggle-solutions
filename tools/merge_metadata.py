@@ -4,6 +4,7 @@ Merge competition metadata.
 
 import os
 import re
+from tqdm import tqdm
 
 from tools.utils import read_json, to_json
 from tools.config import COMPETITIONS_DIR, SOLUTIONS_DIR, CLIENT_SRC_DIR
@@ -65,10 +66,8 @@ def read_solutions(directory):
 def merge_metadata():
     meta_all = []
     comps = os.listdir(COMPETITIONS_DIR)
-    num_comps = len(comps)
 
-    for comp_idx, comp_slug in enumerate(comps):
-        print(f'{comp_idx + 1} / {num_comps}')
+    for comp_slug in tqdm(comps):
         comp_dir = os.path.join(COMPETITIONS_DIR, comp_slug)
 
         if not os.path.isdir(comp_dir):
