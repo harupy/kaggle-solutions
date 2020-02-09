@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/kaggle-solutions/static/js/main.e04eeda8.chunk.js",
-    "main.js.map": "/kaggle-solutions/static/js/main.e04eeda8.chunk.js.map",
+    "main.js": "/kaggle-solutions/static/js/main.c6ae3ba3.chunk.js",
+    "main.js.map": "/kaggle-solutions/static/js/main.c6ae3ba3.chunk.js.map",
     "runtime-main.js": "/kaggle-solutions/static/js/runtime-main.059264b3.js",
     "runtime-main.js.map": "/kaggle-solutions/static/js/runtime-main.059264b3.js.map",
     "static/css/2.6b7a3d9c.chunk.css": "/kaggle-solutions/static/css/2.6b7a3d9c.chunk.css",
     "static/js/2.7d844f81.chunk.js": "/kaggle-solutions/static/js/2.7d844f81.chunk.js",
     "static/js/2.7d844f81.chunk.js.map": "/kaggle-solutions/static/js/2.7d844f81.chunk.js.map",
     "index.html": "/kaggle-solutions/index.html",
-    "precache-manifest.55d510893e7b759538ee2be135713608.js": "/kaggle-solutions/precache-manifest.55d510893e7b759538ee2be135713608.js",
+    "precache-manifest.da87025a22be749be18a93ea8a49b76b.js": "/kaggle-solutions/precache-manifest.da87025a22be749be18a93ea8a49b76b.js",
     "service-worker.js": "/kaggle-solutions/service-worker.js",
     "static/css/2.6b7a3d9c.chunk.css.map": "/kaggle-solutions/static/css/2.6b7a3d9c.chunk.css.map",
     "static/js/2.7d844f81.chunk.js.LICENSE": "/kaggle-solutions/static/js/2.7d844f81.chunk.js.LICENSE",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.059264b3.js",
     "static/css/2.6b7a3d9c.chunk.css",
     "static/js/2.7d844f81.chunk.js",
-    "static/js/main.e04eeda8.chunk.js"
+    "static/js/main.c6ae3ba3.chunk.js"
   ]
 }
