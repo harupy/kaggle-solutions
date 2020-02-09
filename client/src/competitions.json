@@ -3560,6 +3560,125 @@
     "rewardDisplay": "$13,000",
     "rewardQuantity": 13000.0,
     "rewardTypeName": "USD",
+    "solutions": [
+      {
+        "authorId": "maciejsypetkowski",
+        "authorName": "Maciej Sypetkowski",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 110543,
+        "rawTitle": "1st Place Solution Write-up & Code",
+        "title": "1st place solution",
+        "url": "https://www.kaggle.com/c/recursion-cellular-image-classification/discussion/110543"
+      },
+      {
+        "authorId": "pathbinder",
+        "authorName": "Junonia",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 110457,
+        "rawTitle": "Second Place Solution",
+        "title": "2nd place solution",
+        "url": "https://www.kaggle.com/c/recursion-cellular-image-classification/discussion/110457"
+      },
+      {
+        "authorId": "shentao",
+        "authorName": "SeuTao",
+        "avatarImage": "1025985-kg.jpg",
+        "discussionId": 110340,
+        "rawTitle": "3rd place solution.",
+        "title": "3rd place solution",
+        "url": "https://www.kaggle.com/c/recursion-cellular-image-classification/discussion/110340"
+      },
+      {
+        "authorId": "ren4yu",
+        "authorName": "yu4u",
+        "avatarImage": "745525-kg.png",
+        "discussionId": 110337,
+        "rawTitle": "4th place solution",
+        "title": "4th place solution",
+        "url": "https://www.kaggle.com/c/recursion-cellular-image-classification/discussion/110337"
+      },
+      {
+        "authorId": "tascj0",
+        "authorName": "tascj",
+        "avatarImage": "381412-kg.png",
+        "discussionId": 110362,
+        "rawTitle": "5th place solution. AdaBN[domain==plate]",
+        "title": "5th place solution",
+        "url": "https://www.kaggle.com/c/recursion-cellular-image-classification/discussion/110362"
+      },
+      {
+        "authorId": "yaroshevskiy",
+        "authorName": "Oleg Yaroshevskiy",
+        "avatarImage": "805012-kg.jpg",
+        "discussionId": 110391,
+        "rawTitle": "6th place solution",
+        "title": "6th place solution",
+        "url": "https://www.kaggle.com/c/recursion-cellular-image-classification/discussion/110391"
+      },
+      {
+        "authorId": "zaharch",
+        "authorName": "nosound",
+        "avatarImage": "2243477-kg.png",
+        "discussionId": 110335,
+        "rawTitle": "7th place solution summary",
+        "title": "7th place solution",
+        "url": "https://www.kaggle.com/c/recursion-cellular-image-classification/discussion/110335"
+      },
+      {
+        "authorId": "dmitrylarko",
+        "authorName": "Dmitry Larko",
+        "avatarImage": "64274-kg.jpeg",
+        "discussionId": 110434,
+        "rawTitle": "8th place solution summary",
+        "title": "8th place solution",
+        "url": "https://www.kaggle.com/c/recursion-cellular-image-classification/discussion/110434"
+      },
+      {
+        "authorId": "sawseen",
+        "authorName": "Ivan Sosin",
+        "avatarImage": "362676-kg.jpg",
+        "discussionId": 110366,
+        "rawTitle": "Our solution: 9th place",
+        "title": "9th place solution",
+        "url": "https://www.kaggle.com/c/recursion-cellular-image-classification/discussion/110366"
+      },
+      {
+        "authorId": "igorkrashenyi",
+        "authorName": "Igor Krashenyi",
+        "avatarImage": "207760-fb.jpg",
+        "discussionId": 110375,
+        "rawTitle": "10th place - Pure Magic Solution",
+        "title": "10th place solution",
+        "url": "https://www.kaggle.com/c/recursion-cellular-image-classification/discussion/110375"
+      },
+      {
+        "authorId": "vshmyhlo",
+        "authorName": "Vlad Shmyhlo",
+        "avatarImage": "726978-gp.jpg",
+        "discussionId": 110394,
+        "rawTitle": "11th place solution - AttentionHeads",
+        "title": "11st place solution",
+        "url": "https://www.kaggle.com/c/recursion-cellular-image-classification/discussion/110394"
+      },
+      {
+        "authorId": "mpyrozhok",
+        "authorName": "Maksym Pyrozhok",
+        "avatarImage": "default-thumb.png",
+        "discussionId": 110390,
+        "rawTitle": "14th place solution, [0.989] Colab and Kaggle kernels",
+        "title": "14th place solution",
+        "url": "https://www.kaggle.com/c/recursion-cellular-image-classification/discussion/110390"
+      },
+      {
+        "authorId": "analokamus",
+        "authorName": "RabotniKuma",
+        "avatarImage": "1973217-kg.png",
+        "discussionId": 110361,
+        "rawTitle": "16th place solution [0.988 private LB]",
+        "title": "16th place solution",
+        "url": "https://www.kaggle.com/c/recursion-cellular-image-classification/discussion/110361"
+      }
+    ],
     "submissionsDisabled": false,
     "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/14420/logos/thumb76_76.png?t=2019-06-26-02-51-45",
     "totalKernels": 0,
