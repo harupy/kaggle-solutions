@@ -3,7 +3,7 @@
 ws_lines=""  # lines containing trailing whitespaces.
 nl_files=""  # files that don't end with a newline.
 
-for file in $(git ls-files | sed -e 's/^/.\//')
+for file in $(git diff --name-only master | sed -e 's/^/.\//')
 do
   lines=$(egrep -rnIH " +$" $file | cut -f-2 -d ":")
   if [ ! -z "$lines" ]; then
