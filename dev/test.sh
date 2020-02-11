@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-pipenv run pytest tests --verbose --color=yes --durations=0 -vv --doctest-modules tools
+pipenv run pytest tests --verbose --color=yes --durations=0 --doctest-modules tools
