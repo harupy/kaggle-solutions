@@ -1,0 +1,25 @@
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+name: Lint and Tests for Tools
+
+jobs:
+  lint-and-test:
+    name: Run Lint and Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-python@v1
+        with:
+          python-version: '3.7'
+      - name: Install Dependencies
+        run: |
+          pip install pipenv
+          pipenv install --dev
+      - name: Run Lint
+        run: |
+          ./dev/lint.sh
+          ./dev/lint-python.sh
+      - name: Run Test
+        run: ./dev/test.sh
