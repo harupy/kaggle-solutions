@@ -2,11 +2,11 @@ on:
   pull_request:
     types: [opened, synchronize]
 
-name: Run lint and test on pull requests
+name: Lint and Tests for Client
 
 jobs:
-  client-test:
-    name: Client Test
+  lint-and-test:
+    name: Run Lint and Tests
     runs-on: ubuntu-latest
     env:
       working-directory: ./client
@@ -26,21 +26,3 @@ jobs:
       - name: Run Test
         working-directory: ${{ env.working-directory }}
         run: npm run test:ci
-  tools-test:
-    name: Tools Test
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-python@v1
-        with:
-          python-version: '3.7'
-      - name: Install Dependencies
-        run: |
-          pip install pipenv
-          pipenv install --dev
-      - name: Run Lint
-        run: |
-          ./dev/lint.sh
-          ./dev/lint-python.sh
-      - name: Run Test
-        run: ./dev/test.sh
