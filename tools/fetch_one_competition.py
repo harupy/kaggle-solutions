@@ -1,15 +1,15 @@
 """
 Fetch competition metadata.
 """
-
+import argparse
+import math
 import os
 import time
-import math
-import argparse
+
 import requests
 
-from tools.utils import to_json
 from tools.config import COMPETITIONS_DIR
+from tools.utils import to_json
 
 
 def parse_args():
