@@ -9,7 +9,7 @@ jobs:
     name: Run Lint and Tests
     runs-on: ubuntu-latest
     env:
-      working-directory: ./client
+      WORK_DIR: ./client
     steps:
       - uses: actions/checkout@v1
       - uses: actions/cache@v1
@@ -18,11 +18,11 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: ${{ runner.os }}-node-
       - name: Install Dependencies
-        working-directory: ${{ env.working-directory }}
+        working-directory: ${{ env.WORK_DIR }}
         run: npm install
       - name: Run Lint
-        working-directory: ${{ env.working-directory }}
+        working-directory: ${{ env.WORK_DIR }}
         run: npm run lint
       - name: Run Test
-        working-directory: ${{ env.working-directory }}
+        working-directory: ${{ env.WORK_DIR }}
         run: npm run test:ci
