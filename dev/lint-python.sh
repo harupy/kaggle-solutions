@@ -2,5 +2,5 @@
 
 set -eu
 
-# flake8 --show-source tests tools
-isort --check-only tests
+flake8 --show-source tests tools
+isort --check .
