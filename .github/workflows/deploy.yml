@@ -3,7 +3,7 @@ on:
     branches:
       - master
 
-name: Deploy the app to GitHub pages
+name: Deploy app to GitHub pages
 
 jobs:
   deploy:
