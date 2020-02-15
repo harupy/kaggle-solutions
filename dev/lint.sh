@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 # This script detects the following violations for all tracked files:
-# - trailing whitespaces
-# - no new line at EOF
+# - Trailing whitespaces
+# - No new line at EOF
 
-ws_lines=""  # lines containing trailing whitespaces.
-nnl_files=""  # files that don't end with a newline.
+ws_lines=""  # Lines containing trailing whitespaces.
+nnl_files=""  # Files that don't end with a newline.
 
 # Iterate through all tracked files.
 for file in $(git diff --name-only origin/master | sed -e 's/^/.\//')
