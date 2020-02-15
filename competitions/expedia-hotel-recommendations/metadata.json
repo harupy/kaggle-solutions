@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 2,
-        "datasetCount": 21,
+        "datasetCount": 22,
         "description": null,
         "displayName": "recommendation",
         "fontAwesomeIcon": null,
@@ -13,13 +13,28 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27recommendation%27",
         "name": "recommendation",
-        "scriptCount": 52,
+        "scriptCount": 54,
         "tagUrl": "/tags/recommendation",
-        "totalCount": 75
+        "totalCount": 78
+      },
+      {
+        "competitionCount": 94,
+        "datasetCount": 150,
+        "description": null,
+        "displayName": "tabular data",
+        "fontAwesomeIcon": null,
+        "fullPath": "data type > tabular data",
+        "id": 14101,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
+        "name": "tabular data",
+        "scriptCount": 116,
+        "tagUrl": "/tags/tabular-data",
+        "totalCount": 360
       },
       {
         "competitionCount": 2,
-        "datasetCount": 33,
+        "datasetCount": 34,
         "description": "A hotel is an establishment that provides paid lodging on a short-term basis. Find more information about hotels and their reviews in this tag.",
         "displayName": "hotels",
         "fontAwesomeIcon": null,
@@ -30,22 +45,7 @@
         "name": "hotels",
         "scriptCount": 5,
         "tagUrl": "/tags/hotels",
-        "totalCount": 40
-      },
-      {
-        "competitionCount": 92,
-        "datasetCount": 98,
-        "description": null,
-        "displayName": "tabular data",
-        "fontAwesomeIcon": null,
-        "fullPath": "data type > tabular data",
-        "id": 14101,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
-        "name": "tabular data",
-        "scriptCount": 115,
-        "tagUrl": "/tags/tabular-data",
-        "totalCount": 305
+        "totalCount": 41
       }
     ],
     "type": "competition"

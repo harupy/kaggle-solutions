@@ -3,36 +3,6 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 40,
-        "datasetCount": 187,
-        "description": null,
-        "displayName": "multiclass classification",
-        "fontAwesomeIcon": null,
-        "fullPath": "problem type > multiclass classification",
-        "id": 14202,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27multiclass classification%27",
-        "name": "multiclass classification",
-        "scriptCount": 335,
-        "tagUrl": "/tags/multiclass-classification",
-        "totalCount": 562
-      },
-      {
-        "competitionCount": 10,
-        "datasetCount": 90,
-        "description": null,
-        "displayName": "object detection",
-        "fontAwesomeIcon": null,
-        "fullPath": "problem type > object detection",
-        "id": 14214,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27object detection%27",
-        "name": "object detection",
-        "scriptCount": 53,
-        "tagUrl": "/tags/object-detection",
-        "totalCount": 153
-      },
-      {
         "competitionCount": 1,
         "datasetCount": 8,
         "description": "Fishing is primarily an excuse to relax outdoors and lie about \"the big one\" to your friends. Sometimes there are even fish involved.",
@@ -48,8 +18,8 @@
         "totalCount": 11
       },
       {
-        "competitionCount": 70,
-        "datasetCount": 705,
+        "competitionCount": 71,
+        "datasetCount": 770,
         "description": null,
         "displayName": "image data",
         "fontAwesomeIcon": null,
@@ -58,9 +28,39 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
         "name": "image data",
-        "scriptCount": 426,
+        "scriptCount": 434,
         "tagUrl": "/tags/image-data",
-        "totalCount": 1201
+        "totalCount": 1275
+      },
+      {
+        "competitionCount": 40,
+        "datasetCount": 199,
+        "description": null,
+        "displayName": "multiclass classification",
+        "fontAwesomeIcon": null,
+        "fullPath": "problem type > multiclass classification",
+        "id": 14202,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27multiclass classification%27",
+        "name": "multiclass classification",
+        "scriptCount": 343,
+        "tagUrl": "/tags/multiclass-classification",
+        "totalCount": 582
+      },
+      {
+        "competitionCount": 10,
+        "datasetCount": 93,
+        "description": null,
+        "displayName": "object detection",
+        "fontAwesomeIcon": null,
+        "fullPath": "problem type > object detection",
+        "id": 14214,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27object detection%27",
+        "name": "object detection",
+        "scriptCount": 53,
+        "tagUrl": "/tags/object-detection",
+        "totalCount": 156
       }
     ],
     "type": "competition"

@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 40,
-        "datasetCount": 187,
+        "datasetCount": 199,
         "description": null,
         "displayName": "multiclass classification",
         "fontAwesomeIcon": null,
@@ -13,13 +13,28 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27multiclass classification%27",
         "name": "multiclass classification",
-        "scriptCount": 335,
+        "scriptCount": 343,
         "tagUrl": "/tags/multiclass-classification",
-        "totalCount": 562
+        "totalCount": 582
+      },
+      {
+        "competitionCount": 94,
+        "datasetCount": 150,
+        "description": null,
+        "displayName": "tabular data",
+        "fontAwesomeIcon": null,
+        "fullPath": "data type > tabular data",
+        "id": 14101,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
+        "name": "tabular data",
+        "scriptCount": 116,
+        "tagUrl": "/tags/tabular-data",
+        "totalCount": 360
       },
       {
         "competitionCount": 4,
-        "datasetCount": 29,
+        "datasetCount": 32,
         "description": "Marketing is the activity of connecting consumers to products and services. Find datasets, kernels, and competitions related to marketing in this tag.",
         "displayName": "marketing",
         "fontAwesomeIcon": null,
@@ -30,22 +45,7 @@
         "name": "marketing",
         "scriptCount": 22,
         "tagUrl": "/tags/marketing",
-        "totalCount": 55
-      },
-      {
-        "competitionCount": 92,
-        "datasetCount": 98,
-        "description": null,
-        "displayName": "tabular data",
-        "fontAwesomeIcon": null,
-        "fullPath": "data type > tabular data",
-        "id": 14101,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
-        "name": "tabular data",
-        "scriptCount": 115,
-        "tagUrl": "/tags/tabular-data",
-        "totalCount": 305
+        "totalCount": 58
       }
     ],
     "type": "competition"

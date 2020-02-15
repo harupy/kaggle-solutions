@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 3,
-        "datasetCount": 23,
+        "datasetCount": 28,
         "description": null,
         "displayName": "video data",
         "fontAwesomeIcon": null,
@@ -13,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27video data%27",
         "name": "video data",
-        "scriptCount": 7,
+        "scriptCount": 14,
         "tagUrl": "/tags/video-data",
-        "totalCount": 33
+        "totalCount": 45
       },
       {
         "competitionCount": 10,
-        "datasetCount": 90,
+        "datasetCount": 93,
         "description": null,
         "displayName": "object detection",
         "fontAwesomeIcon": null,
@@ -30,7 +30,7 @@
         "name": "object detection",
         "scriptCount": 53,
         "tagUrl": "/tags/object-detection",
-        "totalCount": 153
+        "totalCount": 156
       }
     ],
     "type": "competition"

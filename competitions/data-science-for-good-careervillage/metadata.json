@@ -4,22 +4,7 @@
     "categories": [
       {
         "competitionCount": 2,
-        "datasetCount": 1384,
-        "description": "Education datasets and kernels relate to statistics on student performance, university rankings, and answers for all your homework questions.",
-        "displayName": "education",
-        "fontAwesomeIcon": null,
-        "fullPath": "society and social sciences > society > jobs and education > education",
-        "id": 11105,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27education%27",
-        "name": "education",
-        "scriptCount": 87,
-        "tagUrl": "/tags/education",
-        "totalCount": 1473
-      },
-      {
-        "competitionCount": 2,
-        "datasetCount": 20,
+        "datasetCount": 21,
         "description": "A specific stage in the Homo sapiens lifecycle. Most of us even escape it.",
         "displayName": "children",
         "fontAwesomeIcon": null,
@@ -30,7 +15,22 @@
         "name": "children",
         "scriptCount": 0,
         "tagUrl": "/tags/children",
-        "totalCount": 22
+        "totalCount": 23
+      },
+      {
+        "competitionCount": 2,
+        "datasetCount": 1504,
+        "description": "Education datasets and kernels relate to statistics on student performance, university rankings, and answers for all your homework questions.",
+        "displayName": "education",
+        "fontAwesomeIcon": null,
+        "fullPath": "society and social sciences > society > jobs and education > education",
+        "id": 11105,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27education%27",
+        "name": "education",
+        "scriptCount": 90,
+        "tagUrl": "/tags/education",
+        "totalCount": 1596
       }
     ],
     "type": "competition"

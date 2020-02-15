@@ -3,8 +3,38 @@
   "categories": {
     "categories": [
       {
+        "competitionCount": 94,
+        "datasetCount": 150,
+        "description": null,
+        "displayName": "tabular data",
+        "fontAwesomeIcon": null,
+        "fullPath": "data type > tabular data",
+        "id": 14101,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
+        "name": "tabular data",
+        "scriptCount": 116,
+        "tagUrl": "/tags/tabular-data",
+        "totalCount": 360
+      },
+      {
+        "competitionCount": 5,
+        "datasetCount": 204,
+        "description": "Time series analysis is the 4th dimension of data analysis. Our human minds can't visualize time but thankfully there are some really great plotting libraries out there to fix that problem.",
+        "displayName": "time series",
+        "fontAwesomeIcon": null,
+        "fullPath": "mathematics and logic > statistics > time series",
+        "id": 6618,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27time series%27",
+        "name": "time series",
+        "scriptCount": 403,
+        "tagUrl": "/tags/time-series",
+        "totalCount": 612
+      },
+      {
         "competitionCount": 1,
-        "datasetCount": 117,
+        "datasetCount": 124,
         "description": "There are lots of fun datasets here for you to analyze, and who knows, maybe you'll find a habitable planet hidden in the data that no one else saw. Then you could have a planet named after you!",
         "displayName": "astronomy",
         "fontAwesomeIcon": null,
@@ -15,37 +45,7 @@
         "name": "astronomy",
         "scriptCount": 37,
         "tagUrl": "/tags/astronomy",
-        "totalCount": 155
-      },
-      {
-        "competitionCount": 5,
-        "datasetCount": 199,
-        "description": "Time series analysis is the 4th dimension of data analysis. Our human minds can't visualize time but thankfully there are some really great plotting libraries out there to fix that problem.",
-        "displayName": "time series",
-        "fontAwesomeIcon": null,
-        "fullPath": "mathematics and logic > statistics > time series",
-        "id": 6618,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27time series%27",
-        "name": "time series",
-        "scriptCount": 396,
-        "tagUrl": "/tags/time-series",
-        "totalCount": 600
-      },
-      {
-        "competitionCount": 92,
-        "datasetCount": 98,
-        "description": null,
-        "displayName": "tabular data",
-        "fontAwesomeIcon": null,
-        "fullPath": "data type > tabular data",
-        "id": 14101,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
-        "name": "tabular data",
-        "scriptCount": 115,
-        "tagUrl": "/tags/tabular-data",
-        "totalCount": 305
+        "totalCount": 162
       }
     ],
     "type": "competition"

@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 1,
-        "datasetCount": 117,
+        "datasetCount": 129,
         "description": null,
         "displayName": "atmospheric sciences",
         "fontAwesomeIcon": null,
@@ -15,11 +15,11 @@
         "name": "atmospheric sciences",
         "scriptCount": 1,
         "tagUrl": "/tags/atmospheric-sciences",
-        "totalCount": 119
+        "totalCount": 131
       },
       {
-        "competitionCount": 70,
-        "datasetCount": 705,
+        "competitionCount": 71,
+        "datasetCount": 770,
         "description": null,
         "displayName": "image data",
         "fontAwesomeIcon": null,
@@ -28,9 +28,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
         "name": "image data",
-        "scriptCount": 426,
+        "scriptCount": 434,
         "tagUrl": "/tags/image-data",
-        "totalCount": 1201
+        "totalCount": 1275
       }
     ],
     "type": "competition"

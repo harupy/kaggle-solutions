@@ -3,38 +3,8 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 30,
-        "datasetCount": 283,
-        "description": null,
-        "displayName": "text data",
-        "fontAwesomeIcon": null,
-        "fullPath": "data type > text data",
-        "id": 14104,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
-        "name": "text data",
-        "scriptCount": 435,
-        "tagUrl": "/tags/text-data",
-        "totalCount": 748
-      },
-      {
-        "competitionCount": 31,
-        "datasetCount": 94,
-        "description": null,
-        "displayName": "binary classification",
-        "fontAwesomeIcon": null,
-        "fullPath": "problem type > binary classification",
-        "id": 14201,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27binary classification%27",
-        "name": "binary classification",
-        "scriptCount": 469,
-        "tagUrl": "/tags/binary-classification",
-        "totalCount": 594
-      },
-      {
         "competitionCount": 2,
-        "datasetCount": 849,
+        "datasetCount": 951,
         "description": "Grab a bucket of popcorn and come analyze these movie ratings. The world must know which blockbuster film is the blockbuster film of all time!",
         "displayName": "film",
         "fontAwesomeIcon": null,
@@ -45,7 +15,37 @@
         "name": "film",
         "scriptCount": 13,
         "tagUrl": "/tags/film",
-        "totalCount": 864
+        "totalCount": 966
+      },
+      {
+        "competitionCount": 30,
+        "datasetCount": 293,
+        "description": null,
+        "displayName": "text data",
+        "fontAwesomeIcon": null,
+        "fullPath": "data type > text data",
+        "id": 14104,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
+        "name": "text data",
+        "scriptCount": 455,
+        "tagUrl": "/tags/text-data",
+        "totalCount": 778
+      },
+      {
+        "competitionCount": 31,
+        "datasetCount": 98,
+        "description": null,
+        "displayName": "binary classification",
+        "fontAwesomeIcon": null,
+        "fullPath": "problem type > binary classification",
+        "id": 14201,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27binary classification%27",
+        "name": "binary classification",
+        "scriptCount": 477,
+        "tagUrl": "/tags/binary-classification",
+        "totalCount": 606
       }
     ],
     "type": "competition"

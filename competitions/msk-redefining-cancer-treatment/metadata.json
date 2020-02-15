@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 30,
-        "datasetCount": 283,
+        "datasetCount": 293,
         "description": null,
         "displayName": "text data",
         "fontAwesomeIcon": null,
@@ -13,24 +13,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
         "name": "text data",
-        "scriptCount": 435,
+        "scriptCount": 455,
         "tagUrl": "/tags/text-data",
-        "totalCount": 748
-      },
-      {
-        "competitionCount": 40,
-        "datasetCount": 187,
-        "description": null,
-        "displayName": "multiclass classification",
-        "fontAwesomeIcon": null,
-        "fullPath": "problem type > multiclass classification",
-        "id": 14202,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27multiclass classification%27",
-        "name": "multiclass classification",
-        "scriptCount": 335,
-        "tagUrl": "/tags/multiclass-classification",
-        "totalCount": 562
+        "totalCount": 778
       },
       {
         "competitionCount": 3,
@@ -43,9 +28,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27health sciences%27",
         "name": "health sciences",
-        "scriptCount": 10,
+        "scriptCount": 11,
         "tagUrl": "/tags/health-sciences",
-        "totalCount": 40
+        "totalCount": 41
       },
       {
         "competitionCount": 1,
@@ -61,6 +46,21 @@
         "scriptCount": 13,
         "tagUrl": "/tags/human-genetics",
         "totalCount": 30
+      },
+      {
+        "competitionCount": 40,
+        "datasetCount": 199,
+        "description": null,
+        "displayName": "multiclass classification",
+        "fontAwesomeIcon": null,
+        "fullPath": "problem type > multiclass classification",
+        "id": 14202,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27multiclass classification%27",
+        "name": "multiclass classification",
+        "scriptCount": 343,
+        "tagUrl": "/tags/multiclass-classification",
+        "totalCount": 582
       }
     ],
     "type": "competition"

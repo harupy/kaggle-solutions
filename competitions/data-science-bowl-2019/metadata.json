@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 2,
-        "datasetCount": 20,
+        "datasetCount": 21,
         "description": "A specific stage in the Homo sapiens lifecycle. Most of us even escape it.",
         "displayName": "children",
         "fontAwesomeIcon": null,
@@ -15,11 +15,11 @@
         "name": "children",
         "scriptCount": 0,
         "tagUrl": "/tags/children",
-        "totalCount": 22
+        "totalCount": 23
       },
       {
         "competitionCount": 1,
-        "datasetCount": 25,
+        "datasetCount": 26,
         "description": "Learning is the process of acquiring new or modifying existing knowledge, behaviors, skills, values, or preferences.",
         "displayName": "learning",
         "fontAwesomeIcon": null,
@@ -28,13 +28,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27learning%27",
         "name": "learning",
-        "scriptCount": 102,
+        "scriptCount": 104,
         "tagUrl": "/tags/learning",
-        "totalCount": 128
+        "totalCount": 131
       },
       {
         "competitionCount": 2,
-        "datasetCount": 1384,
+        "datasetCount": 1504,
         "description": "Education datasets and kernels relate to statistics on student performance, university rankings, and answers for all your homework questions.",
         "displayName": "education",
         "fontAwesomeIcon": null,
@@ -43,13 +43,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27education%27",
         "name": "education",
-        "scriptCount": 87,
+        "scriptCount": 90,
         "tagUrl": "/tags/education",
-        "totalCount": 1473
+        "totalCount": 1596
       },
       {
         "competitionCount": 2,
-        "datasetCount": 432,
+        "datasetCount": 466,
         "description": "Video games were originally created to prevent people from going to college and getting good jobs. That back-fired and now we have data centers full of GPUs training models to tell the difference between cats and dogs. All thanks to gamers.",
         "displayName": "video games",
         "fontAwesomeIcon": null,
@@ -58,9 +58,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27video games%27",
         "name": "video games",
-        "scriptCount": 226,
+        "scriptCount": 228,
         "tagUrl": "/tags/video-games",
-        "totalCount": 660
+        "totalCount": 696
       }
     ],
     "type": "competition"

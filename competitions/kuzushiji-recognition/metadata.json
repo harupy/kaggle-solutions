@@ -3,8 +3,23 @@
   "categories": {
     "categories": [
       {
+        "competitionCount": 71,
+        "datasetCount": 770,
+        "description": null,
+        "displayName": "image data",
+        "fontAwesomeIcon": null,
+        "fullPath": "data type > image data",
+        "id": 14102,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
+        "name": "image data",
+        "scriptCount": 434,
+        "tagUrl": "/tags/image-data",
+        "totalCount": 1275
+      },
+      {
         "competitionCount": 1,
-        "datasetCount": 163,
+        "datasetCount": 167,
         "description": "History is generally the study of past events that have shaped the world. Here on Kaggle, you'll find historical records and analyses on topics like Bitcoin data, UFO sightings, and sports tournaments.",
         "displayName": "history",
         "fontAwesomeIcon": null,
@@ -15,11 +30,11 @@
         "name": "history",
         "scriptCount": 101,
         "tagUrl": "/tags/history",
-        "totalCount": 265
+        "totalCount": 269
       },
       {
         "competitionCount": 40,
-        "datasetCount": 187,
+        "datasetCount": 199,
         "description": null,
         "displayName": "multiclass classification",
         "fontAwesomeIcon": null,
@@ -28,28 +43,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27multiclass classification%27",
         "name": "multiclass classification",
-        "scriptCount": 335,
+        "scriptCount": 343,
         "tagUrl": "/tags/multiclass-classification",
-        "totalCount": 562
-      },
-      {
-        "competitionCount": 70,
-        "datasetCount": 705,
-        "description": null,
-        "displayName": "image data",
-        "fontAwesomeIcon": null,
-        "fullPath": "data type > image data",
-        "id": 14102,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
-        "name": "image data",
-        "scriptCount": 426,
-        "tagUrl": "/tags/image-data",
-        "totalCount": 1201
+        "totalCount": 582
       },
       {
         "competitionCount": 1,
-        "datasetCount": 15,
+        "datasetCount": 18,
         "description": "Japan is an island country in East Asia. Located in the Pacific Ocean, it lies off the eastern coast of the Asian continent and stretches from the Sea of Okhotsk in the north to the East China Sea and the Philippine Sea in the south.",
         "displayName": "Japan",
         "fontAwesomeIcon": null,
@@ -60,7 +60,7 @@
         "name": "japan",
         "scriptCount": 8,
         "tagUrl": "/tags/japan",
-        "totalCount": 24
+        "totalCount": 27
       }
     ],
     "type": "competition"

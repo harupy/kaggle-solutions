@@ -3,38 +3,8 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 8,
-        "datasetCount": 184,
-        "description": "Basketball is one of the world's most popular and widely viewed sports. Analyze Kobe Bryant's shot selections and peruse our annual March Mania competitions.",
-        "displayName": "basketball",
-        "fontAwesomeIcon": null,
-        "fullPath": "health and fitness > self care > exercise > sports > team sports > basketball",
-        "id": 2606,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27basketball%27",
-        "name": "basketball",
-        "scriptCount": 64,
-        "tagUrl": "/tags/basketball",
-        "totalCount": 256
-      },
-      {
-        "competitionCount": 9,
-        "datasetCount": 634,
-        "description": "The sports tag covers the whole spectrum of sports around the world. We've got tennis, we've got football, and we've even got kitefoil racing.",
-        "displayName": "sports",
-        "fontAwesomeIcon": null,
-        "fullPath": "health and fitness > self care > exercise > sports",
-        "id": 4141,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27sports%27",
-        "name": "sports",
-        "scriptCount": 215,
-        "tagUrl": "/tags/sports",
-        "totalCount": 858
-      },
-      {
         "competitionCount": 12,
-        "datasetCount": 73,
+        "datasetCount": 76,
         "description": null,
         "displayName": "future prediction",
         "fontAwesomeIcon": null,
@@ -43,9 +13,39 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27future prediction%27",
         "name": "future prediction",
-        "scriptCount": 116,
+        "scriptCount": 119,
         "tagUrl": "/tags/future-prediction",
-        "totalCount": 201
+        "totalCount": 207
+      },
+      {
+        "competitionCount": 11,
+        "datasetCount": 197,
+        "description": "Basketball is one of the world's most popular and widely viewed sports. Analyze Kobe Bryant's shot selections and peruse our annual March Mania competitions.",
+        "displayName": "basketball",
+        "fontAwesomeIcon": null,
+        "fullPath": "health and fitness > self care > exercise > sports > team sports > basketball",
+        "id": 2606,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27basketball%27",
+        "name": "basketball",
+        "scriptCount": 65,
+        "tagUrl": "/tags/basketball",
+        "totalCount": 273
+      },
+      {
+        "competitionCount": 10,
+        "datasetCount": 663,
+        "description": "The sports tag covers the whole spectrum of sports around the world. We've got tennis, we've got football, and we've even got kitefoil racing.",
+        "displayName": "sports",
+        "fontAwesomeIcon": null,
+        "fullPath": "health and fitness > self care > exercise > sports",
+        "id": 4141,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27sports%27",
+        "name": "sports",
+        "scriptCount": 219,
+        "tagUrl": "/tags/sports",
+        "totalCount": 892
       }
     ],
     "type": "competition"

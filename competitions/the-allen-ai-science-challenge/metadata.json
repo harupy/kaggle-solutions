@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 30,
-        "datasetCount": 283,
+        "datasetCount": 293,
         "description": null,
         "displayName": "text data",
         "fontAwesomeIcon": null,
@@ -13,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
         "name": "text data",
-        "scriptCount": 435,
+        "scriptCount": 455,
         "tagUrl": "/tags/text-data",
-        "totalCount": 748
+        "totalCount": 778
       },
       {
-        "competitionCount": 92,
-        "datasetCount": 98,
+        "competitionCount": 94,
+        "datasetCount": 150,
         "description": null,
         "displayName": "tabular data",
         "fontAwesomeIcon": null,
@@ -28,13 +28,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
         "name": "tabular data",
-        "scriptCount": 115,
+        "scriptCount": 116,
         "tagUrl": "/tags/tabular-data",
-        "totalCount": 305
+        "totalCount": 360
       },
       {
-        "competitionCount": 1,
-        "datasetCount": 78,
+        "competitionCount": 2,
+        "datasetCount": 80,
         "description": "This tag has datasets and kernels where people come together and use cutting-edge research to train models on pictures of cats.",
         "displayName": "artificial intelligence",
         "fontAwesomeIcon": null,
@@ -43,13 +43,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27artificial intelligence%27",
         "name": "artificial intelligence",
-        "scriptCount": 58,
+        "scriptCount": 61,
         "tagUrl": "/tags/artificial-intelligence",
-        "totalCount": 137
+        "totalCount": 143
       },
       {
         "competitionCount": 40,
-        "datasetCount": 187,
+        "datasetCount": 199,
         "description": null,
         "displayName": "multiclass classification",
         "fontAwesomeIcon": null,
@@ -58,9 +58,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27multiclass classification%27",
         "name": "multiclass classification",
-        "scriptCount": 335,
+        "scriptCount": 343,
         "tagUrl": "/tags/multiclass-classification",
-        "totalCount": 562
+        "totalCount": 582
       }
     ],
     "type": "competition"

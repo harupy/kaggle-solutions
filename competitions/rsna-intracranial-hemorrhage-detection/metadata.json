@@ -3,8 +3,8 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 70,
-        "datasetCount": 705,
+        "competitionCount": 71,
+        "datasetCount": 770,
         "description": null,
         "displayName": "image data",
         "fontAwesomeIcon": null,
@@ -13,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
         "name": "image data",
-        "scriptCount": 426,
+        "scriptCount": 434,
         "tagUrl": "/tags/image-data",
-        "totalCount": 1201
+        "totalCount": 1275
       },
       {
         "competitionCount": 1,
-        "datasetCount": 45,
+        "datasetCount": 54,
         "description": null,
         "displayName": "health foundations and medical research",
         "fontAwesomeIcon": null,
@@ -28,9 +28,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27health foundations and medical research%27",
         "name": "health foundations and medical research",
-        "scriptCount": 4,
+        "scriptCount": 5,
         "tagUrl": "/tags/health-foundations-and-medical-research",
-        "totalCount": 50
+        "totalCount": 60
       }
     ],
     "type": "competition"

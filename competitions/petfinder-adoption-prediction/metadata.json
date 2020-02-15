@@ -3,8 +3,8 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 70,
-        "datasetCount": 705,
+        "competitionCount": 71,
+        "datasetCount": 770,
         "description": null,
         "displayName": "image data",
         "fontAwesomeIcon": null,
@@ -13,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
         "name": "image data",
-        "scriptCount": 426,
+        "scriptCount": 434,
         "tagUrl": "/tags/image-data",
-        "totalCount": 1201
+        "totalCount": 1275
       },
       {
         "competitionCount": 30,
-        "datasetCount": 283,
+        "datasetCount": 293,
         "description": null,
         "displayName": "text data",
         "fontAwesomeIcon": null,
@@ -28,9 +28,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
         "name": "text data",
-        "scriptCount": 435,
+        "scriptCount": 455,
         "tagUrl": "/tags/text-data",
-        "totalCount": 748
+        "totalCount": 778
       }
     ],
     "type": "competition"

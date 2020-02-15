@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 3,
-        "datasetCount": 11,
+        "datasetCount": 12,
         "description": "Sound is one of the main senses. Making sense of noise is our calling as data scientists, so doing data science on sound is extremely meta.",
         "displayName": "sound technology",
         "fontAwesomeIcon": null,
@@ -15,7 +15,7 @@
         "name": "sound technology",
         "scriptCount": 9,
         "tagUrl": "/tags/sound-technology",
-        "totalCount": 23
+        "totalCount": 24
       }
     ],
     "type": "competition"

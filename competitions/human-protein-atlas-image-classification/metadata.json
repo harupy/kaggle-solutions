@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 2,
-        "datasetCount": 420,
+        "datasetCount": 442,
         "description": null,
         "displayName": "classification",
         "fontAwesomeIcon": null,
@@ -13,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27classification%27",
         "name": "classification",
-        "scriptCount": 4471,
+        "scriptCount": 4618,
         "tagUrl": "/tags/classification",
-        "totalCount": 4893
+        "totalCount": 5062
       },
       {
-        "competitionCount": 70,
-        "datasetCount": 705,
+        "competitionCount": 71,
+        "datasetCount": 770,
         "description": null,
         "displayName": "image data",
         "fontAwesomeIcon": null,
@@ -28,9 +28,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
         "name": "image data",
-        "scriptCount": 426,
+        "scriptCount": 434,
         "tagUrl": "/tags/image-data",
-        "totalCount": 1201
+        "totalCount": 1275
       }
     ],
     "type": "competition"

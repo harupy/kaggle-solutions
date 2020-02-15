@@ -19,7 +19,7 @@
       },
       {
         "competitionCount": 3,
-        "datasetCount": 9,
+        "datasetCount": 10,
         "description": null,
         "displayName": "optimization",
         "fontAwesomeIcon": null,
@@ -28,9 +28,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27optimization%27",
         "name": "optimization",
-        "scriptCount": 92,
+        "scriptCount": 94,
         "tagUrl": "/tags/optimization",
-        "totalCount": 104
+        "totalCount": 107
       }
     ],
     "type": "competition"

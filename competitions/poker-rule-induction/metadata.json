@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 1,
-        "datasetCount": 19,
+        "datasetCount": 21,
         "description": "A card game is any game using playing cards as the primary device with which the game is played, be they traditional or game-specific. Countless card games exist, including families of related games (such as poker).",
         "displayName": "card games",
         "fontAwesomeIcon": null,
@@ -13,28 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27card games%27",
         "name": "card games",
-        "scriptCount": 5,
+        "scriptCount": 6,
         "tagUrl": "/tags/card-games",
-        "totalCount": 25
-      },
-      {
-        "competitionCount": 92,
-        "datasetCount": 98,
-        "description": null,
-        "displayName": "tabular data",
-        "fontAwesomeIcon": null,
-        "fullPath": "data type > tabular data",
-        "id": 14101,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
-        "name": "tabular data",
-        "scriptCount": 115,
-        "tagUrl": "/tags/tabular-data",
-        "totalCount": 305
+        "totalCount": 28
       },
       {
         "competitionCount": 40,
-        "datasetCount": 187,
+        "datasetCount": 199,
         "description": null,
         "displayName": "multiclass classification",
         "fontAwesomeIcon": null,
@@ -43,9 +28,24 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27multiclass classification%27",
         "name": "multiclass classification",
-        "scriptCount": 335,
+        "scriptCount": 343,
         "tagUrl": "/tags/multiclass-classification",
-        "totalCount": 562
+        "totalCount": 582
+      },
+      {
+        "competitionCount": 94,
+        "datasetCount": 150,
+        "description": null,
+        "displayName": "tabular data",
+        "fontAwesomeIcon": null,
+        "fullPath": "data type > tabular data",
+        "id": 14101,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
+        "name": "tabular data",
+        "scriptCount": 116,
+        "tagUrl": "/tags/tabular-data",
+        "totalCount": 360
       }
     ],
     "type": "competition"

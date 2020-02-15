@@ -3,8 +3,8 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 70,
-        "datasetCount": 705,
+        "competitionCount": 71,
+        "datasetCount": 770,
         "description": null,
         "displayName": "image data",
         "fontAwesomeIcon": null,
@@ -13,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
         "name": "image data",
-        "scriptCount": 426,
+        "scriptCount": 434,
         "tagUrl": "/tags/image-data",
-        "totalCount": 1201
+        "totalCount": 1275
       },
       {
         "competitionCount": 7,
-        "datasetCount": 58,
+        "datasetCount": 61,
         "description": null,
         "displayName": "object segmentation",
         "fontAwesomeIcon": null,
@@ -30,7 +30,7 @@
         "name": "object segmentation",
         "scriptCount": 85,
         "tagUrl": "/tags/object-segmentation",
-        "totalCount": 150
+        "totalCount": 153
       }
     ],
     "type": "competition"

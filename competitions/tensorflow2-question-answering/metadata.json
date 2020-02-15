@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 30,
-        "datasetCount": 283,
+        "datasetCount": 293,
         "description": null,
         "displayName": "text data",
         "fontAwesomeIcon": null,
@@ -13,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
         "name": "text data",
-        "scriptCount": 435,
+        "scriptCount": 455,
         "tagUrl": "/tags/text-data",
-        "totalCount": 748
+        "totalCount": 778
       },
       {
         "competitionCount": 1,
-        "datasetCount": 102,
+        "datasetCount": 106,
         "description": null,
         "displayName": "text mining",
         "fontAwesomeIcon": null,
@@ -28,9 +28,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text mining%27",
         "name": "text mining",
-        "scriptCount": 341,
+        "scriptCount": 344,
         "tagUrl": "/tags/text-mining",
-        "totalCount": 444
+        "totalCount": 451
       }
     ],
     "type": "competition"
@@ -65,7 +65,7 @@
   "submissionsDisabled": false,
   "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/12863/logos/thumb76_76.png?t=2019-10-22-16-56-17",
   "totalKernels": 0,
-  "totalTeams": 1240,
+  "totalTeams": 1233,
   "userHasEntered": false,
   "userRank": null,
   "userTeamUsers": []

@@ -3,23 +3,8 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 6,
-        "datasetCount": 294,
-        "description": "If you love food and drink, don't look in this tag unless you want to ruin your day by learning how many calories burritos have. On the other hand, do look into these datasets and kernels for general nutrition facts, restaurant ratings, and various food and drink related reviews.",
-        "displayName": "food and drink",
-        "fontAwesomeIcon": null,
-        "fullPath": "culture and arts > culture and humanities > food and drink",
-        "id": 2106,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27food and drink%27",
-        "name": "food and drink",
-        "scriptCount": 352,
-        "tagUrl": "/tags/food-and-drink",
-        "totalCount": 652
-      },
-      {
         "competitionCount": 40,
-        "datasetCount": 187,
+        "datasetCount": 199,
         "description": null,
         "displayName": "multiclass classification",
         "fontAwesomeIcon": null,
@@ -28,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27multiclass classification%27",
         "name": "multiclass classification",
-        "scriptCount": 335,
+        "scriptCount": 343,
         "tagUrl": "/tags/multiclass-classification",
-        "totalCount": 562
+        "totalCount": 582
       },
       {
         "competitionCount": 30,
-        "datasetCount": 283,
+        "datasetCount": 293,
         "description": null,
         "displayName": "text data",
         "fontAwesomeIcon": null,
@@ -43,9 +28,24 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
         "name": "text data",
-        "scriptCount": 435,
+        "scriptCount": 455,
         "tagUrl": "/tags/text-data",
-        "totalCount": 748
+        "totalCount": 778
+      },
+      {
+        "competitionCount": 6,
+        "datasetCount": 320,
+        "description": "If you love food and drink, don't look in this tag unless you want to ruin your day by learning how many calories burritos have. On the other hand, do look into these datasets and kernels for general nutrition facts, restaurant ratings, and various food and drink related reviews.",
+        "displayName": "food and drink",
+        "fontAwesomeIcon": null,
+        "fullPath": "culture and arts > culture and humanities > food and drink",
+        "id": 2106,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27food and drink%27",
+        "name": "food and drink",
+        "scriptCount": 354,
+        "tagUrl": "/tags/food-and-drink",
+        "totalCount": 680
       }
     ],
     "type": "competition"

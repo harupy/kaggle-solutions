@@ -3,23 +3,23 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 2,
-        "datasetCount": 191,
-        "description": "Language is a method of communication that consists of using words arranged into meaningful patterns. This is a good place to find natural language processing datasets and kernels to study languages and train your chat bots.",
-        "displayName": "languages",
+        "competitionCount": 30,
+        "datasetCount": 293,
+        "description": null,
+        "displayName": "text data",
         "fontAwesomeIcon": null,
-        "fullPath": "culture and arts > culture and humanities > languages",
-        "id": 2107,
+        "fullPath": "data type > text data",
+        "id": 14104,
         "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27languages%27",
-        "name": "languages",
-        "scriptCount": 46,
-        "tagUrl": "/tags/languages",
-        "totalCount": 239
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
+        "name": "text data",
+        "scriptCount": 455,
+        "tagUrl": "/tags/text-data",
+        "totalCount": 778
       },
       {
         "competitionCount": 6,
-        "datasetCount": 423,
+        "datasetCount": 427,
         "description": "The linguistics tag contains datasets and kernels that you can use for text analytics, sentiment analyses, and making clever jokes like this: Let me tell you a little about myself. It's a reflexive pronoun that means \"me.\"",
         "displayName": "linguistics",
         "fontAwesomeIcon": null,
@@ -30,22 +30,22 @@
         "name": "linguistics",
         "scriptCount": 113,
         "tagUrl": "/tags/linguistics",
-        "totalCount": 542
+        "totalCount": 546
       },
       {
-        "competitionCount": 30,
-        "datasetCount": 283,
-        "description": null,
-        "displayName": "text data",
+        "competitionCount": 2,
+        "datasetCount": 193,
+        "description": "Language is a method of communication that consists of using words arranged into meaningful patterns. This is a good place to find natural language processing datasets and kernels to study languages and train your chat bots.",
+        "displayName": "languages",
         "fontAwesomeIcon": null,
-        "fullPath": "data type > text data",
-        "id": 14104,
+        "fullPath": "culture and arts > culture and humanities > languages",
+        "id": 2107,
         "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
-        "name": "text data",
-        "scriptCount": 435,
-        "tagUrl": "/tags/text-data",
-        "totalCount": 748
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27languages%27",
+        "name": "languages",
+        "scriptCount": 48,
+        "tagUrl": "/tags/languages",
+        "totalCount": 243
       }
     ],
     "type": "competition"
