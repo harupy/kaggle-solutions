@@ -14,12 +14,10 @@ jobs:
         with:
           python-version: '3.7'
       - name: Install Dependencies
-        run: |
-          pip install pipenv
-          pipenv install --dev
+        run: pip install -r requirements.txt -r requirements-dev.txt
       - name: Run Lint
         run: |
           ./dev/lint.sh
           ./dev/lint-python.sh
-      - name: Run Test
+      - name: Run Tests
         run: ./dev/test.sh
