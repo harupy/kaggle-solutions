@@ -1,9 +1,11 @@
 # Kaggle Solutions
 
+![Deploy](https://github.com/harupy/kaggle-solutions/workflows/Deploy/badge.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 https://harupy.github.io/kaggle-solutions/
 
 ![kaggle-solutions-demo](https://user-images.githubusercontent.com/17039389/73281626-9b085000-4233-11ea-8025-01213b91c3d1.gif)
-
 
 ## Setup
 
