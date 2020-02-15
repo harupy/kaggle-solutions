@@ -1,4 +1,4 @@
-name: Deploy app to GitHub pages
+name: Deploy
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    name: Deploy
+    name: Deploy app to GitHub pages
     runs-on: ubuntu-latest
     env:
       WORK_DIR: ./client
