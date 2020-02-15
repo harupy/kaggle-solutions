@@ -1,5 +1,5 @@
 """
-Please make sure this file in the root.
+Please make sure this file is in the root.
 """
 
 import pytest
