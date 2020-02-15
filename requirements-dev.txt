@@ -1,3 +1,4 @@
 autopep8==1.5
 flake8==3.7.9
 pytest==5.3.5
+isort@git+git://github.com/timothycrosley/isort.git
