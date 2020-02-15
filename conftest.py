@@ -8,7 +8,7 @@ import pytest
 @pytest.fixture(autouse=True)
 def inject_items(doctest_namespace):
     """
-    Inject items into the namespace where doctests run.
+    Inject items into the namespace where doctests run so that they can be used directly.
     """
     import os
     import tempfile
