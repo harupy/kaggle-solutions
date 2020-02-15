@@ -5,7 +5,7 @@
 # - no new line at EOF
 
 ws_lines=""  # lines containing trailing whitespaces.
-nl_files=""  # files that don't end with a newline.
+nnl_files=""  # files that don't end with a newline.
 
 # Iterate through all tracked files.
 for file in $(git diff --name-only origin/master | sed -e 's/^/.\//')
@@ -18,7 +18,7 @@ do
 
   # Find no newline at EOF.
   if [ ! -z "$(tail -c 1 $file)" ]; then
-    nl_files+=$([[ -z "$nl_files" ]] && echo "$file" || echo $'\n'"$file")
+    nnl_files+=$([[ -z "$nnl_files" ]] && echo "$file" || echo $'\n'"$file")
   fi
 done
 
@@ -31,9 +31,9 @@ if [ ! -z "$ws_lines" ]; then
   exit_code=1
 fi
 
-if [ ! -z "$nl_files" ]; then
+if [ ! -z "$nnl_files" ]; then
   printf "\n%s\n" "# No newline at end of file"
-  printf "%s\n" "${nl_files[@]}"
+  printf "%s\n" "${nnl_files[@]}"
   exit_code=1
 fi
 
