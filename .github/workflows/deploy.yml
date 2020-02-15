@@ -1,9 +1,9 @@
+name: Deploy app to GitHub pages
+
 on:
   push:
     branches:
       - master
-
-name: Deploy app to GitHub pages
 
 jobs:
   deploy:
