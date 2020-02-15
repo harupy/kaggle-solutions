@@ -1,5 +1,5 @@
 """
-Put this file in the root to make pytest append the root to PYTHONPATH when running the tests.
+Please make sure this file in the root.
 """
 
 import pytest
@@ -7,6 +7,9 @@ import pytest
 
 @pytest.fixture(autouse=True)
 def inject_items(doctest_namespace):
+    """
+    Inject items into the namespace where doctests run so that they can be used directly.
+    """
     import os
     import tempfile
     import json

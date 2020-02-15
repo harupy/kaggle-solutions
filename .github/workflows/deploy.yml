@@ -3,14 +3,14 @@ on:
     branches:
       - master
 
-name: Deploy the app to GitHub pages
+name: Deploy app to GitHub pages
 
 jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
     env:
-      working-directory: ./client
+      WORK_DIR: ./client
     steps:
       - uses: actions/checkout@v1
       - uses: actions/cache@v1
@@ -18,11 +18,11 @@ jobs:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: ${{ runner.os }}-node-
-      - name: Install dependencies
-        working-directory: ${{ env.working-directory }}
+      - name: Install Dependencies
+        working-directory: ${{ env.WORK_DIR }}
         run: npm install
       - name: Build
-        working-directory: ${{ env.working-directory }}
+        working-directory: ${{ env.WORK_DIR }}
         run: npm run build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v2
