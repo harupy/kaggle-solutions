@@ -10,13 +10,13 @@ nl_files=""  # files that don't end with a newline.
 # Iterate over all tracked files.
 for file in $(git diff --name-only origin/master | sed -e 's/^/.\//')
 do
-  # trailing whitespaces
+  # Find trailing whitespaces.
   lines=$(egrep -rnIH " +$" $file | cut -f-2 -d ":")
   if [ ! -z "$lines" ]; then
     ws_lines+=$([[ -z "$ws_lines" ]] && echo "$lines" || echo $'\n'"$lines")
   fi
 
-  # no new line at EOF
+  # Find no newline at EOF.
   if [ ! -z "$(tail -c 1 $file)" ]; then
     nl_files+=$([[ -z "$nl_files" ]] && echo "$file" || echo $'\n'"$file")
   fi
