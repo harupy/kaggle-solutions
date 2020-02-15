@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 3,
-        "datasetCount": 28,
+        "datasetCount": 31,
         "description": "Manufacturing is the production of merchandise for use or sale using labour and machines, tools, chemical and biological processing, or formulation.",
         "displayName": "manufacturing",
         "fontAwesomeIcon": null,
@@ -15,11 +15,11 @@
         "name": "manufacturing",
         "scriptCount": 3,
         "tagUrl": "/tags/manufacturing",
-        "totalCount": 34
+        "totalCount": 37
       },
       {
-        "competitionCount": 70,
-        "datasetCount": 705,
+        "competitionCount": 71,
+        "datasetCount": 770,
         "description": null,
         "displayName": "image data",
         "fontAwesomeIcon": null,
@@ -28,9 +28,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
         "name": "image data",
-        "scriptCount": 426,
+        "scriptCount": 434,
         "tagUrl": "/tags/image-data",
-        "totalCount": 1201
+        "totalCount": 1275
       }
     ],
     "type": "competition"

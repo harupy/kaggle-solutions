@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 4,
-        "datasetCount": 966,
+        "datasetCount": 1000,
         "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
         "displayName": "finance",
         "fontAwesomeIcon": null,
@@ -13,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27finance%27",
         "name": "finance",
-        "scriptCount": 387,
+        "scriptCount": 398,
         "tagUrl": "/tags/finance",
-        "totalCount": 1357
+        "totalCount": 1402
       },
       {
         "competitionCount": 8,
-        "datasetCount": 294,
+        "datasetCount": 322,
         "description": "Banks keep the financial system interesting by failing en masse every couple of generations.",
         "displayName": "banking",
         "fontAwesomeIcon": null,
@@ -28,9 +28,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27banking%27",
         "name": "banking",
-        "scriptCount": 86,
+        "scriptCount": 90,
         "tagUrl": "/tags/banking",
-        "totalCount": 388
+        "totalCount": 420
       }
     ],
     "type": "competition"

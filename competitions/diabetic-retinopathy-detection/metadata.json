@@ -28,28 +28,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27health sciences%27",
         "name": "health sciences",
-        "scriptCount": 10,
+        "scriptCount": 11,
         "tagUrl": "/tags/health-sciences",
-        "totalCount": 40
+        "totalCount": 41
       },
       {
-        "competitionCount": 31,
-        "datasetCount": 94,
-        "description": null,
-        "displayName": "binary classification",
-        "fontAwesomeIcon": null,
-        "fullPath": "problem type > binary classification",
-        "id": 14201,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27binary classification%27",
-        "name": "binary classification",
-        "scriptCount": 469,
-        "tagUrl": "/tags/binary-classification",
-        "totalCount": 594
-      },
-      {
-        "competitionCount": 70,
-        "datasetCount": 705,
+        "competitionCount": 71,
+        "datasetCount": 770,
         "description": null,
         "displayName": "image data",
         "fontAwesomeIcon": null,
@@ -58,9 +43,24 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
         "name": "image data",
-        "scriptCount": 426,
+        "scriptCount": 434,
         "tagUrl": "/tags/image-data",
-        "totalCount": 1201
+        "totalCount": 1275
+      },
+      {
+        "competitionCount": 31,
+        "datasetCount": 98,
+        "description": null,
+        "displayName": "binary classification",
+        "fontAwesomeIcon": null,
+        "fullPath": "problem type > binary classification",
+        "id": 14201,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27binary classification%27",
+        "name": "binary classification",
+        "scriptCount": 477,
+        "tagUrl": "/tags/binary-classification",
+        "totalCount": 606
       }
     ],
     "type": "competition"

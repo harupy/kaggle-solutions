@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 4,
-        "datasetCount": 61,
+        "datasetCount": 62,
         "description": "Explore datasets, kernels, and competitions related to housing markets in this tag.",
         "displayName": "housing",
         "fontAwesomeIcon": null,
@@ -15,7 +15,7 @@
         "name": "housing",
         "scriptCount": 74,
         "tagUrl": "/tags/housing",
-        "totalCount": 139
+        "totalCount": 140
       },
       {
         "competitionCount": 2,

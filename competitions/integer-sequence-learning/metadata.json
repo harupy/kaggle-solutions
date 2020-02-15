@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 1,
-        "datasetCount": 547,
+        "datasetCount": 605,
         "description": "Mathematics is an abstract field of study that underpins many others including physics, natural sciences, and even machine learning so we're told.",
         "displayName": "mathematics",
         "fontAwesomeIcon": null,
@@ -15,7 +15,7 @@
         "name": "mathematics",
         "scriptCount": 28,
         "tagUrl": "/tags/mathematics",
-        "totalCount": 576
+        "totalCount": 634
       },
       {
         "competitionCount": 1,
@@ -33,8 +33,8 @@
         "totalCount": 32
       },
       {
-        "competitionCount": 92,
-        "datasetCount": 98,
+        "competitionCount": 94,
+        "datasetCount": 150,
         "description": null,
         "displayName": "tabular data",
         "fontAwesomeIcon": null,
@@ -43,9 +43,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
         "name": "tabular data",
-        "scriptCount": 115,
+        "scriptCount": 116,
         "tagUrl": "/tags/tabular-data",
-        "totalCount": 305
+        "totalCount": 360
       }
     ],
     "type": "competition"

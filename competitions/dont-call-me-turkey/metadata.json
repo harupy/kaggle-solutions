@@ -3,8 +3,23 @@
   "categories": {
     "categories": [
       {
+        "competitionCount": 31,
+        "datasetCount": 98,
+        "description": null,
+        "displayName": "binary classification",
+        "fontAwesomeIcon": null,
+        "fullPath": "problem type > binary classification",
+        "id": 14201,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27binary classification%27",
+        "name": "binary classification",
+        "scriptCount": 477,
+        "tagUrl": "/tags/binary-classification",
+        "totalCount": 606
+      },
+      {
         "competitionCount": 3,
-        "datasetCount": 11,
+        "datasetCount": 12,
         "description": "Sound is one of the main senses. Making sense of noise is our calling as data scientists, so doing data science on sound is extremely meta.",
         "displayName": "sound technology",
         "fontAwesomeIcon": null,
@@ -15,26 +30,11 @@
         "name": "sound technology",
         "scriptCount": 9,
         "tagUrl": "/tags/sound-technology",
-        "totalCount": 23
+        "totalCount": 24
       },
       {
-        "competitionCount": 9,
-        "datasetCount": 151,
-        "description": "The animals tag is as diverse as a rainforest. Is there a correlation between animal bites and NYC rat sightings? We're not sure. But the data is here and the world needs to know.",
-        "displayName": "animals",
-        "fontAwesomeIcon": null,
-        "fullPath": "natural and physical sciences > nature > animals",
-        "id": 7301,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27animals%27",
-        "name": "animals",
-        "scriptCount": 41,
-        "tagUrl": "/tags/animals",
-        "totalCount": 201
-      },
-      {
-        "competitionCount": 92,
-        "datasetCount": 98,
+        "competitionCount": 94,
+        "datasetCount": 150,
         "description": null,
         "displayName": "tabular data",
         "fontAwesomeIcon": null,
@@ -43,24 +43,24 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
         "name": "tabular data",
-        "scriptCount": 115,
+        "scriptCount": 116,
         "tagUrl": "/tags/tabular-data",
-        "totalCount": 305
+        "totalCount": 360
       },
       {
-        "competitionCount": 31,
-        "datasetCount": 94,
-        "description": null,
-        "displayName": "binary classification",
+        "competitionCount": 9,
+        "datasetCount": 163,
+        "description": "The animals tag is as diverse as a rainforest. Is there a correlation between animal bites and NYC rat sightings? We're not sure. But the data is here and the world needs to know.",
+        "displayName": "animals",
         "fontAwesomeIcon": null,
-        "fullPath": "problem type > binary classification",
-        "id": 14201,
+        "fullPath": "natural and physical sciences > nature > animals",
+        "id": 7301,
         "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27binary classification%27",
-        "name": "binary classification",
-        "scriptCount": 469,
-        "tagUrl": "/tags/binary-classification",
-        "totalCount": 594
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27animals%27",
+        "name": "animals",
+        "scriptCount": 42,
+        "tagUrl": "/tags/animals",
+        "totalCount": 214
       }
     ],
     "type": "competition"

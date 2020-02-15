@@ -3,8 +3,8 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 92,
-        "datasetCount": 98,
+        "competitionCount": 94,
+        "datasetCount": 150,
         "description": null,
         "displayName": "tabular data",
         "fontAwesomeIcon": null,
@@ -13,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
         "name": "tabular data",
-        "scriptCount": 115,
+        "scriptCount": 116,
         "tagUrl": "/tags/tabular-data",
-        "totalCount": 305
+        "totalCount": 360
       },
       {
-        "competitionCount": 9,
-        "datasetCount": 634,
+        "competitionCount": 10,
+        "datasetCount": 663,
         "description": "The sports tag covers the whole spectrum of sports around the world. We've got tennis, we've got football, and we've even got kitefoil racing.",
         "displayName": "sports",
         "fontAwesomeIcon": null,
@@ -28,9 +28,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27sports%27",
         "name": "sports",
-        "scriptCount": 215,
+        "scriptCount": 219,
         "tagUrl": "/tags/sports",
-        "totalCount": 858
+        "totalCount": 892
       }
     ],
     "type": "competition"

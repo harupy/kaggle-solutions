@@ -3,23 +3,8 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 30,
-        "datasetCount": 283,
-        "description": null,
-        "displayName": "text data",
-        "fontAwesomeIcon": null,
-        "fullPath": "data type > text data",
-        "id": 14104,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
-        "name": "text data",
-        "scriptCount": 435,
-        "tagUrl": "/tags/text-data",
-        "totalCount": 748
-      },
-      {
         "competitionCount": 1,
-        "datasetCount": 15,
+        "datasetCount": 17,
         "description": "Poetry is a form of literature that uses aesthetic and rhythmic qualities of language--such as phonaesthetics, sound symbolism, and meter--to evoke meanings in addition to, or in place of, the prosaic ostensible meaning.",
         "displayName": "poetry",
         "fontAwesomeIcon": null,
@@ -30,7 +15,22 @@
         "name": "poetry",
         "scriptCount": 5,
         "tagUrl": "/tags/poetry",
-        "totalCount": 21
+        "totalCount": 23
+      },
+      {
+        "competitionCount": 30,
+        "datasetCount": 293,
+        "description": null,
+        "displayName": "text data",
+        "fontAwesomeIcon": null,
+        "fullPath": "data type > text data",
+        "id": 14104,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
+        "name": "text data",
+        "scriptCount": 455,
+        "tagUrl": "/tags/text-data",
+        "totalCount": 778
       }
     ],
     "type": "competition"

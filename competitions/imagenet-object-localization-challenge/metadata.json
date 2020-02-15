@@ -3,8 +3,8 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 70,
-        "datasetCount": 705,
+        "competitionCount": 71,
+        "datasetCount": 770,
         "description": null,
         "displayName": "image data",
         "fontAwesomeIcon": null,
@@ -13,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
         "name": "image data",
-        "scriptCount": 426,
+        "scriptCount": 434,
         "tagUrl": "/tags/image-data",
-        "totalCount": 1201
+        "totalCount": 1275
       },
       {
         "competitionCount": 10,
-        "datasetCount": 90,
+        "datasetCount": 93,
         "description": null,
         "displayName": "object detection",
         "fontAwesomeIcon": null,
@@ -30,7 +30,7 @@
         "name": "object detection",
         "scriptCount": 53,
         "tagUrl": "/tags/object-detection",
-        "totalCount": 153
+        "totalCount": 156
       }
     ],
     "type": "competition"
@@ -65,7 +65,7 @@
   "submissionsDisabled": false,
   "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/6796/logos/thumb76_76.png",
   "totalKernels": 0,
-  "totalTeams": 62,
+  "totalTeams": 64,
   "userHasEntered": false,
   "userRank": null,
   "userTeamUsers": []

@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 4,
-        "datasetCount": 182,
+        "datasetCount": 188,
         "description": null,
         "displayName": "image processing",
         "fontAwesomeIcon": null,
@@ -13,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image processing%27",
         "name": "image processing",
-        "scriptCount": 420,
+        "scriptCount": 435,
         "tagUrl": "/tags/image-processing",
-        "totalCount": 606
+        "totalCount": 627
       },
       {
-        "competitionCount": 70,
-        "datasetCount": 705,
+        "competitionCount": 71,
+        "datasetCount": 770,
         "description": null,
         "displayName": "image data",
         "fontAwesomeIcon": null,
@@ -28,9 +28,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
         "name": "image data",
-        "scriptCount": 426,
+        "scriptCount": 434,
         "tagUrl": "/tags/image-data",
-        "totalCount": 1201
+        "totalCount": 1275
       }
     ],
     "type": "competition"
@@ -65,7 +65,7 @@
   "submissionsDisabled": false,
   "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/9993/logos/thumb76_76.png?t=2019-10-23-04-47-20",
   "totalKernels": 0,
-  "totalTeams": 866,
+  "totalTeams": 864,
   "userHasEntered": false,
   "userRank": null,
   "userTeamUsers": []

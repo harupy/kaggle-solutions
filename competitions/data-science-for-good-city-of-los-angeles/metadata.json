@@ -3,21 +3,6 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 4,
-        "datasetCount": 377,
-        "description": null,
-        "displayName": "NLP",
-        "fontAwesomeIcon": null,
-        "fullPath": "analysis > nlp",
-        "id": 13204,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27nlp%27",
-        "name": "nlp",
-        "scriptCount": 943,
-        "tagUrl": "/tags/nlp",
-        "totalCount": 1324
-      },
-      {
         "competitionCount": 1,
         "datasetCount": 57,
         "description": "Where does it pay to attend college? What impacts employee satisfaction and what makes them quit their jobs? Explore these questions and others in kernels and datasets with this tag.",
@@ -33,23 +18,8 @@
         "totalCount": 71
       },
       {
-        "competitionCount": 30,
-        "datasetCount": 283,
-        "description": null,
-        "displayName": "text data",
-        "fontAwesomeIcon": null,
-        "fullPath": "data type > text data",
-        "id": 14104,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
-        "name": "text data",
-        "scriptCount": 435,
-        "tagUrl": "/tags/text-data",
-        "totalCount": 748
-      },
-      {
-        "competitionCount": 70,
-        "datasetCount": 705,
+        "competitionCount": 71,
+        "datasetCount": 770,
         "description": null,
         "displayName": "image data",
         "fontAwesomeIcon": null,
@@ -58,9 +28,39 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
         "name": "image data",
-        "scriptCount": 426,
+        "scriptCount": 434,
         "tagUrl": "/tags/image-data",
-        "totalCount": 1201
+        "totalCount": 1275
+      },
+      {
+        "competitionCount": 30,
+        "datasetCount": 293,
+        "description": null,
+        "displayName": "text data",
+        "fontAwesomeIcon": null,
+        "fullPath": "data type > text data",
+        "id": 14104,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
+        "name": "text data",
+        "scriptCount": 455,
+        "tagUrl": "/tags/text-data",
+        "totalCount": 778
+      },
+      {
+        "competitionCount": 4,
+        "datasetCount": 394,
+        "description": null,
+        "displayName": "NLP",
+        "fontAwesomeIcon": null,
+        "fullPath": "analysis > nlp",
+        "id": 13204,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27nlp%27",
+        "name": "nlp",
+        "scriptCount": 978,
+        "tagUrl": "/tags/nlp",
+        "totalCount": 1376
       }
     ],
     "type": "competition"

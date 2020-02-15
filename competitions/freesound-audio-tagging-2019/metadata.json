@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 3,
-        "datasetCount": 11,
+        "datasetCount": 12,
         "description": "Sound is one of the main senses. Making sense of noise is our calling as data scientists, so doing data science on sound is extremely meta.",
         "displayName": "sound technology",
         "fontAwesomeIcon": null,
@@ -15,11 +15,11 @@
         "name": "sound technology",
         "scriptCount": 9,
         "tagUrl": "/tags/sound-technology",
-        "totalCount": 23
+        "totalCount": 24
       },
       {
         "competitionCount": 1,
-        "datasetCount": 29,
+        "datasetCount": 36,
         "description": "In digital audio, the sound wave of the audio signal is encoded as numerical samples in continuous sequence. Ride that wave over to a dataset with this tag to analyze some audio!",
         "displayName": "audio data",
         "fontAwesomeIcon": null,
@@ -30,7 +30,7 @@
         "name": "audio data",
         "scriptCount": 17,
         "tagUrl": "/tags/audio-data",
-        "totalCount": 47
+        "totalCount": 54
       }
     ],
     "type": "competition"

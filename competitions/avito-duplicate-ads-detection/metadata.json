@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 15,
-        "datasetCount": 1582,
+        "datasetCount": 1732,
         "description": "An interconnected network of tubes that connects the entire world together. This tag covers a broad range of tags; anything from cryptocurrency to website analytics.",
         "displayName": "internet",
         "fontAwesomeIcon": null,
@@ -15,7 +15,7 @@
         "name": "internet",
         "scriptCount": 181,
         "tagUrl": "/tags/internet",
-        "totalCount": 1778
+        "totalCount": 1928
       },
       {
         "competitionCount": 3,

@@ -3,6 +3,21 @@
   "categories": {
     "categories": [
       {
+        "competitionCount": 10,
+        "datasetCount": 93,
+        "description": null,
+        "displayName": "object detection",
+        "fontAwesomeIcon": null,
+        "fullPath": "problem type > object detection",
+        "id": 14214,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27object detection%27",
+        "name": "object detection",
+        "scriptCount": 53,
+        "tagUrl": "/tags/object-detection",
+        "totalCount": 156
+      },
+      {
         "competitionCount": 1,
         "datasetCount": 13,
         "description": "The use of intentionally indiscriminate violence as a means to create terror, or fear, to achieve a political, religious or ideological aim.",
@@ -18,8 +33,8 @@
         "totalCount": 58
       },
       {
-        "competitionCount": 70,
-        "datasetCount": 705,
+        "competitionCount": 71,
+        "datasetCount": 770,
         "description": null,
         "displayName": "image data",
         "fontAwesomeIcon": null,
@@ -28,24 +43,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
         "name": "image data",
-        "scriptCount": 426,
+        "scriptCount": 434,
         "tagUrl": "/tags/image-data",
-        "totalCount": 1201
-      },
-      {
-        "competitionCount": 10,
-        "datasetCount": 90,
-        "description": null,
-        "displayName": "object detection",
-        "fontAwesomeIcon": null,
-        "fullPath": "problem type > object detection",
-        "id": 14214,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27object detection%27",
-        "name": "object detection",
-        "scriptCount": 53,
-        "tagUrl": "/tags/object-detection",
-        "totalCount": 153
+        "totalCount": 1275
       }
     ],
     "type": "competition"

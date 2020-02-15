@@ -3,6 +3,36 @@
   "categories": {
     "categories": [
       {
+        "competitionCount": 6,
+        "datasetCount": 256,
+        "description": "AI in healthcare is a growing interest. One of the major problems is simply converting research into an application. Should be easy, right?",
+        "displayName": "healthcare",
+        "fontAwesomeIcon": null,
+        "fullPath": "natural and physical sciences > biology > health sciences > public health > healthcare",
+        "id": 4202,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27healthcare%27",
+        "name": "healthcare",
+        "scriptCount": 296,
+        "tagUrl": "/tags/healthcare",
+        "totalCount": 558
+      },
+      {
+        "competitionCount": 1,
+        "datasetCount": 54,
+        "description": "Datasets and kernels related to various diseases. Make sure you wear goggles and gloves before touching these datasets. Also wash your hands.",
+        "displayName": "diseases",
+        "fontAwesomeIcon": null,
+        "fullPath": "natural and physical sciences > biology > health sciences > diseases",
+        "id": 4302,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27diseases%27",
+        "name": "diseases",
+        "scriptCount": 31,
+        "tagUrl": "/tags/diseases",
+        "totalCount": 86
+      },
+      {
         "competitionCount": 2,
         "datasetCount": 13,
         "description": null,
@@ -16,36 +46,6 @@
         "scriptCount": 7,
         "tagUrl": "/tags/signal-data",
         "totalCount": 22
-      },
-      {
-        "competitionCount": 6,
-        "datasetCount": 247,
-        "description": "AI in healthcare is a growing interest. One of the major problems is simply converting research into an application. Should be easy, right?",
-        "displayName": "healthcare",
-        "fontAwesomeIcon": null,
-        "fullPath": "natural and physical sciences > biology > health sciences > public health > healthcare",
-        "id": 4202,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27healthcare%27",
-        "name": "healthcare",
-        "scriptCount": 283,
-        "tagUrl": "/tags/healthcare",
-        "totalCount": 536
-      },
-      {
-        "competitionCount": 1,
-        "datasetCount": 47,
-        "description": "Datasets and kernels related to various diseases. Make sure you wear goggles and gloves before touching these datasets. Also wash your hands.",
-        "displayName": "diseases",
-        "fontAwesomeIcon": null,
-        "fullPath": "natural and physical sciences > biology > health sciences > diseases",
-        "id": 4302,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27diseases%27",
-        "name": "diseases",
-        "scriptCount": 26,
-        "tagUrl": "/tags/diseases",
-        "totalCount": 74
       }
     ],
     "type": "competition"

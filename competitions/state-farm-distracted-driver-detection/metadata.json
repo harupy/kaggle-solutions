@@ -3,8 +3,8 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 70,
-        "datasetCount": 705,
+        "competitionCount": 71,
+        "datasetCount": 770,
         "description": null,
         "displayName": "image data",
         "fontAwesomeIcon": null,
@@ -13,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
         "name": "image data",
-        "scriptCount": 426,
+        "scriptCount": 434,
         "tagUrl": "/tags/image-data",
-        "totalCount": 1201
+        "totalCount": 1275
       },
       {
         "competitionCount": 2,
-        "datasetCount": 44,
+        "datasetCount": 45,
         "description": null,
         "displayName": "object recognition",
         "fontAwesomeIcon": null,
@@ -30,11 +30,11 @@
         "name": "object recognition",
         "scriptCount": 21,
         "tagUrl": "/tags/object-recognition",
-        "totalCount": 67
+        "totalCount": 68
       },
       {
         "competitionCount": 3,
-        "datasetCount": 399,
+        "datasetCount": 435,
         "description": "The automobile tag is everything about cars. Analyze insurance rates or how far you can go on one gallon of petrol.",
         "displayName": "automobiles",
         "fontAwesomeIcon": null,
@@ -45,7 +45,7 @@
         "name": "automobiles",
         "scriptCount": 23,
         "tagUrl": "/tags/automobiles",
-        "totalCount": 425
+        "totalCount": 461
       }
     ],
     "type": "competition"

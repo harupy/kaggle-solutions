@@ -18,8 +18,8 @@
         "totalCount": 12
       },
       {
-        "competitionCount": 70,
-        "datasetCount": 705,
+        "competitionCount": 71,
+        "datasetCount": 770,
         "description": null,
         "displayName": "image data",
         "fontAwesomeIcon": null,
@@ -28,13 +28,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
         "name": "image data",
-        "scriptCount": 426,
+        "scriptCount": 434,
         "tagUrl": "/tags/image-data",
-        "totalCount": 1201
+        "totalCount": 1275
       },
       {
         "competitionCount": 2,
-        "datasetCount": 44,
+        "datasetCount": 45,
         "description": null,
         "displayName": "object recognition",
         "fontAwesomeIcon": null,
@@ -45,11 +45,11 @@
         "name": "object recognition",
         "scriptCount": 21,
         "tagUrl": "/tags/object-recognition",
-        "totalCount": 67
+        "totalCount": 68
       },
       {
         "competitionCount": 2,
-        "datasetCount": 25,
+        "datasetCount": 28,
         "description": "Painting is the practice of applying paint, pigment, color or other medium to a solid surface. The medium is commonly applied to the base with a brush, but other implements, such as knives, sponges, and airbrushes, can be used.",
         "displayName": "painting",
         "fontAwesomeIcon": null,
@@ -60,7 +60,7 @@
         "name": "painting",
         "scriptCount": 1,
         "tagUrl": "/tags/painting",
-        "totalCount": 28
+        "totalCount": 31
       }
     ],
     "type": "competition"

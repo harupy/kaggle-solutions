@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 8,
-        "datasetCount": 294,
+        "datasetCount": 322,
         "description": "Banks keep the financial system interesting by failing en masse every couple of generations.",
         "displayName": "banking",
         "fontAwesomeIcon": null,
@@ -13,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27banking%27",
         "name": "banking",
-        "scriptCount": 86,
+        "scriptCount": 90,
         "tagUrl": "/tags/banking",
-        "totalCount": 388
+        "totalCount": 420
       },
       {
         "competitionCount": 1,
-        "datasetCount": 197,
+        "datasetCount": 217,
         "description": "Find kernels, datasets, and competitions related to the housing market and sales.",
         "displayName": "home",
         "fontAwesomeIcon": null,
@@ -30,11 +30,11 @@
         "name": "home",
         "scriptCount": 1,
         "tagUrl": "/tags/home",
-        "totalCount": 199
+        "totalCount": 219
       },
       {
-        "competitionCount": 92,
-        "datasetCount": 98,
+        "competitionCount": 94,
+        "datasetCount": 150,
         "description": null,
         "displayName": "tabular data",
         "fontAwesomeIcon": null,
@@ -43,9 +43,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
         "name": "tabular data",
-        "scriptCount": 115,
+        "scriptCount": 116,
         "tagUrl": "/tags/tabular-data",
-        "totalCount": 305
+        "totalCount": 360
       }
     ],
     "type": "competition"

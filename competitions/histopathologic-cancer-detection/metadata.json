@@ -3,21 +3,6 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 3,
-        "datasetCount": 95,
-        "description": "Medicine is the science and practice of the diagnosis, treatment, and prevention of disease. We recommend you take two datasets and analyze them in the morning. If that doesn't work, analyze one dataset every four hours.",
-        "displayName": "medicine",
-        "fontAwesomeIcon": null,
-        "fullPath": "technology and applied sciences > medicine",
-        "id": 12028,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27medicine%27",
-        "name": "medicine",
-        "scriptCount": 81,
-        "tagUrl": "/tags/medicine",
-        "totalCount": 179
-      },
-      {
         "competitionCount": 1,
         "datasetCount": 28,
         "description": "Oncology is a branch of medicine that deals with the prevention, diagnosis, and treatment of cancer. A medical professional who practices oncology is an oncologist.",
@@ -34,7 +19,7 @@
       },
       {
         "competitionCount": 3,
-        "datasetCount": 49,
+        "datasetCount": 50,
         "description": "Research is our endeavor to systematically increase our knowledge about the world. Whether it's undertaken by greats like Einstein or underpaid graduate students, you'll find the fruits of their labor in this tag plus the kernels that make their work reproducible.",
         "displayName": "research",
         "fontAwesomeIcon": null,
@@ -45,7 +30,22 @@
         "name": "research",
         "scriptCount": 25,
         "tagUrl": "/tags/research",
-        "totalCount": 77
+        "totalCount": 78
+      },
+      {
+        "competitionCount": 3,
+        "datasetCount": 103,
+        "description": "Medicine is the science and practice of the diagnosis, treatment, and prevention of disease. We recommend you take two datasets and analyze them in the morning. If that doesn't work, analyze one dataset every four hours.",
+        "displayName": "medicine",
+        "fontAwesomeIcon": null,
+        "fullPath": "technology and applied sciences > medicine",
+        "id": 12028,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27medicine%27",
+        "name": "medicine",
+        "scriptCount": 81,
+        "tagUrl": "/tags/medicine",
+        "totalCount": 187
       }
     ],
     "type": "competition"

@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 4,
-        "datasetCount": 377,
+        "datasetCount": 394,
         "description": null,
         "displayName": "NLP",
         "fontAwesomeIcon": null,
@@ -13,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27nlp%27",
         "name": "nlp",
-        "scriptCount": 943,
+        "scriptCount": 978,
         "tagUrl": "/tags/nlp",
-        "totalCount": 1324
+        "totalCount": 1376
       },
       {
         "competitionCount": 30,
-        "datasetCount": 283,
+        "datasetCount": 293,
         "description": null,
         "displayName": "text data",
         "fontAwesomeIcon": null,
@@ -28,9 +28,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
         "name": "text data",
-        "scriptCount": 435,
+        "scriptCount": 455,
         "tagUrl": "/tags/text-data",
-        "totalCount": 748
+        "totalCount": 778
       }
     ],
     "type": "competition"

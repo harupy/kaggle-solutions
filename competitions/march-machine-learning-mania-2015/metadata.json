@@ -3,23 +3,8 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 12,
-        "datasetCount": 73,
-        "description": null,
-        "displayName": "future prediction",
-        "fontAwesomeIcon": null,
-        "fullPath": "problem type > future prediction",
-        "id": 14209,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27future prediction%27",
-        "name": "future prediction",
-        "scriptCount": 116,
-        "tagUrl": "/tags/future-prediction",
-        "totalCount": 201
-      },
-      {
-        "competitionCount": 8,
-        "datasetCount": 184,
+        "competitionCount": 11,
+        "datasetCount": 197,
         "description": "Basketball is one of the world's most popular and widely viewed sports. Analyze Kobe Bryant's shot selections and peruse our annual March Mania competitions.",
         "displayName": "basketball",
         "fontAwesomeIcon": null,
@@ -28,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27basketball%27",
         "name": "basketball",
-        "scriptCount": 64,
+        "scriptCount": 65,
         "tagUrl": "/tags/basketball",
-        "totalCount": 256
+        "totalCount": 273
       },
       {
-        "competitionCount": 9,
-        "datasetCount": 634,
+        "competitionCount": 10,
+        "datasetCount": 663,
         "description": "The sports tag covers the whole spectrum of sports around the world. We've got tennis, we've got football, and we've even got kitefoil racing.",
         "displayName": "sports",
         "fontAwesomeIcon": null,
@@ -43,13 +28,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27sports%27",
         "name": "sports",
-        "scriptCount": 215,
+        "scriptCount": 219,
         "tagUrl": "/tags/sports",
-        "totalCount": 858
+        "totalCount": 892
       },
       {
-        "competitionCount": 92,
-        "datasetCount": 98,
+        "competitionCount": 94,
+        "datasetCount": 150,
         "description": null,
         "displayName": "tabular data",
         "fontAwesomeIcon": null,
@@ -58,9 +43,24 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
         "name": "tabular data",
-        "scriptCount": 115,
+        "scriptCount": 116,
         "tagUrl": "/tags/tabular-data",
-        "totalCount": 305
+        "totalCount": 360
+      },
+      {
+        "competitionCount": 12,
+        "datasetCount": 76,
+        "description": null,
+        "displayName": "future prediction",
+        "fontAwesomeIcon": null,
+        "fullPath": "problem type > future prediction",
+        "id": 14209,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27future prediction%27",
+        "name": "future prediction",
+        "scriptCount": 119,
+        "tagUrl": "/tags/future-prediction",
+        "totalCount": 207
       }
     ],
     "type": "competition"

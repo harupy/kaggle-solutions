@@ -3,21 +3,6 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 70,
-        "datasetCount": 705,
-        "description": null,
-        "displayName": "image data",
-        "fontAwesomeIcon": null,
-        "fullPath": "data type > image data",
-        "id": 14102,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
-        "name": "image data",
-        "scriptCount": 426,
-        "tagUrl": "/tags/image-data",
-        "totalCount": 1201
-      },
-      {
         "competitionCount": 3,
         "datasetCount": 9,
         "description": "Oceanography is the study of the earth's oceans, including tides, waves and \"current\" affairs.",
@@ -34,7 +19,7 @@
       },
       {
         "competitionCount": 9,
-        "datasetCount": 151,
+        "datasetCount": 163,
         "description": "The animals tag is as diverse as a rainforest. Is there a correlation between animal bites and NYC rat sightings? We're not sure. But the data is here and the world needs to know.",
         "displayName": "animals",
         "fontAwesomeIcon": null,
@@ -43,13 +28,28 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27animals%27",
         "name": "animals",
-        "scriptCount": 41,
+        "scriptCount": 42,
         "tagUrl": "/tags/animals",
-        "totalCount": 201
+        "totalCount": 214
+      },
+      {
+        "competitionCount": 71,
+        "datasetCount": 770,
+        "description": null,
+        "displayName": "image data",
+        "fontAwesomeIcon": null,
+        "fullPath": "data type > image data",
+        "id": 14102,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
+        "name": "image data",
+        "scriptCount": 434,
+        "tagUrl": "/tags/image-data",
+        "totalCount": 1275
       },
       {
         "competitionCount": 10,
-        "datasetCount": 90,
+        "datasetCount": 93,
         "description": null,
         "displayName": "object detection",
         "fontAwesomeIcon": null,
@@ -60,7 +60,7 @@
         "name": "object detection",
         "scriptCount": 53,
         "tagUrl": "/tags/object-detection",
-        "totalCount": 153
+        "totalCount": 156
       }
     ],
     "type": "competition"

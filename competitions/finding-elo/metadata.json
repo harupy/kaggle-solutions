@@ -3,6 +3,36 @@
   "categories": {
     "categories": [
       {
+        "competitionCount": 94,
+        "datasetCount": 150,
+        "description": null,
+        "displayName": "tabular data",
+        "fontAwesomeIcon": null,
+        "fullPath": "data type > tabular data",
+        "id": 14101,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
+        "name": "tabular data",
+        "scriptCount": 116,
+        "tagUrl": "/tags/tabular-data",
+        "totalCount": 360
+      },
+      {
+        "competitionCount": 1,
+        "datasetCount": 40,
+        "description": "A board game is a tabletop game that involves counters or pieces moved or placed on a pre-marked surface or \"board\", according to a set of rules.",
+        "displayName": "board games",
+        "fontAwesomeIcon": null,
+        "fullPath": "culture and arts > games and toys > board games",
+        "id": 2501,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27board games%27",
+        "name": "board games",
+        "scriptCount": 5,
+        "tagUrl": "/tags/board-games",
+        "totalCount": 46
+      },
+      {
         "competitionCount": 5,
         "datasetCount": 13,
         "description": null,
@@ -16,36 +46,6 @@
         "scriptCount": 6,
         "tagUrl": "/tags/ranking",
         "totalCount": 24
-      },
-      {
-        "competitionCount": 92,
-        "datasetCount": 98,
-        "description": null,
-        "displayName": "tabular data",
-        "fontAwesomeIcon": null,
-        "fullPath": "data type > tabular data",
-        "id": 14101,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
-        "name": "tabular data",
-        "scriptCount": 115,
-        "tagUrl": "/tags/tabular-data",
-        "totalCount": 305
-      },
-      {
-        "competitionCount": 1,
-        "datasetCount": 39,
-        "description": "A board game is a tabletop game that involves counters or pieces moved or placed on a pre-marked surface or \"board\", according to a set of rules.",
-        "displayName": "board games",
-        "fontAwesomeIcon": null,
-        "fullPath": "culture and arts > games and toys > board games",
-        "id": 2501,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27board games%27",
-        "name": "board games",
-        "scriptCount": 5,
-        "tagUrl": "/tags/board-games",
-        "totalCount": 45
       }
     ],
     "type": "competition"

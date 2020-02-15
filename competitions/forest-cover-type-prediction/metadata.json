@@ -3,8 +3,23 @@
   "categories": {
     "categories": [
       {
+        "competitionCount": 40,
+        "datasetCount": 199,
+        "description": null,
+        "displayName": "multiclass classification",
+        "fontAwesomeIcon": null,
+        "fullPath": "problem type > multiclass classification",
+        "id": 14202,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27multiclass classification%27",
+        "name": "multiclass classification",
+        "scriptCount": 343,
+        "tagUrl": "/tags/multiclass-classification",
+        "totalCount": 582
+      },
+      {
         "competitionCount": 4,
-        "datasetCount": 19,
+        "datasetCount": 20,
         "description": "Forestry is the management of forests. Whether this means planting trees or cutting them down depends a lot on who owns the forest.",
         "displayName": "forestry",
         "fontAwesomeIcon": null,
@@ -15,22 +30,7 @@
         "name": "forestry",
         "scriptCount": 5,
         "tagUrl": "/tags/forestry",
-        "totalCount": 28
-      },
-      {
-        "competitionCount": 40,
-        "datasetCount": 187,
-        "description": null,
-        "displayName": "multiclass classification",
-        "fontAwesomeIcon": null,
-        "fullPath": "problem type > multiclass classification",
-        "id": 14202,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27multiclass classification%27",
-        "name": "multiclass classification",
-        "scriptCount": 335,
-        "tagUrl": "/tags/multiclass-classification",
-        "totalCount": 562
+        "totalCount": 29
       }
     ],
     "type": "competition"

@@ -13,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27survey analysis%27",
         "name": "survey analysis",
-        "scriptCount": 188,
+        "scriptCount": 189,
         "tagUrl": "/tags/survey-analysis",
-        "totalCount": 230
+        "totalCount": 231
       },
       {
         "competitionCount": 1,
-        "datasetCount": 98,
+        "datasetCount": 105,
         "description": null,
         "displayName": "jobs",
         "fontAwesomeIcon": null,
@@ -30,7 +30,7 @@
         "name": "jobs",
         "scriptCount": 3,
         "tagUrl": "/tags/jobs",
-        "totalCount": 102
+        "totalCount": 109
       },
       {
         "competitionCount": 1,

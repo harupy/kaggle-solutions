@@ -3,8 +3,23 @@
   "categories": {
     "categories": [
       {
+        "competitionCount": 1,
+        "datasetCount": 877,
+        "description": "Consider the health tag your data science gym. Get in there and work out those data science muscles on health analytics. Analyze heart disease until you sweat. Then recover with with a nice candy production dataset.",
+        "displayName": "health",
+        "fontAwesomeIcon": null,
+        "fullPath": "society and social sciences > society > health",
+        "id": 11111,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27health%27",
+        "name": "health",
+        "scriptCount": 33,
+        "tagUrl": "/tags/health",
+        "totalCount": 911
+      },
+      {
         "competitionCount": 2,
-        "datasetCount": 203,
+        "datasetCount": 212,
         "description": "Blue! 42! Hut hut! Pour gatorade all over your GPU and go for the hail mary! Analyze these datasets and predict who is going to win the Superbowl.",
         "displayName": "american football",
         "fontAwesomeIcon": null,
@@ -13,13 +28,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27american football%27",
         "name": "american football",
-        "scriptCount": 25,
+        "scriptCount": 27,
         "tagUrl": "/tags/american-football",
-        "totalCount": 230
+        "totalCount": 241
       },
       {
-        "competitionCount": 9,
-        "datasetCount": 634,
+        "competitionCount": 10,
+        "datasetCount": 663,
         "description": "The sports tag covers the whole spectrum of sports around the world. We've got tennis, we've got football, and we've even got kitefoil racing.",
         "displayName": "sports",
         "fontAwesomeIcon": null,
@@ -28,13 +43,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27sports%27",
         "name": "sports",
-        "scriptCount": 215,
+        "scriptCount": 219,
         "tagUrl": "/tags/sports",
-        "totalCount": 858
+        "totalCount": 892
       },
       {
         "competitionCount": 1,
-        "datasetCount": 26,
+        "datasetCount": 28,
         "description": "Safety is the state of being \"safe\", the condition of being protected from harm or other non-desirable outcomes. Safety can also refer to the control of recognized hazards in order to achieve an acceptable level of risk.",
         "displayName": "safety",
         "fontAwesomeIcon": null,
@@ -45,22 +60,7 @@
         "name": "safety",
         "scriptCount": 3,
         "tagUrl": "/tags/safety",
-        "totalCount": 30
-      },
-      {
-        "competitionCount": 1,
-        "datasetCount": 817,
-        "description": "Consider the health tag your data science gym. Get in there and work out those data science muscles on health analytics. Analyze heart disease until you sweat. Then recover with with a nice candy production dataset.",
-        "displayName": "health",
-        "fontAwesomeIcon": null,
-        "fullPath": "society and social sciences > society > health",
-        "id": 11111,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27health%27",
-        "name": "health",
-        "scriptCount": 26,
-        "tagUrl": "/tags/health",
-        "totalCount": 844
+        "totalCount": 32
       }
     ],
     "type": "competition"

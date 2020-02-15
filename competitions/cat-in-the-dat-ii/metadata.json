@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 2,
-        "datasetCount": 39,
+        "datasetCount": 40,
         "description": "Categorical data are observations that fall into discrete categories, like dog breed, dog color or whether or not a dog likes chew toys.",
         "displayName": "categorical data",
         "fontAwesomeIcon": null,
@@ -13,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27categorical data%27",
         "name": "categorical data",
-        "scriptCount": 168,
+        "scriptCount": 175,
         "tagUrl": "/tags/categorical-data",
-        "totalCount": 209
+        "totalCount": 217
       },
       {
         "competitionCount": 31,
-        "datasetCount": 94,
+        "datasetCount": 98,
         "description": null,
         "displayName": "binary classification",
         "fontAwesomeIcon": null,
@@ -28,13 +28,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27binary classification%27",
         "name": "binary classification",
-        "scriptCount": 469,
+        "scriptCount": 477,
         "tagUrl": "/tags/binary-classification",
-        "totalCount": 594
+        "totalCount": 606
       },
       {
         "competitionCount": 1,
-        "datasetCount": 3,
+        "datasetCount": 5,
         "description": null,
         "displayName": "table games",
         "fontAwesomeIcon": null,
@@ -45,7 +45,7 @@
         "name": "table games",
         "scriptCount": 0,
         "tagUrl": "/tags/table-games",
-        "totalCount": 4
+        "totalCount": 6
       }
     ],
     "type": "competition"
@@ -80,7 +80,7 @@
   "submissionsDisabled": false,
   "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/17000/logos/thumb76_76.png?t=2020-01-06-16-38-13",
   "totalKernels": 0,
-  "totalTeams": 349,
+  "totalTeams": 630,
   "userHasEntered": false,
   "userRank": null,
   "userTeamUsers": []

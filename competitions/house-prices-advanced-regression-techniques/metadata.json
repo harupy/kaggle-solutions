@@ -3,23 +3,8 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 92,
-        "datasetCount": 98,
-        "description": null,
-        "displayName": "tabular data",
-        "fontAwesomeIcon": null,
-        "fullPath": "data type > tabular data",
-        "id": 14101,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
-        "name": "tabular data",
-        "scriptCount": 115,
-        "tagUrl": "/tags/tabular-data",
-        "totalCount": 305
-      },
-      {
         "competitionCount": 15,
-        "datasetCount": 65,
+        "datasetCount": 66,
         "description": null,
         "displayName": "regression",
         "fontAwesomeIcon": null,
@@ -28,9 +13,24 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27regression%27",
         "name": "regression",
-        "scriptCount": 632,
+        "scriptCount": 647,
         "tagUrl": "/tags/regression",
-        "totalCount": 712
+        "totalCount": 728
+      },
+      {
+        "competitionCount": 94,
+        "datasetCount": 150,
+        "description": null,
+        "displayName": "tabular data",
+        "fontAwesomeIcon": null,
+        "fullPath": "data type > tabular data",
+        "id": 14101,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
+        "name": "tabular data",
+        "scriptCount": 116,
+        "tagUrl": "/tags/tabular-data",
+        "totalCount": 360
       }
     ],
     "type": "competition"
@@ -65,7 +65,7 @@
   "submissionsDisabled": false,
   "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-competitions/kaggle/5407/logos/thumb76_76.png",
   "totalKernels": 0,
-  "totalTeams": 5055,
+  "totalTeams": 4925,
   "userHasEntered": false,
   "userRank": null,
   "userTeamUsers": []

@@ -4,7 +4,7 @@
     "categories": [
       {
         "competitionCount": 6,
-        "datasetCount": 423,
+        "datasetCount": 427,
         "description": "The linguistics tag contains datasets and kernels that you can use for text analytics, sentiment analyses, and making clever jokes like this: Let me tell you a little about myself. It's a reflexive pronoun that means \"me.\"",
         "displayName": "linguistics",
         "fontAwesomeIcon": null,
@@ -15,11 +15,11 @@
         "name": "linguistics",
         "scriptCount": 113,
         "tagUrl": "/tags/linguistics",
-        "totalCount": 542
+        "totalCount": 546
       },
       {
         "competitionCount": 30,
-        "datasetCount": 283,
+        "datasetCount": 293,
         "description": null,
         "displayName": "text data",
         "fontAwesomeIcon": null,
@@ -28,9 +28,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27text data%27",
         "name": "text data",
-        "scriptCount": 435,
+        "scriptCount": 455,
         "tagUrl": "/tags/text-data",
-        "totalCount": 748
+        "totalCount": 778
       }
     ],
     "type": "competition"

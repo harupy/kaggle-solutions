@@ -3,23 +3,8 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 5,
-        "datasetCount": 17,
-        "description": null,
-        "displayName": "object labeling",
-        "fontAwesomeIcon": null,
-        "fullPath": "problem type > object labeling",
-        "id": 14215,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27object labeling%27",
-        "name": "object labeling",
-        "scriptCount": 5,
-        "tagUrl": "/tags/object-labeling",
-        "totalCount": 27
-      },
-      {
-        "competitionCount": 70,
-        "datasetCount": 705,
+        "competitionCount": 71,
+        "datasetCount": 770,
         "description": null,
         "displayName": "image data",
         "fontAwesomeIcon": null,
@@ -28,13 +13,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27image data%27",
         "name": "image data",
-        "scriptCount": 426,
+        "scriptCount": 434,
         "tagUrl": "/tags/image-data",
-        "totalCount": 1201
+        "totalCount": 1275
       },
       {
         "competitionCount": 1,
-        "datasetCount": 884,
+        "datasetCount": 1091,
         "description": "The datasets and kernels in this fashionable tag include clothes, shoes, and jewelry.",
         "displayName": "clothing",
         "fontAwesomeIcon": null,
@@ -45,7 +30,22 @@
         "name": "clothing",
         "scriptCount": 4,
         "tagUrl": "/tags/clothing",
-        "totalCount": 889
+        "totalCount": 1096
+      },
+      {
+        "competitionCount": 5,
+        "datasetCount": 18,
+        "description": null,
+        "displayName": "object labeling",
+        "fontAwesomeIcon": null,
+        "fullPath": "problem type > object labeling",
+        "id": 14215,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27object labeling%27",
+        "name": "object labeling",
+        "scriptCount": 5,
+        "tagUrl": "/tags/object-labeling",
+        "totalCount": 28
       }
     ],
     "type": "competition"

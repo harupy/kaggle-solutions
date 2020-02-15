@@ -3,23 +3,8 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 4,
-        "datasetCount": 966,
-        "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
-        "displayName": "finance",
-        "fontAwesomeIcon": null,
-        "fullPath": "society and social sciences > society > finance",
-        "id": 11108,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27finance%27",
-        "name": "finance",
-        "scriptCount": 387,
-        "tagUrl": "/tags/finance",
-        "totalCount": 1357
-      },
-      {
         "competitionCount": 12,
-        "datasetCount": 73,
+        "datasetCount": 76,
         "description": null,
         "displayName": "future prediction",
         "fontAwesomeIcon": null,
@@ -28,9 +13,24 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27future prediction%27",
         "name": "future prediction",
-        "scriptCount": 116,
+        "scriptCount": 119,
         "tagUrl": "/tags/future-prediction",
-        "totalCount": 201
+        "totalCount": 207
+      },
+      {
+        "competitionCount": 4,
+        "datasetCount": 1000,
+        "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
+        "displayName": "finance",
+        "fontAwesomeIcon": null,
+        "fullPath": "society and social sciences > society > finance",
+        "id": 11108,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27finance%27",
+        "name": "finance",
+        "scriptCount": 398,
+        "tagUrl": "/tags/finance",
+        "totalCount": 1402
       }
     ],
     "type": "competition"

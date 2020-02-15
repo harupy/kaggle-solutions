@@ -19,7 +19,7 @@
       },
       {
         "competitionCount": 5,
-        "datasetCount": 199,
+        "datasetCount": 204,
         "description": "Time series analysis is the 4th dimension of data analysis. Our human minds can't visualize time but thankfully there are some really great plotting libraries out there to fix that problem.",
         "displayName": "time series",
         "fontAwesomeIcon": null,
@@ -28,28 +28,13 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27time series%27",
         "name": "time series",
-        "scriptCount": 396,
+        "scriptCount": 403,
         "tagUrl": "/tags/time-series",
-        "totalCount": 600
-      },
-      {
-        "competitionCount": 4,
-        "datasetCount": 966,
-        "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
-        "displayName": "finance",
-        "fontAwesomeIcon": null,
-        "fullPath": "society and social sciences > society > finance",
-        "id": 11108,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27finance%27",
-        "name": "finance",
-        "scriptCount": 387,
-        "tagUrl": "/tags/finance",
-        "totalCount": 1357
+        "totalCount": 612
       },
       {
         "competitionCount": 1,
-        "datasetCount": 73,
+        "datasetCount": 74,
         "description": "Money data doesn't grow on trees, but you can find datasets and kernels about the exchange of money as payment for goods and services. Plus, Bitcoin and other cryptocurrencies.",
         "displayName": "money",
         "fontAwesomeIcon": null,
@@ -60,7 +45,22 @@
         "name": "money",
         "scriptCount": 17,
         "tagUrl": "/tags/money",
-        "totalCount": 91
+        "totalCount": 92
+      },
+      {
+        "competitionCount": 4,
+        "datasetCount": 1000,
+        "description": "The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you've come to the right place.",
+        "displayName": "finance",
+        "fontAwesomeIcon": null,
+        "fullPath": "society and social sciences > society > finance",
+        "id": 11108,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27finance%27",
+        "name": "finance",
+        "scriptCount": 398,
+        "tagUrl": "/tags/finance",
+        "totalCount": 1402
       }
     ],
     "type": "competition"

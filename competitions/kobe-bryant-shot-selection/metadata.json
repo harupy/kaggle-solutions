@@ -3,23 +3,8 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 92,
-        "datasetCount": 98,
-        "description": null,
-        "displayName": "tabular data",
-        "fontAwesomeIcon": null,
-        "fullPath": "data type > tabular data",
-        "id": 14101,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
-        "name": "tabular data",
-        "scriptCount": 115,
-        "tagUrl": "/tags/tabular-data",
-        "totalCount": 305
-      },
-      {
-        "competitionCount": 8,
-        "datasetCount": 184,
+        "competitionCount": 11,
+        "datasetCount": 197,
         "description": "Basketball is one of the world's most popular and widely viewed sports. Analyze Kobe Bryant's shot selections and peruse our annual March Mania competitions.",
         "displayName": "basketball",
         "fontAwesomeIcon": null,
@@ -28,13 +13,28 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27basketball%27",
         "name": "basketball",
-        "scriptCount": 64,
+        "scriptCount": 65,
         "tagUrl": "/tags/basketball",
-        "totalCount": 256
+        "totalCount": 273
+      },
+      {
+        "competitionCount": 94,
+        "datasetCount": 150,
+        "description": null,
+        "displayName": "tabular data",
+        "fontAwesomeIcon": null,
+        "fullPath": "data type > tabular data",
+        "id": 14101,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
+        "name": "tabular data",
+        "scriptCount": 116,
+        "tagUrl": "/tags/tabular-data",
+        "totalCount": 360
       },
       {
         "competitionCount": 31,
-        "datasetCount": 94,
+        "datasetCount": 98,
         "description": null,
         "displayName": "binary classification",
         "fontAwesomeIcon": null,
@@ -43,9 +43,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27binary classification%27",
         "name": "binary classification",
-        "scriptCount": 469,
+        "scriptCount": 477,
         "tagUrl": "/tags/binary-classification",
-        "totalCount": 594
+        "totalCount": 606
       }
     ],
     "type": "competition"

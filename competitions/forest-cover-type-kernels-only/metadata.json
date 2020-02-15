@@ -3,23 +3,8 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 2,
-        "datasetCount": 17,
-        "description": "Examinations of the various ecologies of the world. From birds to mussels, you have the power to analyze the ecological health of the planet.",
-        "displayName": "ecology",
-        "fontAwesomeIcon": null,
-        "fullPath": "natural and physical sciences > biology > ecology",
-        "id": 7102,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27ecology%27",
-        "name": "ecology",
-        "scriptCount": 6,
-        "tagUrl": "/tags/ecology",
-        "totalCount": 25
-      },
-      {
         "competitionCount": 4,
-        "datasetCount": 19,
+        "datasetCount": 20,
         "description": "Forestry is the management of forests. Whether this means planting trees or cutting them down depends a lot on who owns the forest.",
         "displayName": "forestry",
         "fontAwesomeIcon": null,
@@ -30,11 +15,26 @@
         "name": "forestry",
         "scriptCount": 5,
         "tagUrl": "/tags/forestry",
-        "totalCount": 28
+        "totalCount": 29
       },
       {
-        "competitionCount": 92,
-        "datasetCount": 98,
+        "competitionCount": 2,
+        "datasetCount": 18,
+        "description": "Examinations of the various ecologies of the world. From birds to mussels, you have the power to analyze the ecological health of the planet.",
+        "displayName": "ecology",
+        "fontAwesomeIcon": null,
+        "fullPath": "natural and physical sciences > biology > ecology",
+        "id": 7102,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27ecology%27",
+        "name": "ecology",
+        "scriptCount": 6,
+        "tagUrl": "/tags/ecology",
+        "totalCount": 26
+      },
+      {
+        "competitionCount": 94,
+        "datasetCount": 150,
         "description": null,
         "displayName": "tabular data",
         "fontAwesomeIcon": null,
@@ -43,9 +43,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
         "name": "tabular data",
-        "scriptCount": 115,
+        "scriptCount": 116,
         "tagUrl": "/tags/tabular-data",
-        "totalCount": 305
+        "totalCount": 360
       }
     ],
     "type": "competition"

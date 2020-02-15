@@ -3,8 +3,8 @@
   "categories": {
     "categories": [
       {
-        "competitionCount": 92,
-        "datasetCount": 98,
+        "competitionCount": 94,
+        "datasetCount": 150,
         "description": null,
         "displayName": "tabular data",
         "fontAwesomeIcon": null,
@@ -13,13 +13,28 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27tabular data%27",
         "name": "tabular data",
-        "scriptCount": 115,
+        "scriptCount": 116,
         "tagUrl": "/tags/tabular-data",
-        "totalCount": 305
+        "totalCount": 360
+      },
+      {
+        "competitionCount": 5,
+        "datasetCount": 204,
+        "description": "Time series analysis is the 4th dimension of data analysis. Our human minds can't visualize time but thankfully there are some really great plotting libraries out there to fix that problem.",
+        "displayName": "time series",
+        "fontAwesomeIcon": null,
+        "fullPath": "mathematics and logic > statistics > time series",
+        "id": 6618,
+        "isInherited": false,
+        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27time series%27",
+        "name": "time series",
+        "scriptCount": 403,
+        "tagUrl": "/tags/time-series",
+        "totalCount": 612
       },
       {
         "competitionCount": 15,
-        "datasetCount": 1582,
+        "datasetCount": 1732,
         "description": "An interconnected network of tubes that connects the entire world together. This tag covers a broad range of tags; anything from cryptocurrency to website analytics.",
         "displayName": "internet",
         "fontAwesomeIcon": null,
@@ -30,26 +45,11 @@
         "name": "internet",
         "scriptCount": 181,
         "tagUrl": "/tags/internet",
-        "totalCount": 1778
-      },
-      {
-        "competitionCount": 5,
-        "datasetCount": 199,
-        "description": "Time series analysis is the 4th dimension of data analysis. Our human minds can't visualize time but thankfully there are some really great plotting libraries out there to fix that problem.",
-        "displayName": "time series",
-        "fontAwesomeIcon": null,
-        "fullPath": "mathematics and logic > statistics > time series",
-        "id": 6618,
-        "isInherited": false,
-        "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27time series%27",
-        "name": "time series",
-        "scriptCount": 396,
-        "tagUrl": "/tags/time-series",
-        "totalCount": 600
+        "totalCount": 1928
       },
       {
         "competitionCount": 12,
-        "datasetCount": 73,
+        "datasetCount": 76,
         "description": null,
         "displayName": "future prediction",
         "fontAwesomeIcon": null,
@@ -58,9 +58,9 @@
         "isInherited": false,
         "listingUrl": "/competitions?sortBy=relevance&group=all&search=tag%3A%27future prediction%27",
         "name": "future prediction",
-        "scriptCount": 116,
+        "scriptCount": 119,
         "tagUrl": "/tags/future-prediction",
-        "totalCount": 201
+        "totalCount": 207
       }
     ],
     "type": "competition"
