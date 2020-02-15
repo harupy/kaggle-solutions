@@ -1,8 +1,8 @@
+name: Lint and Tests for Tools
+
 on:
   pull_request:
     types: [opened, synchronize]
-
-name: Lint and Tests for Tools
 
 jobs:
   lint-and-test:
