@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
 
-flake8 tools tests
+set -eu
+
+flake8 --show-source tests tools
+isort --check .

@@ -1,14 +1,14 @@
 """
 Fetch all competition metadata.
 """
-
+import math
 import os
 import time
-import math
+
 import requests
 
-from tools.utils import to_json
 from tools.config import COMPETITIONS_DIR
+from tools.utils import to_json
 
 
 def fetch_competitions():

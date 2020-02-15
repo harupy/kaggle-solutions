@@ -1,7 +1,6 @@
 """
 Fetch solutions.
 """
-
 import argparse
 
 from tools.fetch_discussions import fetch_discussions

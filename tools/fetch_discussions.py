@@ -1,16 +1,16 @@
 """
 Fetch discussion metadata.
 """
-
-import os
 import argparse
+import os
 import re
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
 
-from tools.utils import to_json, make_soup, make_headless_chrome
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+
 from tools.config import COMPETITIONS_DIR, SOLUTIONS_DIR
+from tools.utils import make_headless_chrome, make_soup, to_json
 
 
 def parse_args():

@@ -1,5 +1,5 @@
-import os
 import json
+import os
 
 from tools import merge_metadata as mm
 

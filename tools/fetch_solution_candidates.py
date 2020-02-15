@@ -1,16 +1,16 @@
 """
 Fetch solution candidates.
 """
-
+import argparse
 import os
 import time
-import argparse
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
 
-from tools.utils import to_json, make_soup, make_headless_chrome
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+
 from tools.config import KAGGLE_URL
+from tools.utils import make_headless_chrome, make_soup, to_json
 
 
 def parse_args():
