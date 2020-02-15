@@ -7,7 +7,7 @@
 ws_lines=""  # lines containing trailing whitespaces.
 nl_files=""  # files that don't end with a newline.
 
-# Iterate over all tracked files.
+# Iterate through all tracked files.
 for file in $(git diff --name-only origin/master | sed -e 's/^/.\//')
 do
   # Find trailing whitespaces.
