@@ -1,0 +1,9 @@
+version: '3'
+services:
+  ks-dev-env:
+    build: .
+    image: ks-image
+    container_name: ks-container
+    working_dir: /kaggle-solutions
+    volumes:
+      - .:/kaggle-solutions

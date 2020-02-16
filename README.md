@@ -10,17 +10,11 @@ https://harupy.github.io/kaggle-solutions/
 ## Setup
 
 ```bash
-# Install pipenv (optional).
-pip install pipenv
+# Anaconda
+./dev/create-dev-env.sh
 
-# Install dependencies.
-pipenv install
-
-# Activate the environment.
-pipenv shell
-
-# Add the repository root to `PYTHONPATH`.
-source dev/setup.sh
+# Docker
+docker-compose build
 ```
 
 ## How to fetch data
@@ -71,7 +65,7 @@ npm start
 # Lint
 ./dev/lint.sh
 
-# Test
+# Tests
 ./dev/test.sh
 ```
 
@@ -81,7 +75,7 @@ npm start
 # Lint
 npm run lint
 
-# Test
+# Tests
 npm run test
 ```
 
