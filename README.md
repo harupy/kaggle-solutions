@@ -47,11 +47,7 @@ python tools/fetch_discussion.py \
 
 ```bash
 cd client
-
-# Install dependencies.
 npm install
-
-# Run the UI.
 npm start
 
 # Open localhost:3000 on your browser.
